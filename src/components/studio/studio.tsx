@@ -48,24 +48,37 @@ export function Studio() {
     "vocalis.voices",
     {}
   );
-  const [savedDraft, setSavedDraft] = useLocalStorage<string>(AUTOSAVE_KEY, "");
-
   // --- Editor (undo/redo) ---
   const editor = useUndo<string>("");
   const hydrated = useRef(false);
+
+  // Restore the autosaved draft once, directly from storage. Reading through a
+  // reactive hook would race: the "hydrated" flag flips before the stored value
+  // arrives, so the draft would never be applied.
   useEffect(() => {
-    if (!hydrated.current && savedDraft) {
-      editor.reset(savedDraft);
+    try {
+      const raw = window.localStorage.getItem(AUTOSAVE_KEY);
+      if (raw) editor.reset(JSON.parse(raw) as string);
+    } catch {
+      /* ignore malformed storage */
     }
     hydrated.current = true;
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [savedDraft]);
+  }, []);
 
-  // Autosave draft (debounced through the effect dependency).
+  // Autosave (debounced). Skipped until the initial restore has run so we never
+  // overwrite a saved draft with the empty initial value.
   useEffect(() => {
-    const t = setTimeout(() => setSavedDraft(editor.value), 500);
+    if (!hydrated.current) return;
+    const t = setTimeout(() => {
+      try {
+        window.localStorage.setItem(AUTOSAVE_KEY, JSON.stringify(editor.value));
+      } catch {
+        /* quota or unavailable */
+      }
+    }, 500);
     return () => clearTimeout(t);
-  }, [editor.value, setSavedDraft]);
+  }, [editor.value]);
 
   // --- Server provider voices ---
   const [serverVoices, setServerVoices] = useState<Record<string, VoiceOption[]>>({});
