@@ -1,32 +1,31 @@
 # 🇮🇩 Quran & Athan — App Store metadata · Indonesian (Bahasa Indonesia) · storefront: Indonesia
 
-> Indonesia is the **world's largest Muslim market** — your biggest volume opportunity. Use the
-> LOCAL spellings: **adzan** (not athan), **sholat** (not salah), **kiblat** (not qibla), **doa**,
-> **dzikir**, **ramadhan**. Replace `[Brand]` (title budget: **15 chars**).
+> **No-brand, all-keyword title.** Indonesia is the world's largest Muslim market — your biggest
+> volume opportunity. Uses LOCAL spellings: **adzan, jadwal sholat, kiblat, doa, dzikir, ramadhan**.
 
-## Judul / Nama Aplikasi (Title) — tail 13/30, brand ≤ 15
+## Judul / Nama Aplikasi (Title) — **29/30**
 ```
-[Brand]: Quran & Adzan
+Muslim: Quran & Jadwal Sholat
 ```
 
 ## Subjudul (Subtitle) — **27/30**
 ```
-Jadwal Sholat, Kiblat & Doa
+Adzan, Kiblat, Doa & Dzikir
 ```
 
 ## Kata Kunci / Keywords (100 char, tanpa spasi) — **97/100**
 ```
-azan,waktu,shalat,muslim,islami,dzikir,ramadhan,puasa,imsak,murottal,tajwid,kompas,alquran,tasbih
+azan,waktu,shalat,islami,ramadhan,puasa,imsak,murottal,tajwid,kompas,alquran,tasbih,hijriah,yasin
 ```
 
-## Teks Promosi / Promotional Text (bisa diubah kapan saja) — **158/170**
+## Teks Promosi / Promotional Text (bisa diubah kapan saja) — **139/170**
 ```
-Jangan lewatkan sholat. [Brand] menghadirkan jadwal sholat & adzan akurat, Al-Quran lengkap dengan audio, dan kompas arah kiblat. Teman Muslim Anda sehari-hari.
+Jangan lewatkan sholat. Jadwal sholat & adzan akurat, Al-Quran lengkap dengan audio, dan kompas arah kiblat. Teman Muslim Anda sehari-hari.
 ```
 
 ## Deskripsi / Description (konversi — tidak diindeks)
 ```
-[Brand] adalah teman Muslim Anda yang lengkap — jadwal sholat akurat dengan adzan, Al-Quran lengkap, dan kompas arah kiblat, dalam satu aplikasi yang indah dan mudah digunakan.
+Teman Muslim Anda yang lengkap — jadwal sholat akurat dengan adzan, Al-Quran lengkap, dan kompas arah kiblat, dalam satu aplikasi yang indah dan mudah digunakan.
 
 JADWAL SHOLAT & ADZAN
 • Jadwal sholat akurat (Subuh, Dzuhur, Ashar, Maghrib, Isya) sesuai lokasi Anda
@@ -47,15 +46,15 @@ KIBLAT & LAINNYA
 • Tasbih digital untuk berdzikir
 • Fitur Ramadhan: waktu sahur & imsak serta pengingat puasa
 
-MENGAPA [BRAND]
+MENGAPA APLIKASI INI
 • Desain bersih, sopan, dan bebas gangguan
 • Cepat dan akurat, dipercaya Muslim di seluruh dunia
 • Berfungsi offline untuk Quran dan kiblat
 
-Unduh [Brand] hari ini dan dekatkan diri dengan ibadah setiap hari.
+Unduh sekarang dan dekatkan diri dengan ibadah setiap hari.
 
 [Sertakan bagian di bawah HANYA jika Anda menawarkan langganan berulang — jika gratis, hapus]
-Langganan [Brand] (mingguan / bulanan / tahunan):
+Langganan Premium (mingguan / bulanan / tahunan):
 • Pembayaran dibebankan ke akun Apple saat konfirmasi pembelian.
 • Langganan diperpanjang otomatis kecuali dimatikan minimal 24 jam sebelum akhir periode.
 • Kelola atau batalkan kapan saja di pengaturan akun App Store Anda.
@@ -72,10 +71,10 @@ Kebijakan Privasi: [URL Anda]
 6. Widget indah untuk Layar Utama
 
 ## Notes
-- Title/subtitle deliberately use **Indonesian spellings** (adzan, jadwal sholat, kiblat, doa) — this
-  is exactly what an English-only listing misses and why you'd get ~0 Indonesian impressions.
+- Title carries the top Indonesian terms: `muslim · quran · jadwal · sholat` (→ "jadwal sholat",
+  the #1 local query). Subtitle adds `adzan · kiblat · doa · dzikir`.
 - Keyword glosses: azan=adzan variant, waktu=time (→ "waktu sholat"), shalat=prayer variant, islami=Islamic,
-  dzikir=dhikr, puasa=fasting, imsak=pre-dawn cutoff, murottal=recitation, tajwid=tajweed, kompas=compass,
-  alquran=Al-Quran (one word), tasbih=tasbih.
-- **Ramadhan swap** (rotate in ~6 weeks before): sahur, tarawih, buka, iftar, ngaji, yasin.
-- IAP name idea (indexed): `Premium — Al-Quran & Adzan`.
+  ramadhan=Ramadan, puasa=fasting, imsak=pre-dawn cutoff, murottal=recitation, tajwid=tajweed, kompas=compass,
+  alquran=Al-Quran (one word), tasbih=tasbih, hijriah=Hijri calendar, yasin=Ya-Sin.
+- **Ramadhan swap** (rotate in ~6 weeks before): sahur, tarawih, buka, iftar, ngaji.
+- ⚠️ Confirm the exact app **Name** is free before submitting.

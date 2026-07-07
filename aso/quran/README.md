@@ -7,10 +7,10 @@ Inc.), Quran Majeed, Muslim Now, Sajda.
 A ready-to-paste, character-verified App Store metadata kit for the four markets you named,
 built the way a Muslim-app specialist would. Every field is checked by `verify_metadata.py`.
 
-> ⚠️ **One thing I need from you:** your app's **exact name**. The Title is capped at 30
-> characters, so your brand length sets the budget. I built every title as `Brand: <tail>` and
-> the verifier prints how many characters your name can use per locale (below). Send me the
-> name + your App Store link and I'll lock the titles exactly and audit your live listing.
+> **Naming decision: no brand — descriptive keyword title.** Every word in the 30-char title is a
+> real search term (leading with "Muslim"), maximising discoverability for a new app. Trade-off:
+> no brand to trademark or build word-of-mouth around. ⚠️ The app **Name must still be unique** on
+> the App Store — confirm your exact wording isn't already taken before submitting.
 
 ---
 
@@ -46,7 +46,7 @@ built the way a Muslim-app specialist would. Every field is checked by `verify_m
 - **Each storefront is indexed independently** — so every locale you add is a fresh
   30 + 30 + 100 characters. The Arabic localization alone unlocks ~20 storefronts at once.
 
-## 3. Field limits + your brand budget
+## 3. Field limits + the final (no-brand) titles
 
 | Field | Limit | Indexed? | Editable w/o review? |
 |---|---|---|---|
@@ -56,17 +56,16 @@ built the way a Muslim-app specialist would. Every field is checked by `verify_m
 | Promotional text | **170** | ❌ | **Yes, anytime** |
 | Description | **4000** | ❌ (conversion) | No |
 
-**Brand-name budget in the Title** (from the verifier), using title = `Brand: <tail>`:
+**Final titles** (all-keyword, verified ≤ 30 chars):
 
-| Locale | Title tail | Chars left for your brand |
+| Locale | Title | Chars |
 |---|---|---|
-| en-US | `Quran & Athan` | **15** |
-| en-GB | `Quran & Athan` | **15** |
-| Arabic | `القرآن والأذان` | **14** |
-| Indonesian | `Quran & Adzan` | **15** |
+| en-US | `Muslim Prayer: Quran & Athan` | 28 |
+| en-GB | `Muslim Prayer: Quran & Athan` | 28 |
+| Arabic | `مسلم: القرآن والأذان والقبلة` | 28 |
+| Indonesian | `Muslim: Quran & Jadwal Sholat` | 29 |
 
-(For reference, "Muslim Pro" = 10 chars, "Athan Pro" = 9 — so most brands fit. If your name is
-longer, tell me and I'll shorten the tail, e.g. to `Quran, Athan`.)
+Tip: to also rank for *"muslim app"*, swap one low-value keyword for `app` in the keyword field.
 
 ## 4. What's in this folder
 

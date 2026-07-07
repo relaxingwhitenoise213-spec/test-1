@@ -1,31 +1,31 @@
 # 🇬🇧 Quran & Athan — App Store metadata · English (U.K.) · storefront: United Kingdom
 
-> Separate UK listing = independent keyword field. We lead on **namaz** (large South-Asian Muslim
-> population in the UK) and carry `salah/salat/masjid`. Replace `[Brand]` (title budget: **15 chars**).
+> **No-brand, all-keyword title.** Independent keyword field vs the US — we diversify it
+> (`masjid, salat, eid`) to widen coverage across both English storefronts. UK leans on **namaz**.
 
-## Title / App Name — tail 13/30, brand ≤ 15
+## Title / App Name — **28/30**
 ```
-[Brand]: Quran & Athan
-```
-
-## Subtitle — **27/30**
-```
-Prayer Times, Namaz & Qibla
+Muslim Prayer: Quran & Athan
 ```
 
-## Keywords (hidden, 100 char, no spaces) — **97/100**
+## Subtitle — **26/30**
 ```
-azan,adhan,salah,salat,muslim,islam,dua,ramadan,hijri,calendar,tasbeeh,dhikr,surah,tajweed,masjid
+Salah, Namaz Times & Qibla
 ```
 
-## Promotional Text (editable anytime, no review) — **156/170**
+## Keywords (hidden, 100 char, no spaces) — **96/100**
 ```
-Never miss namaz. [Brand] brings accurate Athan and prayer times, the full Holy Quran with audio, and a precise Qibla compass. Your complete Muslim companion.
+azan,adhan,islam,islamic,dua,ramadan,hijri,calendar,tasbeeh,dhikr,surah,tajweed,masjid,salat,eid
+```
+
+## Promotional Text (editable anytime, no review) — **147/170**
+```
+Never miss namaz. Get accurate Athan and prayer times, the full Holy Quran with audio, and a precise Qibla compass. Your complete Muslim companion.
 ```
 
 ## Description (conversion — not indexed)
 ```
-[Brand] is your complete Muslim companion — accurate prayer times with Athan, the full Holy Quran, and a precise Qibla compass, all in one beautiful, easy-to-use app.
+Your complete Muslim companion — accurate prayer times with Athan, the full Holy Quran, and a precise Qibla compass, all in one beautiful, easy-to-use app.
 
 PRAYER TIMES & ATHAN
 • Accurate daily prayer (namaz) times — Fajr, Dhuhr, Asr, Maghrib, Isha — for your exact location
@@ -46,15 +46,15 @@ QIBLA & MORE
 • Digital Tasbeeh counter for dhikr
 • Ramadan tools: Suhoor & Iftar times and fasting reminders
 
-WHY [BRAND]
+WHY THIS APP
 • Clean, respectful, distraction-free design
 • Fast and accurate, trusted by Muslims worldwide
 • Works offline for Quran and Qibla
 
-Download [Brand] today and keep your faith close, every day.
+Download today and keep your faith close, every day.
 
 [Include the block below ONLY if you offer an auto-renewing subscription — otherwise delete it]
-[Brand] Premium (weekly / monthly / yearly):
+Premium (weekly / monthly / yearly):
 • Payment is charged to your Apple ID at confirmation of purchase.
 • Subscription automatically renews unless auto-renew is turned off at least 24 hours before the end of the current period.
 • Manage or cancel anytime in your App Store account settings.
@@ -71,5 +71,6 @@ Privacy Policy: [your URL]
 6. Beautiful widgets for your Home Screen
 
 ## Notes
-- Same strong title as US; subtitle swaps in **namaz** (higher UK intent), keyword field adds `salah/salat/masjid`.
-- Across US + UK you now index every prayer/qibla spelling variant.
+- Same strong title as US; subtitle leads with **salah + namaz** (UK intent); keyword field adds
+  `masjid, salat, eid`. Across US + UK you index every prayer/qibla spelling variant.
+- ⚠️ Confirm the exact app **Name** is free before submitting.

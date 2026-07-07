@@ -1,31 +1,31 @@
 # 🇺🇸 Quran & Athan — App Store metadata · English (U.S.) · storefront: United States
 
-> Replace `[Brand]` with your app name (budget: **15 characters** for the title).
+> **No-brand, all-keyword title strategy** — every word in the title is a search term.
 > Counts verified by `verify_metadata.py`.
 
-## Title / App Name — tail 13/30, brand ≤ 15
+## Title / App Name — **28/30**
 ```
-[Brand]: Quran & Athan
-```
-
-## Subtitle — **27/30**
-```
-Prayer Times, Qibla & Salah
+Muslim Prayer: Quran & Athan
 ```
 
-## Keywords (hidden, 100 char, no spaces) — **99/100**
+## Subtitle — **26/30**
 ```
-azan,adhan,namaz,muslim,islam,dua,ramadan,hijri,calendar,tasbeeh,dhikr,surah,tajweed,mosque,compass
+Namaz, Salah Times & Qibla
 ```
 
-## Promotional Text (editable anytime, no review) — **159/170**
+## Keywords (hidden, 100 char, no spaces) — **100/100**
 ```
-Never miss a prayer. [Brand] brings accurate Athan and prayer times, the full Holy Quran with audio, and a precise Qibla compass. Your complete Muslim companion.
+azan,adhan,islam,islamic,dua,ramadan,hijri,calendar,tasbeeh,dhikr,surah,tajweed,mosque,compass,koran
+```
+
+## Promotional Text (editable anytime, no review) — **150/170**
+```
+Never miss a prayer. Get accurate Athan and prayer times, the full Holy Quran with audio, and a precise Qibla compass. Your complete Muslim companion.
 ```
 
 ## Description (conversion — not indexed)
 ```
-[Brand] is your complete Muslim companion — accurate prayer times with Athan, the full Holy Quran, and a precise Qibla compass, all in one beautiful, easy-to-use app.
+Your complete Muslim companion — accurate prayer times with Athan, the full Holy Quran, and a precise Qibla compass, all in one beautiful, easy-to-use app.
 
 PRAYER TIMES & ATHAN
 • Accurate daily prayer times (Fajr, Dhuhr, Asr, Maghrib, Isha) for your exact location
@@ -46,15 +46,15 @@ QIBLA & MORE
 • Digital Tasbeeh counter for dhikr
 • Ramadan tools: Suhoor & Iftar times and fasting reminders
 
-WHY [BRAND]
+WHY THIS APP
 • Clean, respectful, distraction-free design
 • Fast and accurate, trusted by Muslims worldwide
 • Works offline for Quran and Qibla
 
-Download [Brand] today and keep your faith close, every day.
+Download today and keep your faith close, every day.
 
 [Include the block below ONLY if you offer an auto-renewing subscription — otherwise delete it]
-[Brand] Premium (weekly / monthly / yearly):
+Premium (weekly / monthly / yearly):
 • Payment is charged to your Apple ID at confirmation of purchase.
 • Subscription automatically renews unless auto-renew is turned off at least 24 hours before the end of the current period.
 • Manage or cancel anytime in your App Store account settings.
@@ -71,6 +71,11 @@ Privacy Policy: [your URL]
 6. Beautiful widgets for your Home Screen
 
 ## Notes
-- Title carries your two biggest nouns (`quran`, `athan`). Subtitle adds `prayer/times/qibla/salah`.
-- Keyword field spreads the variants (`azan/adhan/namaz`) + long-tail — no token repeats the title/subtitle.
-- IAP name idea (indexed): `Premium — Quran Audio & Athan`.
+- Title carries the 4 biggest terms: `muslim · prayer · quran · athan`. Subtitle adds
+  `namaz · salah · times · qibla`. No token repeats across the three indexed fields.
+- Combinations Apple builds: *muslim prayer, prayer times, salah/namaz times, quran & athan,
+  azan/adhan alarm, qibla compass, hijri/islamic calendar, quran surah, quran tajweed, ramadan,
+  dua/dhikr, tasbeeh counter.*
+- ⚠️ The app **Name** must be unique on the App Store — confirm "Muslim Prayer: Quran & Athan"
+  (or your exact wording) isn't already taken before you submit.
+- Want to rank for *"muslim app"* too? Swap `koran` → `app` in the keyword field.
