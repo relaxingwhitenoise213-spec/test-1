@@ -166,19 +166,21 @@ Covers: *pflanzen bestimmen · blumen/bäume/pilze erkennen · unkraut bestimmen
 
 Netherlands indexes **nl-NL (primary) + en-GB (secondary)**. Note: Dutch users search in English more than Germans do, so the en-GB set carries real weight here — the Dutch layer captures the rest.
 
-**App Name (25/30)**
+**App Name (28/30)** — v2: the literal "Planten Herkennen" name was already taken on the App Store (names must be unique), so the name pivots to **plantenzoeker** ("plant finder"), itself a searched Dutch head term, and moves *herken* into the subtitle — zero keyword equity lost:
 ```
-Clover: Planten Herkennen
+Clover: Plantenzoeker & Gids
 ```
-**Subtitle (29/30)**
+**Subtitle (30/30)**
 ```
-Bloemen, Bomen & Onkruid Gids
+Herken Bloemen, Bomen, Onkruid
 ```
 **Keyword field (99/100)** — no stem overlap with the Dutch Name/Subtitle:
 ```
 blad,paddenstoel,tuin,tuinieren,kamerplant,verzorging,ziekte,cactus,vetplant,mos,kruid,giftig,water
 ```
-Covers: *planten herkennen · bloemen/bomen herkennen · onkruid (weeds) · paddenstoel (mushroom) · kamerplant verzorging (houseplant care) · planten ziekte · giftige planten.*
+Combined index: *plantenzoeker · planten herkennen (via "Plantenzoeker" + "Herken") · planten gids · bloemen/bomen herkennen · onkruid herkennen (weeds) · paddenstoel (mushroom) · kamerplant verzorging (houseplant care) · planten ziekte · giftige planten.*
+
+Fallback names if this one is also taken (checked ≤30): `Clover: Herken Elke Plant` (25) — keeps *herken + plant* in the name; or `Clover – Planten & Bloemen ID` (29). If you use a fallback, swap the subtitle back to `Bloemen, Bomen & Onkruid Gids` (29/30) and re-check stem overlap.
 
 ### 2.10 Arabic (ar-SA) — 🇸🇦🇦🇪🇪🇬 Saudi Arabia, UAE, Egypt & MENA storefronts
 

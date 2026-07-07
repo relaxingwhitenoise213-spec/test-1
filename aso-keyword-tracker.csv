@@ -60,7 +60,9 @@ pilze bestimmen,DE,mid,de-DE subtitle+name,,,,,,,,,,top 5,mushroom foraging huge
 unkraut bestimmen,DE,long,de-DE kw+name,,,,,,,,,,top 3,
 zimmerpflanze,DE,long,de-DE kw,,,,,,,,,,top 5,
 giftige pflanzen,DE,long,de-DE kw+name,,,,,,,,,,top 3,
-planten herkennen,NL,head,nl-NL name,,,,,,,,,,top 10,Dutch head term
+plantenzoeker,NL,head,nl-NL name,,,,,,,,,,top 5,Dutch head term in name
+planten herkennen,NL,head,nl-NL name+subtitle combo,,,,,,,,,,top 10,via Plantenzoeker+Herken
+planten gids,NL,mid,nl-NL name,,,,,,,,,,top 5,
 onkruid herkennen,NL,mid,nl-NL subtitle+name,,,,,,,,,,top 3,
 paddenstoel,NL,mid,nl-NL kw,,,,,,,,,,top 5,
 kamerplant verzorging,NL,long,nl-NL kw,,,,,,,,,,top 3,
