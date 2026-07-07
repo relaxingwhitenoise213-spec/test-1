@@ -1,31 +1,31 @@
-# 🇮🇩 Quran & Athan — App Store metadata · Indonesian (Bahasa Indonesia) · storefront: Indonesia
+# 🇮🇩 Deen — App Store metadata · Indonesian (Bahasa Indonesia) · storefront: Indonesia
 
-> **No-brand, all-keyword title.** Indonesia is the world's largest Muslim market — your biggest
-> volume opportunity. Uses LOCAL spellings: **adzan, jadwal sholat, kiblat, doa, dzikir, ramadhan**.
+> Brand: **Deen**. Free app. Local spellings: adzan, jadwal sholat, kiblat, doa, dzikir, ramadhan.
+> Biggest volume market. ⚠️ Confirm `Deen: Quran & Jadwal Sholat` is accepted (unique) in App Store Connect.
 
-## Judul / Nama Aplikasi (Title) — **29/30**
+## Judul / Nama Aplikasi (Title) — **27/30**
 ```
-Muslim: Quran & Jadwal Sholat
-```
-
-## Subjudul (Subtitle) — **27/30**
-```
-Adzan, Kiblat, Doa & Dzikir
+Deen: Quran & Jadwal Sholat
 ```
 
-## Kata Kunci / Keywords (100 char, tanpa spasi) — **97/100**
+## Subjudul / Subtitle — **27/30**
 ```
-azan,waktu,shalat,islami,ramadhan,puasa,imsak,murottal,tajwid,kompas,alquran,tasbih,hijriah,yasin
-```
-
-## Teks Promosi / Promotional Text (bisa diubah kapan saja) — **139/170**
-```
-Jangan lewatkan sholat. Jadwal sholat & adzan akurat, Al-Quran lengkap dengan audio, dan kompas arah kiblat. Teman Muslim Anda sehari-hari.
+Muslim: Adzan, Kiblat & Doa
 ```
 
-## Deskripsi / Description (konversi — tidak diindeks)
+## Kata Kunci / Keywords (100 char, tanpa spasi) — **98/100**
 ```
-Teman Muslim Anda yang lengkap — jadwal sholat akurat dengan adzan, Al-Quran lengkap, dan kompas arah kiblat, dalam satu aplikasi yang indah dan mudah digunakan.
+azan,waktu,shalat,islami,ramadhan,puasa,imsak,murottal,tajwid,kompas,alquran,tasbih,hijriah,dzikir
+```
+
+## Teks Promosi / Promotional Text (bisa diubah kapan saja) — **130/170**
+```
+Deen: jadwal sholat & adzan akurat, Al-Quran lengkap dengan audio, dan kompas arah kiblat. Teman Muslim Anda, gratis, sehari-hari.
+```
+
+## Deskripsi / Description (konversi — tidak diindeks · aplikasi gratis)
+```
+Deen adalah teman Muslim Anda yang lengkap — jadwal sholat akurat dengan adzan, Al-Quran lengkap, dan kompas arah kiblat, dalam satu aplikasi yang indah dan gratis.
 
 JADWAL SHOLAT & ADZAN
 • Jadwal sholat akurat (Subuh, Dzuhur, Ashar, Maghrib, Isya) sesuai lokasi Anda
@@ -46,13 +46,13 @@ KIBLAT & LAINNYA
 • Tasbih digital untuk berdzikir
 • Fitur Ramadhan: waktu sahur & imsak serta pengingat puasa
 
-MENGAPA APLIKASI INI
+MENGAPA DEEN
 • Gratis untuk digunakan, tanpa langganan
 • Desain bersih, sopan, dan bebas gangguan
 • Cepat dan akurat, dipercaya Muslim di seluruh dunia
 • Berfungsi offline untuk Quran dan kiblat
 
-Unduh sekarang, gratis, dan dekatkan diri dengan ibadah setiap hari.
+Unduh Deen sekarang, gratis, dan dekatkan diri dengan ibadah setiap hari.
 ```
 
 ## Teks Screenshot / captions
@@ -61,13 +61,11 @@ Unduh sekarang, gratis, dan dekatkan diri dengan ibadah setiap hari.
 3. Temukan arah kiblat di mana saja
 4. Doa, dzikir & tasbih digital
 5. Kalender Hijriah & waktu Ramadhan
-6. Widget indah untuk Layar Utama
+6. 100% gratis — tanpa langganan
 
 ## Notes
-- Title carries the top Indonesian terms: `muslim · quran · jadwal · sholat` (→ "jadwal sholat",
-  the #1 local query). Subtitle adds `adzan · kiblat · doa · dzikir`.
-- Keyword glosses: azan=adzan variant, waktu=time (→ "waktu sholat"), shalat=prayer variant, islami=Islamic,
-  ramadhan=Ramadan, puasa=fasting, imsak=pre-dawn cutoff, murottal=recitation, tajwid=tajweed, kompas=compass,
-  alquran=Al-Quran (one word), tasbih=tasbih, hijriah=Hijri calendar, yasin=Ya-Sin.
-- **Ramadhan swap** (rotate in ~6 weeks before): sahur, tarawih, buka, iftar, ngaji.
-- ⚠️ Confirm the exact app **Name** is free before submitting.
+- Title tokens: `deen · quran · jadwal · sholat` (→ "jadwal sholat", the #1 local query).
+  Subtitle adds `muslim · adzan · kiblat · doa`.
+- Keyword glosses: waktu=time (→ "waktu sholat"), shalat/alquran = spelling variants, islami=Islamic,
+  murottal=recitation, tajwid=tajweed, kompas=compass, hijriah=Hijri calendar, dzikir=dhikr.
+- Ramadhan swap (~6 weeks before): sahur, tarawih, buka, iftar, yasin.

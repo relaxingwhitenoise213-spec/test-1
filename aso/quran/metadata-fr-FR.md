@@ -1,12 +1,12 @@
-# 🇫🇷 Quran & Athan — App Store metadata · Français (France) · storefront : France
+# 🇫🇷 Deen — App Store metadata · Français (France) · storefront : France
 
-> **No-brand, all-keyword title** (like the other locales). France has a large Muslim population —
-> a high-value market. Uses the French terms real users search: **Coran, Adhan/Azan, horaires de
-> prière, Salat, Qibla, mosquée, douaa**. Free app — no subscription block.
+> Brand: **Deen**. Application gratuite (sans abonnement). Termes français réels :
+> Coran, Adhan/Azan, horaires de prière, Salat, Qibla, mosquée, douaa.
+> ⚠️ Vérifiez que le titre est accepté (unique) dans App Store Connect avant de soumettre.
 
-## Titre / Nom de l'app (Title) — **30/30**
+## Titre / Nom de l'app (Title) — **27/30**
 ```
-Coran & Adhan: Prière Musulman
+Deen: Coran, Adhan & Prière
 ```
 
 ## Sous-titre (Subtitle) — **28/30**
@@ -19,14 +19,14 @@ Horaires Salat, Qibla & Azan
 mosquée,ramadan,douaa,dhikr,tasbih,mecque,sourate,tajwid,calendrier,boussole,islam,namaz,invocation
 ```
 
-## Texte promotionnel / Promotional Text (modifiable à tout moment) — **161/170**
+## Texte promotionnel / Promotional Text (modifiable à tout moment) — **152/170**
 ```
-Ne manquez aucune prière. Horaires de prière et Adhan précis, le Coran en entier avec audio, et une boussole Qibla fiable. Votre compagnon musulman au quotidien.
+Deen : horaires de prière et Adhan précis, le Coran en entier avec audio, et une boussole Qibla fiable. Votre compagnon musulman, gratuit, au quotidien.
 ```
 
-## Description (conversion — non indexée · application gratuite, sans abonnement)
+## Description (conversion — non indexée · application gratuite)
 ```
-Votre compagnon musulman complet — des horaires de prière précis avec l'Adhan, le Coran en entier, et une boussole Qibla fiable, dans une application simple et élégante.
+Deen est votre compagnon musulman complet — des horaires de prière précis avec l'Adhan, le Coran en entier, et une boussole Qibla fiable, dans une application belle et gratuite.
 
 HORAIRES DE PRIÈRE & ADHAN
 • Horaires de prière précis (Fajr, Dhuhr, Asr, Maghrib, Isha) selon votre position
@@ -47,30 +47,24 @@ QIBLA & PLUS
 • Chapelet (Tasbih) numérique pour le dhikr
 • Outils du Ramadan : heures du Sahur et de l'Iftar et rappels de jeûne
 
-POURQUOI CETTE APPLICATION
+POURQUOI DEEN
 • Gratuite, sans abonnement
 • Design épuré, respectueux et sans distraction
 • Rapide et précise, adoptée par des musulmans du monde entier
 • Fonctionne hors ligne pour le Coran et la Qibla
 
-Téléchargez maintenant, gratuitement, et gardez votre foi proche chaque jour.
+Téléchargez Deen maintenant, gratuitement, et gardez votre foi proche chaque jour.
 ```
 
 ## Légendes de captures d'écran (captions)
-```
 1. Ne manquez aucune prière — Adhan et horaires précis
 2. Le Saint Coran en entier, avec audio
 3. Trouvez la Qibla partout
 4. Douaas, Adhkar et chapelet numérique
 5. Calendrier hégirien et horaires du Ramadan
-6. De beaux widgets pour votre écran d'accueil
-```
+6. 100 % gratuit — sans abonnement
 
 ## Notes
-- Title tokens: `coran · adhan · prière · musulman` (the 4 biggest French terms). Subtitle adds
-  `horaires · salat · qibla · azan`. No token repeats across the three indexed fields.
-- Combinations Apple builds: *horaires de prière, heure de prière, Coran audio, appel à la prière
-  (adhan/azan), boussole qibla, calendrier musulman, sourate du Coran, douaa/invocation, mosquée, tajwid.*
-- Rotate-in candidates (esp. Ramadan): `hégirien, tafsir, jeûne, récitation, coran audio, iftar, sahur,
-  tarawih, aïd, médine, verset, chapelet`.
-- ⚠️ Confirm the exact app **Name** is free on the App Store before submitting.
+- Title tokens: `deen · coran · adhan · prière`. Subtitle adds `horaires · salat · qibla · azan`.
+- Combinaisons : *horaires de prière, Coran audio, appel à la prière (adhan/azan), boussole qibla,
+  calendrier musulman, sourate du Coran, douaa/invocation, mosquée, tajwid, ramadan.*

@@ -1,31 +1,31 @@
-# 🇬🇧 Quran & Athan — App Store metadata · English (U.K.) · storefront: United Kingdom
+# 🇬🇧 Deen — App Store metadata · English (U.K.) · storefront: United Kingdom
 
-> **No-brand, all-keyword title.** Independent keyword field vs the US — we diversify it
-> (`masjid, salat, eid`) to widen coverage across both English storefronts. UK leans on **namaz**.
+> Brand: **Deen**. Free app. UK leans on **namaz**; keyword field diversified vs US
+> (`salah/salat/masjid`). ⚠️ Confirm the title is accepted (unique) in App Store Connect.
 
-## Title / App Name — **28/30**
+## Title / App Name — **27/30**
 ```
-Muslim Prayer: Quran & Athan
+Deen: Quran, Athan & Prayer
 ```
 
 ## Subtitle — **26/30**
 ```
-Salah, Namaz Times & Qibla
+Muslim Namaz Times & Qibla
 ```
 
-## Keywords (hidden, 100 char, no spaces) — **96/100**
+## Keywords (hidden, 100 char, no spaces) — **98/100**
 ```
-azan,adhan,islam,islamic,dua,ramadan,hijri,calendar,tasbeeh,dhikr,surah,tajweed,masjid,salat,eid
-```
-
-## Promotional Text (editable anytime, no review) — **147/170**
-```
-Never miss namaz. Get accurate Athan and prayer times, the full Holy Quran with audio, and a precise Qibla compass. Your complete Muslim companion.
+azan,adhan,salah,salat,islam,islamic,dua,ramadan,hijri,calendar,tasbeeh,dhikr,surah,tajweed,masjid
 ```
 
-## Description (conversion — not indexed)
+## Promotional Text (editable anytime, no review) — **154/170**
 ```
-Your complete Muslim companion — accurate prayer times with Athan, the full Holy Quran, and a precise Qibla compass, all in one beautiful, easy-to-use app.
+Deen brings accurate Athan and namaz times, the full Holy Quran with audio, and a precise Qibla compass. Your complete Muslim companion — free, every day.
+```
+
+## Description (conversion — not indexed · free app)
+```
+Deen is your complete Muslim companion — accurate prayer times with Athan, the full Holy Quran, and a precise Qibla compass, all in one beautiful, free app.
 
 PRAYER TIMES & ATHAN
 • Accurate daily prayer (namaz) times — Fajr, Dhuhr, Asr, Maghrib, Isha — for your exact location
@@ -46,13 +46,13 @@ QIBLA & MORE
 • Digital Tasbeeh counter for dhikr
 • Ramadan tools: Suhoor & Iftar times and fasting reminders
 
-WHY THIS APP
+WHY DEEN
 • Free to use, no subscription
 • Clean, respectful, distraction-free design
 • Fast and accurate, trusted by Muslims worldwide
 • Works offline for Quran and Qibla
 
-Download today, free, and keep your faith close, every day.
+Download Deen today, free, and keep your faith close, every day.
 ```
 
 ## Screenshot captions
@@ -61,9 +61,8 @@ Download today, free, and keep your faith close, every day.
 3. Find the Qibla anywhere
 4. Duas, Azkar & digital Tasbeeh
 5. Hijri calendar & Ramadan times
-6. Beautiful widgets for your Home Screen
+6. 100% free — no subscription
 
 ## Notes
-- Same strong title as US; subtitle leads with **salah + namaz** (UK intent); keyword field adds
-  `masjid, salat, eid`. Across US + UK you index every prayer/qibla spelling variant.
-- ⚠️ Confirm the exact app **Name** is free before submitting.
+- Same title as US; subtitle swaps in **namaz** (UK intent); keyword field adds `salah, salat, masjid`.
+  Across US + UK you index every prayer/qibla spelling variant.

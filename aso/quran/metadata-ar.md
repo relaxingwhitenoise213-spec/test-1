@@ -1,12 +1,13 @@
-# 🇸🇦 Quran & Athan — App Store metadata · Arabic (العربية)
+# 🇸🇦 Deen — App Store metadata · Arabic (العربية)
 
-> **No-brand, all-keyword title.** One Arabic localization serves EVERY Arabic storefront
-> (Saudi, UAE, Egypt, Qatar, Kuwait, Oman, Jordan, Iraq, Morocco, Algeria… ~20 stores).
-> Screenshots must be **right-to-left (RTL)**.
+> Brand: **Deen** = **دين** (written in Arabic script for the Arabic listing — same word).
+> One Arabic listing serves EVERY Arab storefront. Free app. Screenshots **RTL**.
+> ⚠️ Vérify the title is accepted (unique) in App Store Connect. (You may keep Latin "Deen" instead
+> of دين if you prefer one global brand spelling.)
 
-## Title / اسم التطبيق — **28/30**
+## Title / اسم التطبيق — **27/30**
 ```
-مسلم: القرآن والأذان والقبلة
+دين: القرآن والأذان والقبلة
 ```
 
 ## Subtitle / العنوان الفرعي — **30/30**
@@ -14,19 +15,19 @@
 مواقيت الصلاة والأذكار والدعاء
 ```
 
-## Keywords / الكلمات المفتاحية (100 char, no spaces) — **98/100**
+## Keywords / الكلمات المفتاحية (100 char, no spaces) — **96/100**
 ```
-قران,اذان,اسلام,رمضان,تسبيح,مصحف,تفسير,تلاوة,هجري,تقويم,بوصلة,مسجد,ختمة,زكاة,سبحة,سورة,صيام,يس,مكة
-```
-
-## Promotional Text / النص الترويجي (editable anytime) — **127/170**
-```
-لا تفوّت صلاة. مواقيت الصلاة والأذان بدقة، والقرآن الكريم كاملاً بصوت القرّاء، وبوصلة دقيقة للقبلة. رفيقك المسلم الكامل كل يوم.
+مسلم,قران,اذان,اسلام,رمضان,تسبيح,مصحف,تفسير,تلاوة,هجري,تقويم,بوصلة,مسجد,ختمة,زكاة,سبحة,سورة,صيام
 ```
 
-## Description / الوصف (conversion — not indexed)
+## Promotional Text / النص الترويجي (editable anytime) — **119/170**
 ```
-رفيقك المسلم الكامل — مواقيت صلاة دقيقة مع الأذان، والقرآن الكريم كاملاً، وبوصلة قبلة دقيقة، في تطبيق واحد جميل وسهل الاستخدام.
+دين: مواقيت الصلاة والأذان بدقة، والقرآن الكريم كاملاً بصوت القرّاء، وبوصلة دقيقة للقبلة. رفيقك المسلم، مجانًا، كل يوم.
+```
+
+## Description / الوصف (conversion — not indexed · free app)
+```
+دين هو رفيقك المسلم الكامل — مواقيت صلاة دقيقة مع الأذان، والقرآن الكريم كاملاً، وبوصلة قبلة دقيقة، في تطبيق واحد جميل ومجاني.
 
 مواقيت الصلاة والأذان
 • مواقيت دقيقة للصلوات الخمس (الفجر، الظهر، العصر، المغرب، العشاء) حسب موقعك
@@ -47,30 +48,26 @@
 • مسبحة إلكترونية للتسبيح والذكر
 • أدوات رمضان: مواقيت السحور والإفطار وتذكير الصيام
 
-لماذا هذا التطبيق
+لماذا دين
 • مجاني تمامًا، بدون اشتراك
 • تصميم أنيق ومحترم وخالٍ من التشتيت
 • دقيق وسريع، يثق به المسلمون حول العالم
 • يعمل بدون إنترنت للقرآن والقبلة
 
-حمّل التطبيق الآن مجانًا، وابقَ قريبًا من دينك كل يوم.
+حمّل دين الآن مجانًا، وابقَ قريبًا من دينك كل يوم.
 ```
 
-## Screenshot captions / التسميات التوضيحية (RTL)
+## Screenshot captions (RTL)
 1. لا تفوّت صلاة — مواقيت وأذان دقيق
 2. القرآن الكريم كاملاً بالصوت
 3. اتجاه القبلة أينما كنت
 4. أذكار وأدعية ومسبحة إلكترونية
 5. التقويم الهجري ومواقيت رمضان
-6. أدوات جميلة لشاشتك الرئيسية
+6. مجاني تمامًا — بدون اشتراك
 
 ## Notes (for the non-Arabic reader)
-- **Title** = "Muslim: The Quran, The Athan & The Qibla" (leads with the keyword مسلم = Muslim).
-  **Subtitle** = "Prayer times, the Adhkar & the Dua".
-- **Spelling-variant play:** the keyword field uses the *no-hamza* forms **قران** (Quran) and
-  **اذان** (Athan) — how most people type on a phone — while the title uses formal **القرآن / الأذان**.
-- Keyword glosses: اسلام=Islam, رمضان=Ramadan, تسبيح=tasbih, مصحف=Mushaf, تفسير=tafsir, تلاوة=recitation,
-  هجري=Hijri, تقويم=calendar, بوصلة=compass, مسجد=mosque, ختمة=Quran completion, زكاة=zakat, سبحة=prayer
-  beads, سورة=surah, صيام=fasting, يس=Ya-Sin, مكة=Mecca.
-- **Ramadan swap** (rotate into keywords ~6 weeks before Ramadan): سحور, افطار, تراويح, ليلة القدر.
-- Latin commas `,` are a safe separator for Apple's keyword field. Keep RTL screenshots mirrored.
+- **Title** = "Deen: The Quran, The Athan & The Qibla". **Subtitle** = "Prayer times, the Adhkar & the Dua".
+- **Deen = دين** ("faith / religion") — the brand reads natively in Arabic. Nice touch: the closing line
+  "…قريبًا من دينك" ("close to your faith") echoes the brand.
+- Spelling-variant play: keyword field adds the *no-hamza* forms **قران / اذان** plus **مسلم** (Muslim).
+- Ramadan swap (~6 weeks before): سحور, افطار, تراويح, ليلة القدر.

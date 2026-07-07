@@ -10,10 +10,9 @@ Inc.), Quran Majeed, Muslim Now, Sajda.
 A ready-to-paste, character-verified App Store metadata kit for the four markets you named,
 built the way a Muslim-app specialist would. Every field is checked by `verify_metadata.py`.
 
-> **Naming decision: no brand — descriptive keyword title.** Every word in the 30-char title is a
-> real search term (leading with "Muslim"), maximising discoverability for a new app. Trade-off:
-> no brand to trademark or build word-of-mouth around. ⚠️ The app **Name must still be unique** on
-> the App Store — confirm your exact wording isn't already taken before submitting.
+> **Brand name: Deen.** Titles are `Deen: <top keywords>` per locale (Arabic uses **دين**).
+> "Deen" is a popular word in this niche, so ⚠️ **paste each Title into the App Store Connect Name
+> field first to confirm it's accepted (unique)** — if one collides, only that locale's tail needs a tweak.
 
 ---
 
@@ -59,16 +58,15 @@ built the way a Muslim-app specialist would. Every field is checked by `verify_m
 | Promotional text | **170** | ❌ | **Yes, anytime** |
 | Description | **4000** | ❌ (conversion) | No |
 
-**Final titles** (all-keyword, verified ≤ 30 chars):
+**Final titles** (brand `Deen`, verified ≤ 30 chars):
 
 | Locale | Title | Chars |
 |---|---|---|
-| en-US | `Muslim Prayer: Quran & Athan` | 28 |
-| en-GB | `Muslim Prayer: Quran & Athan` | 28 |
-| Arabic | `مسلم: القرآن والأذان والقبلة` | 28 |
-| Indonesian | `Muslim: Quran & Jadwal Sholat` | 29 |
-
-Tip: to also rank for *"muslim app"*, swap one low-value keyword for `app` in the keyword field.
+| en-US | `Deen: Quran, Athan & Prayer` | 27 |
+| en-GB | `Deen: Quran, Athan & Prayer` | 27 |
+| France | `Deen: Coran, Adhan & Prière` | 27 |
+| Arabic | `دين: القرآن والأذان والقبلة` | 27 |
+| Indonesian | `Deen: Quran & Jadwal Sholat` | 27 |
 
 ## 4. What's in this folder
 
