@@ -47,19 +47,12 @@ KIBLAT & LAINNYA
 • Fitur Ramadhan: waktu sahur & imsak serta pengingat puasa
 
 MENGAPA APLIKASI INI
+• Gratis untuk digunakan, tanpa langganan
 • Desain bersih, sopan, dan bebas gangguan
 • Cepat dan akurat, dipercaya Muslim di seluruh dunia
 • Berfungsi offline untuk Quran dan kiblat
 
-Unduh sekarang dan dekatkan diri dengan ibadah setiap hari.
-
-[Sertakan bagian di bawah HANYA jika Anda menawarkan langganan berulang — jika gratis, hapus]
-Langganan Premium (mingguan / bulanan / tahunan):
-• Pembayaran dibebankan ke akun Apple saat konfirmasi pembelian.
-• Langganan diperpanjang otomatis kecuali dimatikan minimal 24 jam sebelum akhir periode.
-• Kelola atau batalkan kapan saja di pengaturan akun App Store Anda.
-Ketentuan Penggunaan: [URL Anda]
-Kebijakan Privasi: [URL Anda]
+Unduh sekarang, gratis, dan dekatkan diri dengan ibadah setiap hari.
 ```
 
 ## Teks Screenshot / captions
