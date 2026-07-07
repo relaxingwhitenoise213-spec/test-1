@@ -52,19 +52,12 @@ QIBLA & MORE
 • Ramadan tools: Suhoor & Iftar times and fasting reminders
 
 WHY THIS APP
+• Free to use, no subscription
 • Clean, respectful, distraction-free design
 • Fast and accurate, trusted by Muslims worldwide
 • Works offline for Quran and Qibla
 
-Download today and keep your faith close, every day.
-
-[Include the block below ONLY if you offer an auto-renewing subscription — otherwise delete it]
-Premium (weekly / monthly / yearly):
-• Payment is charged to your Apple ID at confirmation of purchase.
-• Subscription automatically renews unless auto-renew is turned off at least 24 hours before the end of the current period.
-• Manage or cancel anytime in your App Store account settings.
-Terms of Use: [your URL]
-Privacy Policy: [your URL]
+Download today, free, and keep your faith close, every day.
 ```
 ### Screenshot captions
 ```
@@ -120,19 +113,12 @@ QIBLA & MORE
 • Ramadan tools: Suhoor & Iftar times and fasting reminders
 
 WHY THIS APP
+• Free to use, no subscription
 • Clean, respectful, distraction-free design
 • Fast and accurate, trusted by Muslims worldwide
 • Works offline for Quran and Qibla
 
-Download today and keep your faith close, every day.
-
-[Include the block below ONLY if you offer an auto-renewing subscription — otherwise delete it]
-Premium (weekly / monthly / yearly):
-• Payment is charged to your Apple ID at confirmation of purchase.
-• Subscription automatically renews unless auto-renew is turned off at least 24 hours before the end of the current period.
-• Manage or cancel anytime in your App Store account settings.
-Terms of Use: [your URL]
-Privacy Policy: [your URL]
+Download today, free, and keep your faith close, every day.
 ```
 ### Screenshot captions
 ```
@@ -188,19 +174,12 @@ Privacy Policy: [your URL]
 • أدوات رمضان: مواقيت السحور والإفطار وتذكير الصيام
 
 لماذا هذا التطبيق
+• مجاني تمامًا، بدون اشتراك
 • تصميم أنيق ومحترم وخالٍ من التشتيت
 • دقيق وسريع، يثق به المسلمون حول العالم
 • يعمل بدون إنترنت للقرآن والقبلة
 
-حمّل التطبيق الآن وابقَ قريبًا من دينك كل يوم.
-
-[أضِف الفقرة التالية فقط إذا كان لديك اشتراك متجدد — واحذفها إن كان التطبيق مجانيًا]
-اشتراك Premium (أسبوعي / شهري / سنوي):
-• يُخصم المبلغ من حساب Apple عند تأكيد الشراء.
-• يتجدد الاشتراك تلقائيًا ما لم يتم إيقاف التجديد قبل 24 ساعة على الأقل من نهاية المدة.
-• يمكنك الإدارة أو الإلغاء في أي وقت من إعدادات حساب App Store.
-شروط الاستخدام: [الرابط]
-سياسة الخصوصية: [الرابط]
+حمّل التطبيق الآن مجانًا، وابقَ قريبًا من دينك كل يوم.
 ```
 ### Screenshot captions
 ```
@@ -274,11 +253,71 @@ Unduh sekarang, gratis, dan dekatkan diri dengan ibadah setiap hari.
 ```
 
 ═══════════════════════════════════════════════════════════════════
+# 🇫🇷 FRANCE — Français  (application gratuite, sans abonnement)
+═══════════════════════════════════════════════════════════════════
+
+### Titre / Title (30/30)
+```
+Coran & Adhan: Prière Musulman
+```
+### Sous-titre / Subtitle (28/30)
+```
+Horaires Salat, Qibla & Azan
+```
+### Mots-clés / Keywords (99/100)
+```
+mosquée,ramadan,douaa,dhikr,tasbih,mecque,sourate,tajwid,calendrier,boussole,islam,namaz,invocation
+```
+### Texte promotionnel / Promotional Text (161/170)
+```
+Ne manquez aucune prière. Horaires de prière et Adhan précis, le Coran en entier avec audio, et une boussole Qibla fiable. Votre compagnon musulman au quotidien.
+```
+### Description
+```
+Votre compagnon musulman complet — des horaires de prière précis avec l'Adhan, le Coran en entier, et une boussole Qibla fiable, dans une application simple et élégante.
+
+HORAIRES DE PRIÈRE & ADHAN
+• Horaires de prière précis (Fajr, Dhuhr, Asr, Maghrib, Isha) selon votre position
+• Notifications Adhan (appel à la prière) avec plusieurs voix de muezzins
+• Rappels avant l'Adhan pour ne jamais manquer une prière
+• Widgets écran d'accueil et de verrouillage, et prise en charge Apple Watch
+
+LE SAINT CORAN
+• Lisez le Coran en entier en écriture Uthmani claire
+• Écoutez la récitation par de célèbres récitateurs
+• Traduction et translittération en français
+• Marque-pages et reprise — en ligne ou hors ligne
+
+QIBLA & PLUS
+• Boussole Qibla précise pour trouver la direction de la Kaaba partout
+• Calendrier hégirien (musulman) avec les dates importantes
+• Douaas et Adhkar pour chaque moment
+• Chapelet (Tasbih) numérique pour le dhikr
+• Outils du Ramadan : heures du Sahur et de l'Iftar et rappels de jeûne
+
+POURQUOI CETTE APPLICATION
+• Gratuite, sans abonnement
+• Design épuré, respectueux et sans distraction
+• Rapide et précise, adoptée par des musulmans du monde entier
+• Fonctionne hors ligne pour le Coran et la Qibla
+
+Téléchargez maintenant, gratuitement, et gardez votre foi proche chaque jour.
+```
+### Légendes / captions
+```
+1. Ne manquez aucune prière — Adhan et horaires précis
+2. Le Saint Coran en entier, avec audio
+3. Trouvez la Qibla partout
+4. Douaas, Adhkar et chapelet numérique
+5. Calendrier hégirien et horaires du Ramadan
+6. De beaux widgets pour votre écran d'accueil
+```
+
+═══════════════════════════════════════════════════════════════════
 ## ✅ Submit checklist
 - [ ] Confirm the app **Name** is unique on the App Store (search it first).
-- [ ] Add **English (U.K.)**, **Arabic**, **Indonesian** localizations (English U.S. exists).
+- [ ] Add **English (U.K.)**, **French**, **Arabic**, **Indonesian** localizations (English U.S. exists).
 - [ ] Paste Title, Subtitle, Keywords, Promotional Text, Description per language.
 - [ ] Upload **localized screenshots** (Arabic = RTL / mirrored).
-- [ ] Fill **Terms of Use** + **Privacy Policy** URLs.
-- [ ] Keep or delete the **Premium** description block depending on whether you have a subscription.
+- [ ] **Free app:** no subscription or Terms/Privacy URL block in the descriptions (already removed).
 - [ ] (Optional) Add an in-app rating prompt after Athan plays / a Quran session.

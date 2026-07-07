@@ -31,6 +31,12 @@ DATA = {
         "keywords": "azan,waktu,shalat,islami,ramadhan,puasa,imsak,murottal,tajwid,kompas,alquran,tasbih,hijriah,yasin",
         "promo": "Jangan lewatkan sholat. Jadwal sholat & adzan akurat, Al-Quran lengkap dengan audio, dan kompas arah kiblat. Teman Muslim Anda sehari-hari.",
     },
+    "fr-FR": {
+        "title": "Coran & Adhan: Prière Musulman",
+        "subtitle": "Horaires Salat, Qibla & Azan",
+        "keywords": "mosquée,ramadan,douaa,dhikr,tasbih,mecque,sourate,tajwid,calendrier,boussole,islam,namaz,invocation",
+        "promo": "Ne manquez aucune prière. Horaires de prière et Adhan précis, le Coran en entier avec audio, et une boussole Qibla fiable. Votre compagnon musulman au quotidien.",
+    },
 }
 
 def clen(s): return len(unicodedata.normalize("NFC", s))

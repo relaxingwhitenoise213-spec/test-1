@@ -47,19 +47,12 @@ QIBLA & MORE
 • Ramadan tools: Suhoor & Iftar times and fasting reminders
 
 WHY THIS APP
+• Free to use, no subscription
 • Clean, respectful, distraction-free design
 • Fast and accurate, trusted by Muslims worldwide
 • Works offline for Quran and Qibla
 
-Download today and keep your faith close, every day.
-
-[Include the block below ONLY if you offer an auto-renewing subscription — otherwise delete it]
-Premium (weekly / monthly / yearly):
-• Payment is charged to your Apple ID at confirmation of purchase.
-• Subscription automatically renews unless auto-renew is turned off at least 24 hours before the end of the current period.
-• Manage or cancel anytime in your App Store account settings.
-Terms of Use: [your URL]
-Privacy Policy: [your URL]
+Download today, free, and keep your faith close, every day.
 ```
 
 ## Screenshot captions

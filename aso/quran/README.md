@@ -1,4 +1,7 @@
-# Quran & Athan App — Full ASO Package (US · UK · Arabic · Indonesian)
+# Quran & Athan App — Full ASO Package (US · UK · France · Arabic · Indonesian)
+
+> **Free app:** all descriptions are written with **no subscription / no Terms-Privacy URL block**
+> and a "free, no subscription" selling point. Single copy-paste file: **`COPY-PASTE-ALL.md`**.
 
 Competitors benchmarked: **Muslim Pro: Quran & Athan** (Bitsmedia, id 388389451) and
 **Athan Pro: Muslim Prayer Times** (id 743843090), plus Athan/IslamicFinder, Muslim (Muslim
@@ -74,6 +77,7 @@ Tip: to also rank for *"muslim app"*, swap one low-value keyword for `app` in th
 | `keyword-research.md` | Market + competitor analysis, and the keyword universe per locale with native-spelling rationale. |
 | `metadata-en-US.md` | United States listing (English, US spelling). |
 | `metadata-en-GB.md` | United Kingdom listing (English, UK + "namaz" emphasis). |
+| `metadata-fr-FR.md` | **France** listing (French: Coran, Adhan, horaires de prière, Qibla). |
 | `metadata-ar.md` | **Arabic** listing — covers ALL Arabic storefronts (Saudi, UAE, Egypt, Qatar, Kuwait…). |
 | `metadata-id.md` | **Indonesian** listing (Bahasa Indonesia: adzan, jadwal sholat, kiblat). |
 | `verify_metadata.py` | QA: field limits, no duplicate tokens, no spaces in keyword field, brand budget. |
