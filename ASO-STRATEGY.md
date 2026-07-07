@@ -2,7 +2,7 @@
 
 **App:** Clover — Plant Identifier
 **Platform:** iOS (Apple App Store)
-**Markets:** United States (primary), United Kingdom
+**Markets:** United States (primary), United Kingdom · expansion: France (§2.6), Canada, Australia
 **Benchmark competitor:** PictureThis (Glority) — ~4.6★, 1M+ US ratings, ~700k downloads/mo, ~$5M/mo revenue
 **Version:** 2.0 — research-verified. *Changelog: v1 assumed en-AU/en-CA keyword fields index on the US storefront; the published AppTweak/Phiture/AppFollow cross-localization tests show the US actually indexes **en-US + es-MX** (plus AR, zh-Hans/Hant, FR, KO, PT-BR, RU, VI), and the UK indexes **en-GB + en-AU**. Section 1 and all metadata below are corrected accordingly.*
 
@@ -22,7 +22,8 @@ Apple indexes the metadata of **secondary localizations** on each storefront. Th
 | 🇺🇸 **United States** | **en-US** (primary) + **es-MX** (secondary; also AR, zh-Hans, zh-Hant, FR, KO, PT-BR, RU, VI per ASO-industry tests) | Put your core terms in en-US; put a *second 100-char field of English long-tail* in **es-MX** — it indexes for US searches |
 | 🇬🇧 **United Kingdom** | **en-GB** (primary) + **en-AU** (secondary) | en-GB carries UK core terms; **en-AU** becomes your second UK keyword field |
 | 🇦🇺 Australia (bonus) | en-AU + en-GB | Already covered by the two fields above — free AU coverage |
-| 🇨🇦 Canada (bonus) | en-CA + fr-CA (+ en-US per tests) | Optional en-CA field = free Canadian coverage |
+| 🇨🇦 Canada (bonus) | en-CA + fr-CA (+ en-US per tests) | Optional en-CA + fr-CA fields = free Canadian coverage |
+| 🇫🇷 France (expansion) | **fr-FR** (primary) + **en-US** (secondary) | Your en-US field already indexes in France; add a French fr-FR set (§2.6) to complete the pair — fr-FR is also a secondary index on the US storefront |
 
 **Net result:** ~200 indexable keyword-field characters per target market instead of 100, plus Name + Subtitle per locale. Zero policy risk — this is standard, documented practice.
 
@@ -98,7 +99,37 @@ No overlap with the en-GB Name/Subtitle/field it pairs with. Adds for UK: *plant
 frost,hardy,perennial,annual,bulb,vegetable,tomato,orchid,bonsai,wilting,mold,light,drainage,zone
 ```
 
-### 2.6 Promotional Text (158/170) — updatable anytime, **no app review needed**
+### 2.6 French (fr-FR) — 🇫🇷 France storefront + secondary index on 🇺🇸 US
+
+France indexes **fr-FR (primary) + en-US (secondary)** — so your English en-US field already works in France, and this French field completes the pair. Bonus: fr-FR is also one of the secondary locales indexed on the **US** storefront.
+
+**App Name (30/30)**
+```
+Clover : Identification Plante
+```
+**Subtitle (28/30)**
+```
+Reconnaître Fleurs et Arbres
+```
+**Keyword field (100/100)** — no stem overlap with the French Name/Subtitle (*plante, identification, reconnaître, fleur, arbre* are already indexed there):
+```
+feuille,champignon,jardin,jardinage,herbe,mauvaise,soin,arrosage,maladie,cactus,botanique,succulente
+```
+Covers the French search clusters: *identification plante · reconnaître fleur/arbre · quelle est cette plante · champignon · mauvaise herbe · soin des plantes · arrosage · maladie plante · jardinage.*
+
+> **Nuance from the localization tests:** Apple combines keywords into phrases **within** a locale, but **not between** locales. So each locale's field must be self-sufficient — don't rely on an English word in en-US pairing with a French word in fr-FR.
+
+**Localize the creatives too, or conversion will undo the ranking:** French screenshot captions — 1. *« Identifiez n'importe quelle plante en quelques secondes »* · 2. *« Votre plante est malade ? Sachez-le immédiatement »* · 3. *« Ne tuez plus jamais une plante »*. Also localize the promotional text and the first 3 description lines.
+
+### 2.7 French (Canada) (fr-CA) — 🇨🇦 bonus, pairs with en-CA
+
+**Keyword field (96/100)** — Canadian French gardening terms, no accents needed in keyword fields (Apple matches both):
+```
+potager,semis,bouture,engrais,rempoter,succulente,orchidee,tomate,vivace,gel,interieur,exterieur
+```
+Note: *succulente* appearing in both fr-FR and fr-CA is fine — they index on **different storefronts** (France vs Canada). Duplicates only waste space within a single storefront's indexed set.
+
+### 2.8 Promotional Text (158/170) — updatable anytime, **no app review needed**
 ```
 New: instant plant health check! Point your camera at any leaf to diagnose disease, get watering tips, and save every plant to your garden. Try it free today.
 ```
