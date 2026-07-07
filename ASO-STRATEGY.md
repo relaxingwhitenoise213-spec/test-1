@@ -92,12 +92,23 @@ care,disease,diagnosis,poisonous,edible,berry,indoor,outdoor,species,grow,pest,d
 ```
 No overlap with the en-GB Name/Subtitle/field it pairs with. Adds for UK: *plant care, plant disease, lawn weed, ivy identifier, poisonous berry, indoor plant, plant detector.* Keep Name/Subtitle same as en-GB.
 
-### 2.5 English (Canada) — optional bonus for 🇨🇦
+### 2.5 English (Canada) — full set for 🇨🇦
 
-**Keyword field (97/100)** — serves Canada only; lowest priority:
+Canada's storefront indexes **en-CA + fr-CA + en-US** — your en-US Name/Subtitle/Keywords already rank in Canada, so this set is built to add *only new words* on top of them (checked: zero keyword-field overlap with en-US).
+
+**App Name (24/30)**
+```
+Clover: Plant Identifier
+```
+**Subtitle (28/30)** — fresh indexed words *snap, photo, name*; the one repeat ("Plant") is accepted for conversion — the subtitle's first job is the tap:
+```
+Snap a Photo, Name Any Plant
+```
+**Keyword field (97/100)** — Canadian gardening intent (short seasons, hardiness, indoor growing):
 ```
 frost,hardy,perennial,annual,bulb,vegetable,tomato,orchid,bonsai,wilting,mold,light,drainage,zone
 ```
+Combined with the en-US index, Canada now covers: *plant identifier · flower/tree/weed/mushroom identifier · hardiness zone · frost hardy plant · perennial/annual identifier · vegetable garden · tomato disease (with fr-CA's `tomate`) · orchid/bonsai care · wilting plant · plant light · drainage.* Pairs with the fr-CA field (§2.7) for Québec.
 
 ### 2.6 French (fr-FR) — 🇫🇷 France storefront + secondary index on 🇺🇸 US
 

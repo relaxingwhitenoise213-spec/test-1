@@ -46,3 +46,11 @@ soin des plantes,FR,long,fr-FR kw,,,,,,,,,,top 5,
 maladie plante,FR,long,fr-FR kw,,,,,,,,,,top 3,
 arrosage plante,FR,long,fr-FR kw+name,,,,,,,,,,top 3,
 plant identifier,FR,mid,en-US kw (secondary index),,,,,,,,,,top 10,English searches in France
+plant identifier,CA,head,en-US name (secondary index),,,,,,,,,,top 10,en-US indexes in Canada
+snap plant photo,CA,long,en-CA subtitle,,,,,,,,,,top 3,
+hardiness zone,CA,long,en-CA kw,,,,,,,,,,top 3,CA-specific gap
+frost hardy plant,CA,long,en-CA kw,,,,,,,,,,top 3,
+perennial identifier,CA,long,en-CA kw+name,,,,,,,,,,top 3,
+orchid care,CA,long,en-CA kw,,,,,,,,,,top 5,
+bonsai identifier,CA,long,en-CA kw+name,,,,,,,,,,top 3,
+wilting plant,CA,long,en-CA kw,,,,,,,,,,top 3,
