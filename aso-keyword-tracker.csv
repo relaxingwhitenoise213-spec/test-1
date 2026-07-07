@@ -1,0 +1,38 @@
+keyword,market,tier,indexed_via,baseline_rank,wk1,wk2,wk3,wk4,wk6,wk8,wk10,wk12,target_wk12,notes
+plant identifier,US,head,en-US name,,,,,,,,,,top 10,PictureThis dominant; page-1 first
+plant identification,US,head,en-US name (stem),,,,,,,,,,top 15,
+plant scanner,US,head,en-US name+kw,,,,,,,,,,top 10,
+plant app,US,head,en-US name,,,,,,,,,,top 20,
+flower identifier,US,mid,en-US subtitle+kw,,,,,,,,,,top 5,
+tree identifier,US,mid,en-US subtitle+kw,,,,,,,,,,top 5,
+weed identifier,US,mid,en-US kw+name,,,,,,,,,,top 3,under-optimized by competitors
+mushroom identifier,US,mid,en-US kw+name,,,,,,,,,,top 5,safety disclaimer required
+leaf identifier,US,mid,en-US kw+name,,,,,,,,,,top 5,
+plant care,US,mid,en-US subtitle,,,,,,,,,,top 10,
+plant disease,US,mid,es-MX subtitle,,,,,,,,,,top 10,
+plant health check,US,long,es-MX subtitle,,,,,,,,,,top 3,
+plant diagnosis,US,long,es-MX subtitle,,,,,,,,,,top 3,
+yellow leaves,US,long,es-MX kw,,,,,,,,,,top 3,problem search - high intent
+plant sick,US,long,es-MX kw,,,,,,,,,,top 3,
+dying plant,US,long,es-MX kw,,,,,,,,,,top 3,
+watering reminder,US,long,es-MX kw,,,,,,,,,,top 5,
+plant journal,US,long,es-MX kw,,,,,,,,,,top 3,
+poisonous plant,US,long,es-MX kw,,,,,,,,,,top 5,
+edible plant,US,long,es-MX kw,,,,,,,,,,top 5,
+succulent identifier,US,long,en-US kw+name,,,,,,,,,,top 3,
+houseplant care,US,long,en-US kw+subtitle,,,,,,,,,,top 5,
+cactus identifier,US,long,en-US kw+name,,,,,,,,,,top 3,
+plant identifier,UK,head,en-GB name,,,,,,,,,,top 10,
+weed identifier,UK,mid,en-GB subtitle,,,,,,,,,,top 3,leads UK subtitle
+flower identifier,UK,mid,en-GB subtitle,,,,,,,,,,top 5,
+tree identifier,UK,mid,en-GB subtitle,,,,,,,,,,top 5,
+wildflower identifier,UK,long,en-GB kw+subtitle,,,,,,,,,,top 3,UK-specific gap
+allotment,UK,long,en-GB kw,,,,,,,,,,top 5,near-zero competition
+toadstool,UK,long,en-GB kw,,,,,,,,,,top 3,UK-specific gap
+hedge plant,UK,long,en-GB kw,,,,,,,,,,top 3,
+meadow flower,UK,long,en-GB kw+subtitle,,,,,,,,,,top 3,
+lawn weed,UK,long,en-AU kw+en-GB subtitle,,,,,,,,,,top 3,
+plant care,UK,mid,en-AU kw,,,,,,,,,,top 10,
+plant disease,UK,mid,en-AU kw,,,,,,,,,,top 10,
+poisonous berry,UK,long,en-AU kw,,,,,,,,,,top 3,
+ivy identifier,UK,long,en-AU kw+en-GB subtitle,,,,,,,,,,top 3,

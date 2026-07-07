@@ -1,133 +1,148 @@
-# Clover — App Store Optimization Strategy (iOS · US + UK)
+# Clover — App Store Optimization Strategy v2 (iOS · US + UK)
 
 **App:** Clover — Plant Identifier
 **Platform:** iOS (Apple App Store)
 **Markets:** United States (primary), United Kingdom
-**Primary competitor benchmark:** PictureThis (Glority)
-**Prepared as:** a senior ASO playbook — copy/paste the metadata, then work the ongoing loop.
-
-> **How Apple search actually works (read this first — it changes everything).**
-> Apple indexes keywords from **only** these fields: **App Name (30), Subtitle (30), the hidden Keyword field (100), and In‑App Purchase display names.** It does **NOT** index your long Description (that is a Google Play behaviour). So the entire ranking game on iOS is won inside ~160 characters + your IAP names + your ratings, velocity, and conversion. Every recommendation below is built around that reality.
+**Benchmark competitor:** PictureThis (Glority) — ~4.6★, 1M+ US ratings, ~700k downloads/mo, ~$5M/mo revenue
+**Version:** 2.0 — research-verified. *Changelog: v1 assumed en-AU/en-CA keyword fields index on the US storefront; the published AppTweak/Phiture/AppFollow cross-localization tests show the US actually indexes **en-US + es-MX** (plus AR, zh-Hans/Hant, FR, KO, PT-BR, RU, VI), and the UK indexes **en-GB + en-AU**. Section 1 and all metadata below are corrected accordingly.*
 
 ---
 
-## 1. The keyword-coverage multiplier most people miss
+> **How Apple search actually works (this determines everything).**
+> Apple indexes keywords from **only** these fields: **App Name (30 chars), Subtitle (30), the hidden Keyword field (100), and In-App Purchase display names.** It does **NOT** index the long Description (that's a Google Play behaviour). Ranking = (keyword relevance in those fields) × (download velocity) × (ratings volume/quality) × (conversion rate) × (engagement/retention). So the game is: maximize indexed coverage in ~160 characters per locale, then compound velocity and conversion.
 
-You can legally multiply your indexed keywords by adding **extra English localizations**, even though your app is in English. Apple indexes the keyword fields of *every* localization you enable, and English‑variant localizations show to US and UK users.
+---
 
-**Set up these localizations in App Store Connect (each gets its own Name/Subtitle/Keyword field):**
+## 1. Cross-localization: the verified keyword multiplier
 
-| Localization | Serves | Purpose |
+Apple indexes the metadata of **secondary localizations** on each storefront. This is the highest-leverage free move available, but the pairs must be right:
+
+| Storefront | Localizations Apple indexes there | What you do |
 |---|---|---|
-| **English (U.S.)** — primary | US storefront | Core money keywords |
-| **English (U.K.)** | UK storefront | UK spellings + *extra* index terms that also count in US search |
-| **English (Australia)** | bonus | Pure keyword-expansion field — also indexes for US users |
-| **English (Canada)** | bonus | Second keyword-expansion field |
+| 🇺🇸 **United States** | **en-US** (primary) + **es-MX** (secondary; also AR, zh-Hans, zh-Hant, FR, KO, PT-BR, RU, VI per ASO-industry tests) | Put your core terms in en-US; put a *second 100-char field of English long-tail* in **es-MX** — it indexes for US searches |
+| 🇬🇧 **United Kingdom** | **en-GB** (primary) + **en-AU** (secondary) | en-GB carries UK core terms; **en-AU** becomes your second UK keyword field |
+| 🇦🇺 Australia (bonus) | en-AU + en-GB | Already covered by the two fields above — free AU coverage |
+| 🇨🇦 Canada (bonus) | en-CA + fr-CA (+ en-US per tests) | Optional en-CA field = free Canadian coverage |
 
-> Net effect: instead of ~100 keyword-field characters, you get **~400** of indexable keyword space with zero risk. This is the single highest-leverage move in the whole plan — do it before anything else.
+**Net result:** ~200 indexable keyword-field characters per target market instead of 100, plus Name + Subtitle per locale. Zero policy risk — this is standard, documented practice.
 
-**Rules for the Keyword field (all localizations):**
-- Comma-separated, **no spaces** (a space wastes a character).
-- **Never repeat** a word already in your App Name or Subtitle — Apple already indexes those. Repetition is wasted space.
-- Use **singular** only — Apple auto-stems plurals ("flower" covers "flowers").
-- **Don't** include the word "app", your category name ("utilities"), or Apple-obvious stopwords ("the", "for").
-- **Don't** put a competitor's trademark ("picturethis", "planta") in the field — it risks rejection under App Store Review Guideline 2.3.7 and doesn't reliably rank anyway.
-- Apple **combines** words across commas, so single tokens are enough — you don't need to write the phrase "plant identifier" if "plant" is in the title and "identifier"/"scanner" is in a field.
+**Rules for every Keyword field:**
+- Comma-separated, **no spaces** (spaces waste characters).
+- **Never repeat** a word already in that storefront's indexed Name/Subtitle *or* its paired secondary field — every duplicate is dead weight. (Watch stems too: "identify" duplicates "Identifier".)
+- **Singular only** — Apple stems plurals ("flower" also matches "flowers").
+- Apple **cross-combines** words between fields, so single tokens are enough ("weed" + "Identifier" in the subtitle ⇒ you're indexed for "weed identifier").
+- No "app", no category words, no stopwords, and **no competitor trademarks** ("picturethis", "planta") — App Review Guideline 2.3.7 rejection risk, and it doesn't reliably rank anyway. (Bidding on competitor terms in Apple Search **Ads** is fine — see §7.)
 
 ---
 
-## 2. Metadata — ready to paste (all counts verified ≤ limit)
+## 2. Metadata — ready to paste (every count verified ≤ limit)
 
-### 2.1 English (U.S.) — PRIMARY
+### 2.1 English (U.S.) — primary, indexes on 🇺🇸
 
-**App Name (24/30):**
+**App Name (24/30)**
 ```
 Clover: Plant Identifier
 ```
-**Subtitle (30/30):**
+**Subtitle (30/30)**
 ```
 Identify Flowers, Trees & Care
 ```
-**Keyword field (97/100):**
+**Keyword field (97/100)**
 ```
 flower,tree,leaf,weed,mushroom,garden,botany,scanner,succulent,cactus,fungi,houseplant,fern,bloom
 ```
-Why this wins: "Plant Identifier" is the #1 head term and it's in the *name* (heaviest weight). Subtitle captures "identify", "flowers", "trees", "care". The field then covers the entire long tail (weed ID, mushroom ID, succulent ID, houseplant care) without repeating a single word from the name/subtitle. Combined, you index for: *plant identifier, plant scanner, flower identifier, tree identifier, leaf identifier, weed identifier, mushroom identifier, plant care, garden scanner, botany scanner, succulent identifier, cactus identifier, houseplant care, fern identifier* — and more via cross-combination.
 
-### 2.2 English (U.K.)
+### 2.2 Spanish (Mexico) — **secondary US index = your 2nd US keyword field**
 
-**App Name (24/30):**
+**App Name:** keep `Clover: Plant Identifier` (brand consistency).
+**Subtitle (30/30)** — all-new words, indexes in US:
+```
+Plant Health Check & Diagnosis
+```
+**Keyword field (97/100)** — English long-tail, high-intent "problem" searches:
+```
+sick,yellow,dying,watering,soil,repot,fertilizer,journal,reminder,poisonous,edible,pest,seed,vine
+```
+> Why English in a Spanish field? Because the **US storefront indexes this field for US users**. Bonus: it also serves the ~40M Spanish-speaking US users if you later add a couple of Spanish terms. This field captures: *plant sick, yellow leaves, plant dying, watering reminder, plant journal, poisonous plant, edible plant, plant pest, plant health check, plant diagnosis.* These problem-searches convert far better than head terms and are far less contested.
+
+**Combined US index now covers:** plant identifier · plant scanner · flower/tree/leaf/weed/mushroom/succulent/cactus/houseplant/fern identifier · plant care · garden scanner · plant health check · plant diagnosis · yellow leaves · dying plant · watering reminder · poisonous/edible plant · plant pest — and every cross-combination.
+
+### 2.3 English (U.K.) — primary, indexes on 🇬🇧
+
+**App Name (24/30)**
 ```
 Clover: Plant Identifier
 ```
-**Subtitle (30/30):**
+**Subtitle (30/30)**
 ```
 Flower, Tree & Weed Identifier
 ```
-**Keyword field (96/100):**
+**Keyword field (95/100)** — note: no "identify" (stems into "Identifier" already in subtitle):
 ```
-wildflower,shrub,herb,foliage,nature,hiking,allotment,toadstool,identify,name,seedling,vine,moss
+wildflower,shrub,herb,foliage,nature,hiking,allotment,toadstool,meadow,hedge,seedling,vine,moss
 ```
-UK-specific choices: **"allotment"** and **"toadstool"** are high-intent British terms with near-zero US usage — cheap to rank for. UK subtitle leads with "Weed Identifier" (lawn/garden weed ID is a huge UK search cluster). British spelling is respected here ("foliage", "nature", "hiking" for wild plant ID on walks).
+UK-specific picks: **allotment**, **toadstool**, **hedge(row)**, **meadow** are high-intent British terms with near-zero competition from US-optimized apps like PictureThis. Weed ID leads the UK subtitle — lawn/garden weed identification is a huge UK search cluster.
 
-### 2.3 English (Australia) — keyword expansion (indexes for US too)
+### 2.4 English (Australia) — **secondary UK index = your 2nd UK keyword field** (also primary for 🇦🇺)
 
-**Keyword field (96/100):**
+**Keyword field (96/100)**
 ```
-care,disease,diagnosis,poisonous,edible,tropical,indoor,outdoor,species,grow,pest,detector,berry
+care,disease,diagnosis,poisonous,edible,berry,indoor,outdoor,species,grow,pest,detector,lawn,ivy
 ```
-This field is pure long-tail: *plant disease, plant diagnosis, poisonous plant, edible plant, indoor plant, plant pest, plant detector, plant species*. Reuse the US Name/Subtitle here.
+No overlap with the en-GB Name/Subtitle/field it pairs with. Adds for UK: *plant care, plant disease, lawn weed, ivy identifier, poisonous berry, indoor plant, plant detector.* Keep Name/Subtitle same as en-GB.
 
-### 2.4 English (Canada) — keyword expansion
+### 2.5 English (Canada) — optional bonus for 🇨🇦
 
-**Keyword field (100/100):**
+**Keyword field (97/100)** — serves Canada only; lowest priority:
 ```
-sick,dry,yellow,dying,watering,light,soil,repot,fertilizer,sunlight,collection,journal,reminder,wiki
+frost,hardy,perennial,annual,bulb,vegetable,tomato,orchid,bonsai,wilting,mold,light,drainage,zone
 ```
-Captures the **plant-care problem searches** that convert best: *why is my plant dying, yellow leaves, watering reminder, plant journal, plant collection, when to repot*. These are lower-volume but extremely high-intent and low-competition.
 
-### 2.5 Promotional Text (158/170) — updatable anytime, no review needed
-
+### 2.6 Promotional Text (158/170) — updatable anytime, **no app review needed**
 ```
 New: instant plant health check! Point your camera at any leaf to diagnose disease, get watering tips, and save every plant to your garden. Try it free today.
 ```
-Promo text sits above the description, is **not indexed**, but drives conversion. Swap it for seasonal hooks (spring planting, "identify autumn mushrooms safely", houseplant gifting at Christmas) without submitting an update.
+Not indexed — pure conversion. Rotate seasonally without a release: spring planting (Mar–May), "identify autumn mushrooms safely" (Sep–Oct), houseplant gifting (Dec).
 
 ---
 
-## 3. Description — written for conversion, not keywords
+## 3. Description — conversion copy (not indexed on iOS)
 
-The description doesn't rank you, so its only job is to **convert the visit into a download**. Front-load the first 3 lines (all that's visible before "more"). Structure:
+Only the **first ~3 lines** show before "more". Structure:
 
 ```
 Clover turns your iPhone camera into a botanist. Point, snap, and know
-any plant, flower, tree, weed, or mushroom in seconds — with 95%+ accuracy
-and care instructions for every species you find.
+any plant, flower, tree, weed, or mushroom in seconds — with expert-level
+accuracy and care instructions for every species you find.
 
-WHY 2 MILLION GARDENERS CHOOSE CLOVER
+WHY GARDENERS CHOOSE CLOVER
 • Instant ID — flowers, trees, houseplants, succulents, weeds, cacti & fungi
 • Plant health scanner — diagnose disease & pests from a photo, get the cure
 • Care guides — exact water, light & soil for every plant you own
 • My Garden — build a living collection with watering reminders
-• Expert answers — ask a real botanist when the AI isn't sure
 • Works offline for the most common species
 
-IDENTIFY MORE THAN JUST PLANTS
-Mushrooms, insects on your plants, and toxic species to keep pets & kids safe.
+STAY SAFE OUTDOORS
+Identify toxic plants and fungi to keep pets and kids safe. Important:
+Clover is not a substitute for expert verification — never eat wild plants
+or mushrooms based solely on an app identification.
 
 TRY CLOVER FREE
 Download free and identify your first plants at no cost. Clover Premium
-unlocks unlimited IDs, disease diagnosis, and reminders.
-[subscription terms + links to Privacy Policy and Terms of Use]
+unlocks unlimited IDs, disease diagnosis, and care reminders.
+
+[Auto-renewing subscription disclosure + functional links to Privacy
+Policy and Terms of Use (EULA) — REQUIRED when you sell subscriptions;
+missing links are the #1 metadata rejection in this category.]
 ```
 
-> **Compliance note:** Apple requires functional links to your Privacy Policy and Terms (EULA) plus auto-renew disclosure when you mention subscriptions. Missing these is the #1 cause of metadata rejection for this app category.
+> Only make claims you can substantiate (species count, accuracy %, user count). Apple flags unverifiable superlatives, and PictureThis already owns "98% accuracy / 400,000 species" positioning — differentiate instead of imitating.
 
 ---
 
-## 4. In-App Purchase names = free extra indexed keywords
+## 4. In-App Purchase names = extra indexed keywords + search cards
 
-Apple indexes **IAP display names**. Name your subscriptions/products with keywords, not "Premium":
+Apple indexes **IAP display names**, and up to 20 promoted IAPs can appear directly in search results as their own cards.
 
 | Instead of | Use (indexed) |
 |---|---|
@@ -135,124 +150,123 @@ Apple indexes **IAP display names**. Name your subscriptions/products with keywo
 | Premium Yearly | Unlimited Plant Identifier — Yearly |
 | Lifetime | Botanist Expert Plant ID — Lifetime |
 
-Feature at least one IAP on your product page (App Store Connect → "Promote In‑App Purchases") — up to 20 can appear directly in search results as their own cards.
+Enable "Promote In-App Purchases" for at least the yearly plan.
 
 ---
 
-## 5. Visual conversion (the other half of ASO — this beats PictureThis on tap-through)
+## 5. Creatives — full copy deck (conversion feeds ranking)
 
-Rankings get you *seen*; creatives get you *installed*. Conversion rate feeds back into ranking, so this is not optional.
+**Icon:** one bold clover/leaf mark, no text, readable at 60px. Test 3 variants via **Product Page Optimization** (Apple's native A/B test): flat green leaf · camera-aperture-leaf hybrid · white clover on deep green.
 
-**App Icon**
-- A single clover/leaf mark, bold, high-contrast, readable at 60px. Avoid text.
-- Test 2–3 icons via **Product Page Optimization (PPO)** — Apple's native A/B test, free, statistically valid. Run a green-leaf vs. camera-lens-leaf vs. flower icon test.
+**Screenshots — captions ready to use (first 2–3 decide your search-results tap-through; portrait; big type readable at thumbnail size):**
 
-**Screenshots (first 2–3 are what shows in search results — invest 80% of effort here)**
-1. **Hero:** "Identify Any Plant in Seconds" — camera reticle over a flower + the result card. Caption sells the outcome, not the feature.
-2. **Health scanner:** "Is My Plant Sick? Find Out Instantly" — a diagnosis card with the fix.
-3. **Care reminders:** "Never Kill a Plant Again" — watering reminder UI.
-4. Accuracy/trust: "Powered by 400,000+ species."
-5. My Garden collection view.
-- Use **portrait**, big legible captions (readable in the search grid thumbnail), consistent brand color band.
-- Localize captions for UK (spelling + "allotment"/"garden" framing).
+| # | US caption | UK caption | Visual |
+|---|---|---|---|
+| 1 | **Identify Any Plant in Seconds** | **Name Any Plant in Seconds** | Camera reticle over a flower + result card sliding up |
+| 2 | **Is Your Plant Sick? Know Instantly** | **Is Your Plant Poorly? Know Instantly** | Leaf photo → diagnosis card with the cure |
+| 3 | **Never Kill a Plant Again** | **Never Kill a Plant Again** | Watering-reminder UI, calendar view |
+| 4 | **Weeds, Mushrooms & Trees Too** | **Weeds, Toadstools & Trees Too** | 3-up grid of ID results |
+| 5 | **Your Garden, All in One Place** | **Your Allotment, In Your Pocket** | My Garden collection view |
 
-**App Preview Video (up to 3, 15–30s)**
-- First 3 seconds must show the *snap → instant result* moment. Autoplays muted, so design for silent viewing with captions.
+**App Preview video (15–30s):** first 3 seconds must show *snap → instant result*. Autoplays muted — design for silent viewing, caption everything.
 
-**In-App Events** (appear in search & on your product page)
-- Seasonal events drive re-engagement + a discovery surface: "Spring Wildflower Week", "Autumn Mushroom Safety Guide", "Houseplant Rescue Challenge".
+**In-App Events** (extra discovery surface in search + your page): "Spring Wildflower Week" · "Autumn Mushroom Safety Guide" · "Houseplant Rescue Challenge". Ship one per month for the freshness signal.
 
 ---
 
-## 6. Competitive read: how to actually out-rank PictureThis
+## 6. Beating PictureThis: flank, then climb
 
-PictureThis is entrenched (huge ratings volume, brand searches). You will **not** beat it head-on for the term "plant identifier" in month one. The senior play is **flank, then climb**:
+PictureThis's moat is ratings volume (1M+ US) and brand search. You don't out-muscle that in month one — you out-position it:
 
 | Vector | PictureThis | Clover's opening |
 |---|---|---|
-| Head term "plant identifier" | Dominates (millions of ratings) | Long game — appear on page 1, don't expect #1 yet |
-| Long-tail ("weed identifier", "mushroom identifier", "allotment") | Under-optimized | **Win these now** — low competition, real volume |
-| UK-specific terms | Generic US metadata | **"allotment", "toadstool", UK weeds** are open |
-| Ratings velocity | Slow to move for them | Your fastest lever — see §7 |
-| Freshness | Infrequent copy changes | Ship updates + In-App Events monthly for the freshness signal |
-| Price framing | Aggressive paywall (poor reviews mention it) | Position a genuine free tier — mine their 1‑star reviews for your screenshot copy |
+| "plant identifier" head term | Dominant | Long game: page-1 presence first, top-3 later |
+| Problem long-tail (*yellow leaves, plant sick, watering reminder*) | Under-optimized | **Own it now via the es-MX field** — high intent, low contest |
+| UK-specific (*allotment, toadstool, hedge, meadow*) | Generic US metadata | **Open goal — take it via en-GB/en-AU** |
+| Paywall reputation | Their 1★ reviews cite aggressive paywall & accidental subscriptions | Genuine free tier, transparent pricing — say it in screenshot #1 sub-caption: *"Free to start. No surprises."* |
+| Freshness | Infrequent metadata changes | Monthly release + In-App Event cadence |
 
-**Action:** read PictureThis's recent 1★/2★ reviews. The recurring complaints (paywall surprise, wrong IDs, subscription traps) are your **screenshot headlines and review-response talking points**. Turn their weaknesses into your positioning.
-
----
-
-## 7. Ratings & velocity — the ranking factor you control fastest
-
-Ratings volume + recency + your download-velocity are massive ranking inputs.
-
-- Implement **`SKStoreReviewController`** (StoreKit review prompt) and trigger it at a **moment of delight** — right after a *successful* identification, never on launch or mid-task. Apple caps it at 3 prompts/year per user, so spend them well.
-- Ask only users who did something positive (completed ≥2 IDs, added a plant to My Garden). Never prompt after an error.
-- **Respond to reviews** in App Store Connect — especially negatives. Responses are public, show you care, and often flip 1★ → 4★.
-- Run a **soft launch of copy via PPO** and only push the winning variant globally.
+**Do this:** read PictureThis's recent 1★/2★ reviews monthly. Their complaint patterns (paywall surprise, subscription traps, wrong IDs on lookalike species) are your screenshot headlines, your review-response talking points, and your onboarding-design brief.
 
 ---
 
-## 8. Category, and the rest of the product page
+## 7. Apple Search Ads — small budget, outsized organic effect
 
-- **Primary category:** *Education* **or** *Reference* — both rank easier than the crowded *Utilities*/*Lifestyle* for this app, and match search intent. Test Education (broad reach) vs. Reference (higher intent).
-- **Secondary category:** *Lifestyle* or *Utilities*.
-- **Subtitle refresh:** you can change Name/Subtitle/Keywords only with an app version submission — batch metadata changes with each release and **change one variable at a time** so you can attribute ranking shifts.
+ASA conversion data feeds your organic relevance signals, and download velocity lifts organic rank. A modest, surgical spend:
+
+| Campaign | Match | Examples | Budget share |
+|---|---|---|---|
+| **Brand defense** | Exact | clover plant, clover identifier | 10% |
+| **Generic core** | Exact | plant identifier, flower identifier, weed identifier, mushroom identifier | 40% |
+| **Problem terms** | Exact | yellow leaves, plant disease, watering reminder | 20% |
+| **Competitor** | Exact | picture this, picturethis plant (allowed in ASA; never in metadata) | 15% |
+| **Discovery** | Broad + Search Match ON | mines new query data → feed winners back into keyword fields | 15% |
+
+Start ~$1,500/mo US + £500/mo UK. The Discovery campaign is your cheapest keyword-research tool — harvest its search-terms report every two weeks.
 
 ---
 
-## 9. Rollout plan — first 90 days
+## 8. Ratings engine — your fastest controllable ranking factor
+
+- Trigger **`SKStoreReviewController`** only at a *moment of delight*: immediately after a **successful** identification (≥2 lifetime IDs, or after adding a plant to My Garden). Never on launch, never after an error. Apple caps prompts at 3/user/year — spend them well.
+- **Respond to every review** in App Store Connect. Templates:
+  - *Negative — wrong ID:* "Sorry we misread your ⟨plant⟩ — lookalike species are hard and we're improving weekly. Send the photo to support@clover.app and our botanist will identify it personally and feed the fix back into the model."
+  - *Negative — pricing:* "You can keep identifying plants on the free tier — Premium only adds unlimited IDs and disease diagnosis. If anything felt unclear at sign-up, tell us at support@clover.app and we'll make it right."
+  - *Positive:* thank them + mention one feature they haven't used ("if you add it to My Garden we'll remind you when to water it").
+- Never buy reviews/installs — Apple detects and delists.
+
+---
+
+## 9. Rollout — first 90 days
 
 **Week 0 — foundation**
-- [ ] Enable the 4 English localizations (US, UK, AU, CA) and paste all metadata from §2.
-- [ ] Set primary category (Education) + secondary.
-- [ ] Rename IAPs with keywords (§4) and promote one on the product page.
-- [ ] Ship screenshots 1–3 + a 20s preview video.
-- [ ] Implement `SKStoreReviewController` at the post-success moment.
+- [ ] Add localizations: en-US, es-MX, en-GB, en-AU (+ en-CA optional); paste §2 metadata.
+- [ ] Primary category **Education**, secondary **Lifestyle** (Education/Reference rank easier than Utilities for this intent; you can test Reference later).
+- [ ] Rename + promote IAPs (§4).
+- [ ] Ship screenshots 1–3 + preview video (§5); implement the review prompt (§8).
+- [ ] Baseline all watchlist keywords (§10) in a rank tracker (AppTweak / MobileAction / AppFollow / Sensor Tower).
 
 **Weeks 1–4 — measure & seed**
-- [ ] Track ranks daily for the target keyword set (§10) — baseline everything.
-- [ ] Launch first **PPO icon test** + one screenshot-order test.
+- [ ] Launch ASA campaigns (§7) with Discovery ON.
+- [ ] First PPO icon test; first In-App Event.
 - [ ] Respond to 100% of reviews.
-- [ ] Ship first **In-App Event** (seasonal).
 
-**Weeks 5–8 — iterate on data**
-- [ ] Promote your best-ranking mid-tail terms into the Subtitle; move losers out of the keyword field.
-- [ ] Roll out the winning PPO creatives globally.
-- [ ] Add a second preview video variant.
+**Weeks 5–8 — iterate**
+- [ ] Harvest ASA search-terms; swap the bottom 3–4 performers out of each keyword field (metadata changes ship with an app version — batch them, and **change one variable per release** so you can attribute movement).
+- [ ] Promote best-climbing mid-tail terms into a Subtitle; roll out winning PPO creatives.
 
-**Weeks 9–12 — climb the head terms**
-- [ ] With ratings volume and velocity now higher, re-test putting a broader head term in the subtitle.
-- [ ] Expand In-App Events cadence to monthly.
-- [ ] Begin light Apple Search Ads on your *branded* + best long-tail terms to defend and to feed conversion data (even a small budget lifts organic via velocity).
+**Weeks 9–12 — climb**
+- [ ] With velocity + ratings up, re-test broader head-term emphasis in subtitles.
+- [ ] Monthly In-App Event cadence locked in; second PPO test (screenshot order).
 
 ---
 
-## 10. KPIs & the keyword watchlist
+## 10. KPIs + keyword watchlist
 
-**Track weekly (App Store Connect → App Analytics + a rank-tracker like AppTweak/Sensor Tower/AppFigures):**
-- Keyword rankings for the watchlist (below)
-- **Impressions → Product Page Views → Downloads** conversion rates (the funnel)
-- Ratings count + average, and rate of new ratings
-- Retention D1/D7 (Apple weights engaged apps)
+Track weekly: keyword ranks (below) · Impressions → Product Page Views → Installs conversion · ratings count/velocity/average · D1/D7 retention · ASA tap-through & CPA.
 
-**Keyword watchlist to monitor from day 1:**
+A starter tracking sheet is included in this repo: **`aso-keyword-tracker.csv`**.
 
-*Head (long game):* plant identifier · plant identification · plant scanner · plant id
+*Head (long game):* plant identifier · plant identification · plant app · plant scanner
 *Mid (win in 4–8 wks):* flower identifier · tree identifier · weed identifier · mushroom identifier · leaf identifier · plant care · plant disease
-*Long-tail / UK (win fast):* succulent identifier · houseplant care · cactus identifier · allotment · toadstool · poisonous plant · edible plant · watering reminder · yellow leaves · plant journal
+*Problem long-tail (win fast, via es-MX field):* yellow leaves · plant sick · dying plant · watering reminder · plant journal · poisonous plant · edible plant
+*UK-specific (win fast):* allotment · toadstool · wildflower identifier · hedge plant · lawn weed · meadow flower
 
 ---
 
-## 11. Do-not-do list (avoids rejection & wasted spend)
+## 11. Do-not-do list
 
-- ❌ Don't stuff competitor brand names in metadata (2.3.7 rejection risk).
-- ❌ Don't repeat words across Name/Subtitle/Keyword field.
-- ❌ Don't use plurals or spaces in the keyword field.
-- ❌ Don't claim medical/safety guarantees for mushroom/toxicity ID — add a clear disclaimer ("not a substitute for expert verification; never eat wild plants/fungi based solely on the app"). This is both an ethics and a review-guideline safeguard.
-- ❌ Don't buy fake reviews — Apple detects and delists.
-- ❌ Don't change five metadata variables at once — you'll never know what moved the needle.
+- ❌ Competitor trademarks in metadata (2.3.7 rejection). ASA bidding on them is fine.
+- ❌ Repeating words (or stems) across Name/Subtitle/Keyword fields *within the same storefront's indexed set*.
+- ❌ Plurals, spaces, "app", stopwords in keyword fields.
+- ❌ Unsubstantiated accuracy/medical/safety claims; always carry the wild-plant/fungi disclaimer.
+- ❌ Changing five metadata variables in one release — you'll never know what moved rank.
+- ❌ Fake reviews or incentivized installs.
 
 ---
 
-### One-paragraph summary
-Put "Plant Identifier" in the **name**, own "identify / flowers / trees / weeds / care" in the **subtitle**, and blanket the long tail across **four English keyword fields (US, UK, AU, CA)** — quadrupling your indexed terms for free. Don't fight PictureThis for the head term on day one; **take the mid- and long-tail and the UK-specific terms** it ignores, then climb the head term as your **ratings velocity and conversion** (driven by great first-three screenshots and a well-timed review prompt) compound. Measure one change at a time, ship monthly with In-App Events for freshness, and let PPO pick your creatives with real data.
+### Summary
+Own "Plant Identifier" in the **Name**; split your two US-indexed keyword fields so **en-US carries the ID-intent terms** and **es-MX carries the problem/care long-tail**; do the same for the UK with **en-GB (UK-specific terms: allotment, toadstool, hedge, meadow)** + **en-AU (care/disease terms)**. Don't fight PictureThis head-on — take the long-tail and UK gaps it ignores, run a small surgical ASA program to feed velocity and keyword data, grow ratings with a well-timed prompt, and iterate one metadata variable per release. That compounding loop — coverage → conversion → velocity → rank — is how you climb the head term.
+
+**Sources for the cross-localization indexing model:**
+[AppTweak — App Store localization: primary & secondary languages](https://www.apptweak.com/en/aso-blog/how-to-benefit-from-cross-localization-on-the-app-store) · [MobileAction — territory-level keyword indexation](https://www.mobileaction.co/blog/app-store-cross-localization/) · [AppFollow — App Store keywords: countries & localizations](https://appfollow.io/app-store-keywords-localizations) · [aso.dev — cross-localization guide](https://aso.dev/metadata/cross-localization/) · [Apple — App Store localizations reference](https://developer.apple.com/help/app-store-connect/reference/app-information/app-store-localizations/)
