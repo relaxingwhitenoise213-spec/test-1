@@ -186,18 +186,25 @@ Fallback names if this one is also taken (checked ≤30): `Clover: Herken Elke P
 
 Arabic storefronts index **Arabic (primary) + en-GB (secondary)**. Arabic is also one of the **secondary locales indexed on the US storefront** — so this field additionally serves Arabic-speaking users searching in Arabic in the US.
 
-**App Name (21/30)** — "Clover: Identify Plants":
+**App Name (21/30)** — ⬇️ paste this Arabic text:
 ```
 كلوفر: تحديد النباتات
 ```
-**Subtitle (24/30)** — "Discover flowers and trees":
+*(English translation, for your reference only — do NOT paste: "Clover: Identify Plants")*
+
+**Subtitle (24/30)** — ⬇️ paste this Arabic text:
 ```
 تعرف على الزهور والأشجار
 ```
-**Keyword field (96/100)** — plant, leaf, mushroom, garden, grass/weed, cactus, watering, disease, gardening, tree, rose, seedling, fertilizer, soil, irrigation, planting, seed, care, fungi, poisonous:
+*(Translation, reference only: "Discover flowers and trees")*
+
+**Keyword field (96/100)** — ⬇️ paste this Arabic text:
 ```
 نبات,ورقة,فطر,حديقة,عشب,صبار,سقي,مرض,بستنة,شجرة,وردة,نبتة,سماد,تربة,ري,زرع,بذرة,عناية,فطريات,سام
 ```
+*(Translation, reference only — word by word: plant, leaf, mushroom, garden, grass/weed, cactus, watering, disease, gardening, tree, rose, seedling, fertilizer, soil, irrigation, planting, seed, care, fungi, poisonous.)*
+
+> ⚠️ RTL display note: Arabic is written right-to-left, so in some editors the comma-separated list above may *look* reversed or jumbled — it isn't. Copy the whole line as-is into App Store Connect; the field will accept it correctly.
 MENA-specific angles: indoor/succulent care dominates (Gulf climate → *صبار* cactus, *ري* irrigation, *سماد* fertilizer), and home-gardening content is booming in Saudi/UAE. **Screenshots must be mirrored RTL** with Arabic captions — Apple shows the Arabic product page when the device language is Arabic; unlocalized LTR screenshots crater conversion there.
 
 > **Alternative play for ar:** because Arabic is indexed on the US storefront, some ASO teams fill the ar field with *English* keywords as a third US field instead. Recommendation: use real Arabic (above) — the MENA App Store is one of the fastest-growing plant-app markets, and the US already has two full fields (en-US + es-MX).
