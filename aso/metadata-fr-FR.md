@@ -26,36 +26,58 @@ Oran, votre chatbot IA tout-en-un. Posez vos questions, obtenez des réponses, r
 
 ## Description (conversion — non indexée) — bien en dessous de 4000
 ```
-Découvrez Oran — votre chatbot IA et assistant personnel tout-en-un. Posez vos questions, obtenez des réponses instantanées, rédigez plus vite et créez des images magnifiques, le tout dans une application simple et élégante.
+Découvrez Oran — votre compagnon IA intelligent, conçu pour le monde moderne. Que vous cherchiez une conversation réfléchie, des visuels créatifs ou des analyses de documents pertinentes, Oran réunit toute la puissance de l'intelligence artificielle dans un espace de travail unique, au design soigné.
 
-CE QUE VOUS POUVEZ FAIRE
-• Discuter avec une IA intelligente qui comprend le contexte et donne des réponses claires
-• Rédiger e-mails, dissertations, publications, CV, histoires et bien plus
-• Corriger la grammaire, reformuler, résumer et traduire en quelques secondes
-• Générer de superbes images et créations artistiques à partir d'une simple description
-• Être aidé pour les devoirs, les révisions, le code et la recherche
-• Lire et discuter avec vos PDF et documents
-• Trouver des idées, organiser votre journée et résoudre vos problèmes
 
-POURQUOI ORAN
-• Design épuré et sans distraction, avec un superbe mode sombre
-• Réponses rapides et précises, propulsées par la dernière technologie d'IA
-• 20 messages gratuits par jour — sans carte bancaire pour commencer
-• Vos conversations restent privées et sécurisées
+CHAT INTELLIGENT
 
-GRATUIT & PRO
-Commencez gratuitement avec 20 messages par jour. Passez à Pro pour jusqu'à 500 messages par jour et un modèle premium encore plus intelligent et rapide.
+Engagez des conversations riches et pertinentes avec l'IA d'Oran. Posez des questions, obtenez des explications détaillées, trouvez des idées, résolvez des problèmes et explorez n'importe quel sujet — avec un assistant qui comprend le contexte et la nuance.
 
-Téléchargez Oran dès aujourd'hui et gardez un assistant IA puissant dans votre poche.
+• 20 messages gratuits par jour pour commencer
+• Des fils de conversation organisés et conservés, faciles à retrouver
+• Des réponses rapides et contextuelles, propulsées par un modèle d'IA de pointe
+• Les abonnés Pro profitent de jusqu'à 500 messages par jour avec un modèle premium amélioré
 
-—
-Abonnement Oran Pro (hebdomadaire / mensuel / annuel) :
-• Le paiement est débité de votre compte Apple lors de la confirmation de l'achat.
-• L'abonnement se renouvelle automatiquement, sauf s'il est désactivé au moins 24 heures avant la fin de la période en cours.
-• Le renouvellement est facturé dans les 24 heures précédant la fin de la période en cours.
-• Vous pouvez gérer ou annuler votre abonnement dans les réglages de votre compte App Store après l'achat.
-Conditions d'utilisation : [votre URL]
-Politique de confidentialité : [votre URL]
+
+CRÉATION D'IMAGES IA — PRO
+
+Transformez vos idées en visuels époustouflants à partir d'une simple description. Des concepts abstraits aux scènes photoréalistes, Oran génère des images de haute qualité, parfaitement fidèles à votre demande.
+
+• Générez jusqu'à 40 images originales par mois
+• Enregistrez-les directement dans votre photothèque
+• Exportez et partagez en un seul geste
+
+
+OUTILS DOCUMENTS — PRO
+
+Travaillez plus intelligemment avec la puissante suite d'analyse documentaire d'Oran. Collez un texte ou importez un fichier, et laissez Oran en extraire des résumés clairs, les points clés, les actions à mener et les points de vigilance — en quelques secondes. Ou décrivez ce dont vous avez besoin, et Oran crée pour vous un document complet, structuré de façon professionnelle.
+
+• Analyser : des informations instantanées, propulsées par l'IA, à partir de tout texte ou document importé
+• Créer : générez des documents soignés et bien structurés à partir d'un simple brief
+• Exportez dans plusieurs formats, dont PDF, Word (.docx) et texte brut
+
+
+ORAN PRO
+
+Débloquez toute l'expérience Oran avec un abonnement Pro. Accédez à la génération d'images IA, à tous les outils documents, à un modèle d'IA premium et à une capacité de messages quotidiens nettement supérieure.
+
+• Des formules flexibles : hebdomadaire, mensuelle ou annuelle
+• Restaurez votre abonnement à tout moment, sur tous vos appareils
+• Offre gratuite disponible — aucune carte bancaire requise pour commencer
+
+
+CONÇU AVEC SOIN
+
+Oran n'est pas seulement puissant — c'est un plaisir à utiliser. Pensé avec une esthétique sombre premium, des animations fluides et une interface minimaliste, chaque interaction est douce, précise et raffinée.
+
+• Une interface élégante en mode sombre, optimisée pour iPhone
+• Une authentification sécurisée par e-mail et mot de passe
+• Un stockage des données dans le cloud — sûr, rapide et fiable
+• Vos conversations et créations, toujours disponibles où que vous soyez
+
+Commencez votre aventure IA dès aujourd'hui. Téléchargez Oran et découvrez ce qu'est une véritable assistance intelligente.
+
+Conditions d'utilisation (CLUF) : https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 ```
 
 ## Légendes de captures d'écran (traduisez aussi les visuels)

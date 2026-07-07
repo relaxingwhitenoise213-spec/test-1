@@ -25,36 +25,58 @@ Oran, seu chatbot de IA tudo-em-um. Pergunte tudo, receba respostas, escreva e c
 
 ## Descrição (conversão — não indexada) — bem abaixo de 4000
 ```
-Conheça o Oran — seu chatbot de IA e assistente pessoal tudo-em-um. Pergunte qualquer coisa, receba respostas instantâneas, escreva mais rápido e crie imagens incríveis, tudo em um aplicativo simples e elegante.
+Conheça o Oran — seu companheiro de IA inteligente, feito para o mundo moderno. Seja para uma conversa aprofundada, visuais criativos ou análises precisas de documentos, o Oran reúne todo o poder da inteligência artificial em um único espaço de trabalho, com design impecável.
 
-O QUE VOCÊ PODE FAZER
-• Converse com uma IA inteligente que entende o contexto e dá respostas claras
-• Escreva e-mails, redações, posts, currículos, histórias e muito mais
-• Corrija a gramática, reescreva, resuma e traduza em segundos
-• Gere imagens e artes incríveis a partir de uma simples descrição
-• Receba ajuda com tarefas, estudos, programação e pesquisa
-• Leia e converse com seus PDFs e documentos
-• Tenha ideias, organize seu dia e resolva problemas em qualquer lugar
 
-POR QUE ORAN
-• Design limpo e sem distrações, com um lindo modo escuro
-• Respostas rápidas e precisas, com a mais recente tecnologia de IA
-• 20 mensagens grátis por dia — sem cartão de crédito para começar
-• Suas conversas são privadas e ficam armazenadas com segurança
+CHAT INTELIGENTE
 
-GRÁTIS E PRO
-Comece grátis com 20 mensagens por dia. Assine o Pro para ter até 500 mensagens por dia e um modelo premium ainda mais inteligente e rápido.
+Tenha conversas profundas e relevantes com a IA do Oran. Faça perguntas, receba explicações detalhadas, gere ideias, resolva problemas e explore qualquer assunto — com um assistente que entende o contexto e as nuances.
 
-Baixe o Oran hoje e tenha um poderoso assistente de IA no seu bolso.
+• 20 mensagens grátis por dia para começar
+• Conversas organizadas e salvas, fáceis de consultar
+• Respostas rápidas e contextuais, com um modelo de IA de última geração
+• Assinantes Pro têm até 500 mensagens por dia com um modelo premium aprimorado
 
-—
-Assinatura Oran Pro (semanal / mensal / anual):
-• O pagamento será cobrado na sua conta Apple ao confirmar a compra.
-• A assinatura é renovada automaticamente, a menos que seja desativada pelo menos 24 horas antes do fim do período atual.
-• A cobrança da renovação ocorre nas 24 horas anteriores ao fim do período atual.
-• Você pode gerenciar ou cancelar a assinatura nos ajustes da sua conta na App Store após a compra.
-Termos de Uso: [sua URL]
-Política de Privacidade: [sua URL]
+
+CRIAÇÃO DE IMAGENS COM IA — PRO
+
+Transforme suas ideias em visuais incríveis com apenas uma descrição em texto. De conceitos abstratos a cenas fotorrealistas, o Oran gera imagens de alta qualidade, fiéis à sua descrição.
+
+• Gere até 40 imagens originais por mês
+• Salve direto na sua biblioteca de fotos
+• Exporte e compartilhe com um único toque
+
+
+FERRAMENTAS DE DOCUMENTOS — PRO
+
+Trabalhe de forma mais inteligente com o poderoso conjunto de análise de documentos do Oran. Cole qualquer texto ou importe um arquivo e deixe o Oran extrair resumos claros, pontos principais, itens de ação e alertas de risco — em segundos. Ou descreva o que você precisa e o Oran cria um documento completo e profissionalmente estruturado para você.
+
+• Analisar: insights instantâneos com IA a partir de qualquer texto ou documento importado
+• Criar: gere documentos impecáveis e bem estruturados a partir de um simples resumo
+• Exporte em vários formatos, incluindo PDF, Word (.docx) e texto simples
+
+
+ORAN PRO
+
+Desbloqueie a experiência completa do Oran com uma assinatura Pro. Tenha acesso à geração de imagens com IA, a todas as ferramentas de documentos, a um modelo de IA premium e a uma capacidade diária de mensagens muito maior.
+
+• Planos flexíveis: semanal, mensal ou anual
+• Restaure sua assinatura a qualquer momento, em todos os seus dispositivos
+• Versão gratuita disponível — sem precisar de cartão de crédito para começar
+
+
+FEITO COM PROPÓSITO
+
+O Oran não é apenas poderoso — é um prazer de usar. Com uma estética escura premium, animações fluidas e uma interface minimalista, cada interação é suave, focada e refinada.
+
+• Interface elegante em modo escuro, otimizada para iPhone
+• Autenticação segura com e-mail e senha
+• Armazenamento de dados na nuvem — seguro, rápido e confiável
+• Suas conversas e criações, sempre disponíveis onde você precisar
+
+Comece sua jornada com IA hoje. Baixe o Oran e descubra como é uma assistência inteligente de verdade.
+
+Termos de Uso (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
 ```
 
 ## Legendas das capturas de tela (traduza também os visuais)
