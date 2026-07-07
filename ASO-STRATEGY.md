@@ -2,7 +2,7 @@
 
 **App:** Clover — Plant Identifier
 **Platform:** iOS (Apple App Store)
-**Markets:** United States (primary), United Kingdom · expansion: France (§2.6), Canada, Australia
+**Markets:** United States (primary), United Kingdom · expansion: France, Germany, Netherlands, MENA/Arabic, Canada, Australia (§2)
 **Benchmark competitor:** PictureThis (Glority) — ~4.6★, 1M+ US ratings, ~700k downloads/mo, ~$5M/mo revenue
 **Version:** 2.0 — research-verified. *Changelog: v1 assumed en-AU/en-CA keyword fields index on the US storefront; the published AppTweak/Phiture/AppFollow cross-localization tests show the US actually indexes **en-US + es-MX** (plus AR, zh-Hans/Hant, FR, KO, PT-BR, RU, VI), and the UK indexes **en-GB + en-AU**. Section 1 and all metadata below are corrected accordingly.*
 
@@ -24,6 +24,9 @@ Apple indexes the metadata of **secondary localizations** on each storefront. Th
 | 🇦🇺 Australia (bonus) | en-AU + en-GB | Already covered by the two fields above — free AU coverage |
 | 🇨🇦 Canada (bonus) | en-CA + fr-CA (+ en-US per tests) | Optional en-CA + fr-CA fields = free Canadian coverage |
 | 🇫🇷 France (expansion) | **fr-FR** (primary) + **en-US** (secondary) | Your en-US field already indexes in France; add a French fr-FR set (§2.6) to complete the pair — fr-FR is also a secondary index on the US storefront |
+| 🇩🇪 Germany (expansion) | **de-DE** (primary) + **en-GB** (secondary) | German set (§2.8) carries the real local search volume; also covers Austria & Switzerland |
+| 🇳🇱 Netherlands (expansion) | **nl-NL** (primary) + **en-GB** (secondary) | Dutch set (§2.9); en-GB already carries the heavy English search share there |
+| 🇸🇦 MENA (expansion) | **ar** (primary) + **en-GB** (secondary) | Arabic set (§2.10) for Saudi/UAE/Egypt; ar is also a secondary index on the US storefront |
 
 **Net result:** ~200 indexable keyword-field characters per target market instead of 100, plus Name + Subtitle per locale. Zero policy risk — this is standard, documented practice.
 
@@ -140,7 +143,63 @@ potager,semis,bouture,engrais,rempoter,succulente,orchidee,tomate,vivace,gel,int
 ```
 Note: *succulente* appearing in both fr-FR and fr-CA is fine — they index on **different storefronts** (France vs Canada). Duplicates only waste space within a single storefront's indexed set.
 
-### 2.8 Promotional Text (158/170) — updatable anytime, **no app review needed**
+### 2.8 German (de-DE) — 🇩🇪 Germany (+ Austria & Switzerland storefronts)
+
+Germany indexes **de-DE (primary) + en-GB (secondary)** — your en-GB set already ranks there; this adds the German layer, where nearly all real search volume lives ("pflanzen bestimmen" is the German head term, not "plant identifier").
+
+**App Name (26/30)**
+```
+Clover: Pflanzen Bestimmen
+```
+**Subtitle (30/30)**
+```
+Blumen, Bäume & Pilze erkennen
+```
+**Keyword field (95/100)** — no stem overlap with the German Name/Subtitle (*pflanze, bestimmen, blume, baum, pilz, erkennen* already indexed there):
+```
+blatt,unkraut,garten,zimmerpflanze,gießen,krankheit,kaktus,sukkulente,botanik,moos,kraut,giftig
+```
+Covers: *pflanzen bestimmen · blumen/bäume/pilze erkennen · unkraut bestimmen (weeds) · zimmerpflanze (houseplant) · pflanzen krankheit · giftige pflanzen · gießen (watering).* Mushroom foraging ("Pilze sammeln") is culturally huge in Germany — keep the safety disclaimer prominent in the German description. Bonus reach: de-DE is also primary for the Austria and Switzerland storefronts.
+
+### 2.9 Dutch (nl-NL) — 🇳🇱 Netherlands
+
+Netherlands indexes **nl-NL (primary) + en-GB (secondary)**. Note: Dutch users search in English more than Germans do, so the en-GB set carries real weight here — the Dutch layer captures the rest.
+
+**App Name (25/30)**
+```
+Clover: Planten Herkennen
+```
+**Subtitle (29/30)**
+```
+Bloemen, Bomen & Onkruid Gids
+```
+**Keyword field (99/100)** — no stem overlap with the Dutch Name/Subtitle:
+```
+blad,paddenstoel,tuin,tuinieren,kamerplant,verzorging,ziekte,cactus,vetplant,mos,kruid,giftig,water
+```
+Covers: *planten herkennen · bloemen/bomen herkennen · onkruid (weeds) · paddenstoel (mushroom) · kamerplant verzorging (houseplant care) · planten ziekte · giftige planten.*
+
+### 2.10 Arabic (ar-SA) — 🇸🇦🇦🇪🇪🇬 Saudi Arabia, UAE, Egypt & MENA storefronts
+
+Arabic storefronts index **Arabic (primary) + en-GB (secondary)**. Arabic is also one of the **secondary locales indexed on the US storefront** — so this field additionally serves Arabic-speaking users searching in Arabic in the US.
+
+**App Name (21/30)** — "Clover: Identify Plants":
+```
+كلوفر: تحديد النباتات
+```
+**Subtitle (24/30)** — "Discover flowers and trees":
+```
+تعرف على الزهور والأشجار
+```
+**Keyword field (96/100)** — plant, leaf, mushroom, garden, grass/weed, cactus, watering, disease, gardening, tree, rose, seedling, fertilizer, soil, irrigation, planting, seed, care, fungi, poisonous:
+```
+نبات,ورقة,فطر,حديقة,عشب,صبار,سقي,مرض,بستنة,شجرة,وردة,نبتة,سماد,تربة,ري,زرع,بذرة,عناية,فطريات,سام
+```
+MENA-specific angles: indoor/succulent care dominates (Gulf climate → *صبار* cactus, *ري* irrigation, *سماد* fertilizer), and home-gardening content is booming in Saudi/UAE. **Screenshots must be mirrored RTL** with Arabic captions — Apple shows the Arabic product page when the device language is Arabic; unlocalized LTR screenshots crater conversion there.
+
+> **Alternative play for ar:** because Arabic is indexed on the US storefront, some ASO teams fill the ar field with *English* keywords as a third US field instead. Recommendation: use real Arabic (above) — the MENA App Store is one of the fastest-growing plant-app markets, and the US already has two full fields (en-US + es-MX).
+
+### 2.11 Promotional Text (158/170) — updatable anytime, **no app review needed**
 ```
 New: instant plant health check! Point your camera at any leaf to diagnose disease, get watering tips, and save every plant to your garden. Try it free today.
 ```

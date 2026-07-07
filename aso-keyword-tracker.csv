@@ -54,3 +54,20 @@ perennial identifier,CA,long,en-CA kw+name,,,,,,,,,,top 3,
 orchid care,CA,long,en-CA kw,,,,,,,,,,top 5,
 bonsai identifier,CA,long,en-CA kw+name,,,,,,,,,,top 3,
 wilting plant,CA,long,en-CA kw,,,,,,,,,,top 3,
+pflanzen bestimmen,DE,head,de-DE name,,,,,,,,,,top 10,German head term
+blumen erkennen,DE,mid,de-DE subtitle,,,,,,,,,,top 5,
+pilze bestimmen,DE,mid,de-DE subtitle+name,,,,,,,,,,top 5,mushroom foraging huge in DE
+unkraut bestimmen,DE,long,de-DE kw+name,,,,,,,,,,top 3,
+zimmerpflanze,DE,long,de-DE kw,,,,,,,,,,top 5,
+giftige pflanzen,DE,long,de-DE kw+name,,,,,,,,,,top 3,
+planten herkennen,NL,head,nl-NL name,,,,,,,,,,top 10,Dutch head term
+onkruid herkennen,NL,mid,nl-NL subtitle+name,,,,,,,,,,top 3,
+paddenstoel,NL,mid,nl-NL kw,,,,,,,,,,top 5,
+kamerplant verzorging,NL,long,nl-NL kw,,,,,,,,,,top 3,
+plant identifier,NL,mid,en-GB (secondary index),,,,,,,,,,top 10,Dutch search in English a lot
+تحديد النباتات,AR,head,ar name,,,,,,,,,,top 10,Arabic head term
+معرفة النباتات,AR,head,ar name (stem),,,,,,,,,,top 10,
+نباتات منزلية,AR,mid,ar kw combo,,,,,,,,,,top 5,houseplants
+عناية بالنباتات,AR,mid,ar kw combo,,,,,,,,,,top 5,plant care
+صبار,AR,long,ar kw,,,,,,,,,,top 3,cactus - Gulf climate
+مرض النبات,AR,long,ar kw combo,,,,,,,,,,top 3,plant disease
