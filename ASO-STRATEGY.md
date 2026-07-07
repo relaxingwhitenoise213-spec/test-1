@@ -2,7 +2,7 @@
 
 **App:** Clover — Plant Identifier
 **Platform:** iOS (Apple App Store)
-**Markets:** United States (primary), United Kingdom · expansion: France, Germany, Netherlands, MENA/Arabic, Canada, Australia (§2)
+**Markets:** United States (primary), United Kingdom · expansion: France, Germany, Netherlands, MENA/Arabic, Japan, Canada, Australia (§2)
 **Benchmark competitor:** PictureThis (Glority) — ~4.6★, 1M+ US ratings, ~700k downloads/mo, ~$5M/mo revenue
 **Version:** 2.0 — research-verified. *Changelog: v1 assumed en-AU/en-CA keyword fields index on the US storefront; the published AppTweak/Phiture/AppFollow cross-localization tests show the US actually indexes **en-US + es-MX** (plus AR, zh-Hans/Hant, FR, KO, PT-BR, RU, VI), and the UK indexes **en-GB + en-AU**. Section 1 and all metadata below are corrected accordingly.*
 
@@ -27,6 +27,7 @@ Apple indexes the metadata of **secondary localizations** on each storefront. Th
 | 🇩🇪 Germany (expansion) | **de-DE** (primary) + **en-GB** (secondary) | German set (§2.8) carries the real local search volume; also covers Austria & Switzerland |
 | 🇳🇱 Netherlands (expansion) | **nl-NL** (primary) + **en-GB** (secondary) | Dutch set (§2.9); en-GB already carries the heavy English search share there |
 | 🇸🇦 MENA (expansion) | **ar** (primary) + **en-GB** (secondary) | Arabic set (§2.10) for Saudi/UAE/Egypt; ar is also a secondary index on the US storefront |
+| 🇯🇵 Japan (expansion) | **ja** (primary) + **en-US** (secondary) | Japanese set (§2.11) — head term is 植物図鑑, not "plant identifier" |
 
 **Net result:** ~200 indexable keyword-field characters per target market instead of 100, plus Name + Subtitle per locale. Zero policy risk — this is standard, documented practice.
 
@@ -199,7 +200,34 @@ MENA-specific angles: indoor/succulent care dominates (Gulf climate → *صبا�
 
 > **Alternative play for ar:** because Arabic is indexed on the US storefront, some ASO teams fill the ar field with *English* keywords as a third US field instead. Recommendation: use real Arabic (above) — the MENA App Store is one of the fastest-growing plant-app markets, and the US already has two full fields (en-US + es-MX).
 
-### 2.11 Promotional Text (158/170) — updatable anytime, **no app review needed**
+### 2.11 Japanese (ja) — 🇯🇵 Japan
+
+Japan indexes **ja (primary) + en-US (secondary)** — your en-US set already ranks there; this adds the Japanese layer, which is where virtually all Japanese search volume lives. Critical mindset shift: Japanese users don't search "plant identifier" — the head term is **植物図鑑** (*plant zukan*, "picture-book/encyclopedia"), and **花の名前** ("flower name") is the intent phrase.
+
+**App Name (20/30)** — "Clover: the zukan that tells you plant & flower names":
+```
+Clover：植物・花の名前がわかる図鑑
+```
+Indexes the whole Japanese head cluster: *植物図鑑 · 花の名前 · 植物 名前 · 花 図鑑 · 名前がわかる.*
+
+**Subtitle (19/30)** — "Just take a photo — identifies trees, mushrooms & weeds too":
+```
+写真を撮るだけで木・キノコ・雑草も判定
+```
+Adds: *写真 (photo) · 木 (tree) · キノコ (mushroom) · 雑草 (weed) · 判定 (identify/judge).*
+
+**Keyword field (95/100)** — no overlap with Name/Subtitle; covers houseplant, succulent, cactus, watering, disease, pest, gardening, garden, bonsai, moss, wild plants, diagnosis, hanakotoba, home vegetable garden, herb, sakura, autumn leaves, repotting:
+```
+観葉植物,多肉植物,サボテン,水やり,病気,害虫,ガーデニング,庭,盆栽,苔,樹木,野草,葉,識別,栽培,肥料,きのこ,山菜,花言葉,診断,カメラ,家庭菜園,野菜,ハーブ,桜,紅葉,植え替え
+```
+Japan-specific notes:
+- **花言葉** (hanakotoba — the "language of flowers") is a massive adjacent search in Japan; if the app can show each flower's hanakotoba, feature it in Japanese screenshots — no Western competitor does this well.
+- **きのこ/山菜** (mushroom & wild-vegetable foraging) is a big seasonal cluster (autumn) — same safety-disclaimer rule as Germany.
+- **Both scripts matter:** キノコ (katakana, subtitle) and きのこ (hiragana, keywords) are indexed as different tokens — cover both.
+- **盆栽 (bonsai), 苔 (moss), 桜 (sakura), 紅葉 (autumn foliage)** are cultural evergreens with dedicated audiences.
+- Localize screenshots into Japanese with text-heavy captions — Japanese product pages convert better with more on-image text than Western ones.
+
+### 2.12 Promotional Text (158/170) — updatable anytime, **no app review needed**
 ```
 New: instant plant health check! Point your camera at any leaf to diagnose disease, get watering tips, and save every plant to your garden. Try it free today.
 ```

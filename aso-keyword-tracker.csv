@@ -71,3 +71,14 @@ plant identifier,NL,mid,en-GB (secondary index),,,,,,,,,,top 10,Dutch search in 
 عناية بالنباتات,AR,mid,ar kw combo,,,,,,,,,,top 5,plant care
 صبار,AR,long,ar kw,,,,,,,,,,top 3,cactus - Gulf climate
 مرض النبات,AR,long,ar kw combo,,,,,,,,,,top 3,plant disease
+植物図鑑,JP,head,ja name,,,,,,,,,,top 10,Japanese head term (zukan)
+花の名前,JP,head,ja name,,,,,,,,,,top 10,flower name intent phrase
+植物 名前,JP,head,ja name,,,,,,,,,,top 10,
+キノコ 判定,JP,mid,ja subtitle,,,,,,,,,,top 5,seasonal autumn spike
+雑草 名前,JP,mid,ja subtitle+name,,,,,,,,,,top 3,
+観葉植物,JP,mid,ja kw,,,,,,,,,,top 10,houseplant
+多肉植物,JP,mid,ja kw,,,,,,,,,,top 5,succulent
+花言葉,JP,mid,ja kw,,,,,,,,,,top 10,hanakotoba - huge adjacent search
+水やり,JP,long,ja kw,,,,,,,,,,top 3,watering
+盆栽,JP,long,ja kw,,,,,,,,,,top 10,bonsai
+家庭菜園,JP,long,ja kw,,,,,,,,,,top 5,home vegetable garden
