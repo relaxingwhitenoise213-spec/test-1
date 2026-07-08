@@ -3,7 +3,7 @@
 import { ThemeProvider } from "next-themes";
 import { Toaster } from "sonner";
 import type { ReactNode } from "react";
-import { HistoryProvider } from "@/hooks/use-history";
+import { ProgressProvider } from "@/hooks/use-progress";
 
 /** Client-side provider stack shared across the whole app. */
 export function Providers({ children }: { children: ReactNode }) {
@@ -14,7 +14,7 @@ export function Providers({ children }: { children: ReactNode }) {
       enableSystem
       disableTransitionOnChange
     >
-      <HistoryProvider>
+      <ProgressProvider>
         {children}
         <Toaster
           richColors
@@ -22,7 +22,7 @@ export function Providers({ children }: { children: ReactNode }) {
           position="bottom-right"
           toastOptions={{ className: "font-sans" }}
         />
-      </HistoryProvider>
+      </ProgressProvider>
     </ThemeProvider>
   );
 }

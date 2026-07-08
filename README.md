@@ -1,60 +1,50 @@
-# Vocalis — Text-to-Speech Studio
+# Life in the UK Test — practice app
 
-A modern, production-ready text-to-speech web application built with Next.js 16,
-React 19, TypeScript and Tailwind CSS v4. Convert text into natural speech with a
-clean, accessible studio — dark/light mode, live text analytics, voice controls,
-history, dashboard, and a pluggable multi-provider engine.
+A polished, mobile-first practice app for the official **Life in the UK
+Test** (the UK citizenship / settlement exam), built with Next.js 16,
+React 19, TypeScript and Tailwind CSS v4.
 
-> **Runs with zero configuration.** Out of the box, Vocalis uses your browser's
-> built-in **Web Speech API** — no API keys, no database, no accounts required.
-> Cloud providers (OpenAI, ElevenLabs) and the full SaaS data layer activate
-> when you add their credentials.
+> **Unofficial study aid.** Not affiliated with the Home Office. Study the
+> official handbook *Life in the United Kingdom: A Guide for New Residents*
+> and book the real test on GOV.UK.
 
 ---
 
-## Features
+## What's inside
 
-- **Studio** — large editor with live character / word / sentence / paragraph
-  counts, estimated duration, autosave, undo/redo, copy / paste / clear.
-- **Voice engine (adapter pattern)** — switch between the browser engine and
-  cloud providers. Search voices, filter by language, favorite, and preview.
-- **Playback & export** — play / pause / resume / stop with progress for browser
-  voices; a full audio player (waveform seek, speed, loop, volume, share,
-  download) for cloud audio in MP3 / WAV / OGG / AAC.
-- **History** — every generation is saved (locally by default): search, sort,
-  filter, favorite, rename, delete, and re-load into the studio.
-- **Dashboard** — totals, characters used, quota, an activity chart, and recent
-  activity.
-- **Settings** — theme, provider status, data export and deletion.
-- **Production concerns** — SEO metadata + Open Graph + JSON-LD, sitemap /
-  robots / manifest, WCAG-minded accessibility (skip link, focus rings, ARIA,
-  reduced-motion), keyboard shortcuts, security headers & CSP, request
-  validation and rate limiting, error / 404 / loading / empty states.
+- **150 original practice questions** across all five official handbook
+  chapters, every one with an explanation
+  (`src/data/questions.json` — reusable in any other app):
 
-### Keyboard shortcuts
+  | Chapter | Questions |
+  | --- | --- |
+  | Values and Principles of the UK | 10 |
+  | What is the UK? | 6 |
+  | A Long and Illustrious History | 60 |
+  | A Modern, Thriving Society | 37 |
+  | The UK Government, the Law and Your Role | 37 |
 
-| Shortcut | Action |
-| --- | --- |
-| `Ctrl/⌘ + Enter` | Generate speech |
-| `Ctrl/⌘ + Z` / `Ctrl/⌘ + Shift + Z` | Undo / redo text |
-| `Space` | Play / pause (browser voice) |
-| `Esc` | Stop playback |
+- **Mock test** in the real exam format: 24 questions stratified across
+  chapters, a 45-minute countdown that auto-submits at zero, flagging, a
+  review grid, early submit with confirmation, and a pass mark of 75%
+  (18 of 24) — with a full answer review and explanations at the end.
+- **Practice by chapter** with instant feedback: pick 10 / 25 / all
+  questions, check each answer, read the explanation, keep going.
+- **Mistakes list**: every question you get wrong anywhere stays on the list
+  until you answer it correctly. Drill exactly those questions.
+- **Progress**: mock history with Pass/Fail badges, best/average scores and
+  per-chapter accuracy bars. Everything is stored privately in
+  `localStorage` — no accounts, no backend.
+- **Question types** mirror the real test: single answer, true/false and
+  “select TWO answers” (scored as an exact match, like the real thing).
+- **Production concerns**: PWA manifest + generated app icons (installable
+  on an iPhone home screen), SEO metadata + JSON-LD, sitemap/robots, dark
+  mode, reduced-motion support, WCAG-minded semantics and focus management,
+  strict security headers/CSP.
 
----
-
-## Tech stack
-
-| Layer | Choice |
-| --- | --- |
-| Framework | Next.js 16 (App Router) + React 19 |
-| Language | TypeScript (strict, no `any`) |
-| Styling | Tailwind CSS v4, shadcn-style primitives |
-| Animation | Framer Motion |
-| Icons | Lucide |
-| Validation | Zod |
-| Notifications | Sonner |
-| Testing | Vitest (unit) + Playwright (E2E) |
-| Database (optional) | Prisma + PostgreSQL |
+Also in the repo: [`REPLIT_MASTER_PROMPT.md`](REPLIT_MASTER_PROMPT.md) — a
+ready-to-paste master prompt (plus the question bank) for rebuilding this
+app on Replit, including an Expo/React Native variant for a native iOS build.
 
 ---
 
@@ -62,53 +52,20 @@ history, dashboard, and a pluggable multi-provider engine.
 
 ```bash
 npm install
-cp .env.example .env.local   # optional — app runs without it
-npm run dev                  # http://localhost:3000
+npm run dev     # http://localhost:3000
 ```
-
-That's it. Open the studio and start generating speech with your browser's
-voices.
 
 ### Scripts
 
 ```bash
 npm run dev            # dev server
 npm run build          # production build
-npm run start          # start production server
+npm run start          # serve the production build
 npm run lint           # ESLint
 npm run typecheck      # tsc --noEmit
 npm test               # unit tests (Vitest)
-npm run test:coverage  # unit tests + coverage
 npm run test:e2e       # end-to-end tests (Playwright)
 ```
-
----
-
-## Adding cloud TTS providers
-
-Cloud providers are enabled purely by setting a server-side environment
-variable. Keys are never sent to the browser — synthesis happens in the
-`/api/tts` route handler.
-
-```bash
-# .env.local
-OPENAI_API_KEY="sk-..."          # enables OpenAI TTS
-ELEVENLABS_API_KEY="..."         # enables ElevenLabs
-```
-
-Restart the dev server, pick the provider in the studio's **Voice & settings**
-panel, and generated audio becomes downloadable.
-
-### Adding a new provider
-
-The engine follows the open/closed principle. To add Google, Azure or Polly:
-
-1. Implement the `ServerTTSProvider` interface in
-   `src/lib/tts/providers/<name>.ts`.
-2. Register it in `src/lib/tts/registry.ts`.
-3. Add its metadata to `src/config/providers.ts`.
-
-No other code changes are required — the UI, API and history adapt automatically.
 
 ---
 
@@ -116,97 +73,53 @@ No other code changes are required — the UI, API and history adapt automatical
 
 ```
 src/
-├─ app/                     # App Router: pages, API routes, SEO route files
-│  ├─ api/tts/route.ts      # POST — synthesize (validated, rate-limited)
-│  ├─ api/voices/route.ts   # GET  — list provider voices
-│  ├─ dashboard | history | settings
-│  ├─ sitemap.ts | robots.ts | manifest.ts
-│  └─ layout.tsx | page.tsx | error.tsx | not-found.tsx | loading.tsx
-├─ components/
-│  ├─ ui/                   # reusable primitives (button, card, slider, …)
-│  ├─ layout/               # header, footer, theme toggle, page shell
-│  ├─ studio/               # editor, voice panel, audio player, studio shell
-│  ├─ dashboard/ history/ settings/ seo/
-│  └─ providers.tsx         # theme + history + toaster context
-├─ hooks/                   # speech synthesis, undo, local storage, shortcuts…
+├─ data/questions.json        # the 150-question bank (single source of truth)
 ├─ lib/
-│  ├─ tts/                  # provider contracts, adapters, registry
-│  ├─ env.ts                # zod-validated environment
-│  ├─ rate-limit.ts | text-stats.ts | utils.ts
-├─ config/                  # site + provider configuration
-└─ types/                   # shared domain types
-prisma/                     # full SaaS schema + seed (optional)
-e2e/                        # Playwright specs
+│  ├─ questions.ts            # zod-validated bank loading + chapter helpers
+│  ├─ quiz.ts                 # pure engine: stratified sampling, shuffling,
+│  │                          #   exact-match scoring, pass rules, clock
+│  ├─ progress.ts             # attempt/stat aggregation (pure)
+│  └─ utils.ts                # cn, relative time, id generation
+├─ hooks/
+│  ├─ use-local-storage.ts    # SSR-safe persisted state
+│  └─ use-progress.tsx        # attempts, per-question stats, mistakes list
+├─ components/
+│  ├─ quiz/                   # runner, results, screens, cards, score ring
+│  ├─ layout/ ui/ seo/        # shell + primitives
+│  └─ providers.tsx           # theme + progress + toaster
+└─ app/
+   ├─ (site)/                 # header/footer pages: home, practice, mistakes, progress
+   ├─ (session)/              # distraction-free: mock-test, practice/[chapter],
+   │                          #   mistakes/review
+   └─ icon.tsx apple-icon.tsx manifest.ts sitemap.ts robots.ts
 ```
 
-### Data persistence
+Design decisions worth knowing:
 
-The running app stores history and preferences in the browser
-(`localStorage`) so it works instantly and privately. For a multi-user SaaS
-deployment, a complete PostgreSQL schema is provided in
-[`prisma/schema.prisma`](prisma/schema.prisma) covering users, accounts,
-sessions, generations, audio files, API keys, favorites, settings, usage logs,
-analytics, notifications, subscriptions and invoices.
+- **The bank is data, the engine is pure.** `questions.json` is validated
+  with zod at import; the quiz engine takes an injectable RNG so sampling
+  and shuffling are deterministic under test.
+- **Exam accuracy.** Mock tests allocate questions per chapter with
+  largest-remainder rounding (always exactly 24, every chapter represented),
+  unanswered questions score as wrong, and the timer is computed from a
+  deadline timestamp so it stays honest if the tab sleeps.
+- **Route groups** give quiz sessions a chrome-free, full-screen layout
+  while normal pages keep the site header and footer.
 
-To enable the database layer:
+## Testing
 
-```bash
-npm install prisma @prisma/client
-npm install -D tsx
-npx prisma migrate dev --name init
-npx tsx prisma/seed.ts
-```
+- **Unit (Vitest):** bank integrity (exactly 150 questions, unique ids,
+  valid answer indices, explanations everywhere, types consistent), engine
+  behaviour (stratification, exact-set scoring, 18/24 pass boundary,
+  selection rules), and progress aggregation.
+- **E2E (Playwright):** home render, full practice flow (gated check button,
+  feedback, quit-and-save), mock test flow (timer, review grid, early submit
+  confirmation, marked results) and the progress empty state.
 
-Then swap the `HistoryProvider` (localStorage) for Prisma-backed API routes.
+## Deployment
 
----
-
-## Environment variables
-
-See [`.env.example`](.env.example) for the full list. All server variables are
-**optional** and validated at boot in `src/lib/env.ts`. Groups:
-
-- **App** — `NEXT_PUBLIC_APP_URL`
-- **TTS** — `OPENAI_API_KEY`, `ELEVENLABS_API_KEY` (+ model overrides)
-- **Database** — `DATABASE_URL`
-- **Auth** — `AUTH_SECRET`, OAuth client IDs/secrets
-- **Storage** — Cloudinary / AWS S3
-- **Billing** — Stripe keys
-
----
-
-## Security
-
-- Strict security headers + Content-Security-Policy (`next.config.ts`)
-- Zod validation on every API request body and query
-- Fixed-window rate limiting on the synthesis endpoint
-- Secrets kept server-side; `poweredByHeader` disabled
-- Filesystem-safe filename slugging for downloads
-
----
-
-## Deployment (Vercel)
-
-1. Push this repository to GitHub.
-2. Import it into [Vercel](https://vercel.com/new).
-3. (Optional) add the environment variables you need from `.env.example`.
-4. Deploy — no extra configuration required.
-
-The default build produces a fully static studio plus two serverless route
-handlers, so it deploys cleanly on Vercel's free tier.
-
----
-
-## Scope note
-
-This project ships a **complete, working core** (studio, browser + cloud TTS,
-history, dashboard, settings, SEO, security, tests) that runs from the first
-`npm run dev`. The broader SaaS surface described in the product brief —
-authentication, Stripe billing, the admin console and multi-tenant persistence —
-is represented by the production-grade Prisma schema and environment scaffolding
-so it can be wired up incrementally without re-architecting.
-
----
+Fully static output — deploys to Vercel (or any Node host) with zero
+configuration: import the repo and deploy.
 
 ## License
 

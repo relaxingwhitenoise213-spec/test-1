@@ -1,12 +1,19 @@
 import type { MetadataRoute } from "next";
 import { siteConfig } from "@/config/site";
+import { CHAPTER_IDS } from "@/lib/questions";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
-  return siteConfig.nav.map((item) => ({
-    url: `${siteConfig.url}${item.href === "/" ? "" : item.href}`,
+  const pages = [
+    "",
+    "/practice",
+    "/mock-test",
+    ...CHAPTER_IDS.map((chapter) => `/practice/${chapter}`),
+  ];
+  return pages.map((path) => ({
+    url: `${siteConfig.url}${path}`,
     lastModified: now,
-    changeFrequency: "weekly",
-    priority: item.href === "/" ? 1 : 0.7,
+    changeFrequency: "monthly",
+    priority: path === "" ? 1 : path === "/mock-test" ? 0.9 : 0.7,
   }));
 }

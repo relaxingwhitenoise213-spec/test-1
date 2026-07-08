@@ -8,18 +8,19 @@ export function StructuredData() {
     name: siteConfig.name,
     description: siteConfig.description,
     url: siteConfig.url,
-    applicationCategory: "MultimediaApplication",
+    applicationCategory: "EducationalApplication",
     operatingSystem: "Any",
+    inLanguage: "en-GB",
     offers: {
       "@type": "Offer",
       price: "0",
-      priceCurrency: "USD",
+      priceCurrency: "GBP",
     },
     featureList: [
-      "Text to speech",
-      "Multiple voices and languages",
-      "Adjustable rate, pitch and volume",
-      "Downloadable audio (with API providers)",
+      "150 Life in the UK practice questions with explanations",
+      "Timed mock tests in the official format (24 questions, 45 minutes)",
+      "Practice by handbook chapter with instant feedback",
+      "Automatic mistakes list and progress tracking",
     ],
   };
 

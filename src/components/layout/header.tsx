@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { AudioLines, Menu, X } from "lucide-react";
+import { Landmark, Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
@@ -22,9 +22,14 @@ export function Header() {
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
         <Link href="/" className="flex items-center gap-2 font-semibold">
           <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary text-primary-foreground shadow-sm">
-            <AudioLines className="h-5 w-5" />
+            <Landmark className="h-5 w-5" />
           </span>
-          <span className="text-lg tracking-tight">{siteConfig.name}</span>
+          <span className="text-lg tracking-tight max-[400px]:hidden">
+            {siteConfig.name}
+          </span>
+          <span className="text-lg tracking-tight min-[401px]:hidden">
+            {siteConfig.shortName}
+          </span>
         </Link>
 
         <nav className="hidden items-center gap-1 md:flex" aria-label="Primary">

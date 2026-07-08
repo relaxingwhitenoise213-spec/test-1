@@ -26,10 +26,9 @@ const securityHeaders = [
       "script-src 'self' 'unsafe-inline' 'unsafe-eval'",
       "style-src 'self' 'unsafe-inline'",
       "img-src 'self' data: blob:",
-      "media-src 'self' blob:",
       "font-src 'self'",
-      // Allow calls to our own API and configured TTS providers.
-      "connect-src 'self' https://api.openai.com https://api.elevenlabs.io",
+      // Fully client-side app: no external calls needed.
+      "connect-src 'self'",
       "frame-ancestors 'self'",
       "base-uri 'self'",
       "form-action 'self'",

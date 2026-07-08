@@ -6,7 +6,8 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: "*",
       allow: "/",
-      disallow: ["/api/", "/settings"],
+      // Personal, per-browser pages with no indexable content.
+      disallow: ["/mistakes", "/progress"],
     },
     sitemap: `${siteConfig.url}/sitemap.xml`,
   };

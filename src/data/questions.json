@@ -1,0 +1,2412 @@
+{
+  "meta": {
+    "name": "Life in the UK Test question bank",
+    "version": "1.0.0",
+    "source": "Original practice questions written for study alongside the official handbook, Life in the United Kingdom: A Guide for New Residents (3rd edition).",
+    "testFormat": {
+      "questions": 24,
+      "minutes": 45,
+      "passMark": 0.75
+    },
+    "chapters": [
+      {
+        "id": "values",
+        "title": "Values and Principles of the UK"
+      },
+      {
+        "id": "uk",
+        "title": "What is the UK?"
+      },
+      {
+        "id": "history",
+        "title": "A Long and Illustrious History"
+      },
+      {
+        "id": "society",
+        "title": "A Modern, Thriving Society"
+      },
+      {
+        "id": "government",
+        "title": "The UK Government, the Law and Your Role"
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "val-01",
+      "chapter": "values",
+      "type": "single",
+      "question": "Which of the following is one of the fundamental principles of British life?",
+      "options": [
+        "Compulsory voting in elections",
+        "The rule of law",
+        "Having a written constitution",
+        "Membership of a political party"
+      ],
+      "answers": [
+        1
+      ],
+      "explanation": "The fundamental principles of British life include democracy, the rule of law, individual liberty, and tolerance of those with different faiths and beliefs."
+    },
+    {
+      "id": "val-02",
+      "chapter": "values",
+      "type": "multi",
+      "question": "Which TWO are fundamental principles of British life?",
+      "options": [
+        "Democracy",
+        "Compulsory military service",
+        "Individual liberty",
+        "A state-controlled press"
+      ],
+      "answers": [
+        0,
+        2
+      ],
+      "explanation": "British society is founded on fundamental values and principles including democracy, the rule of law, individual liberty, and tolerance of those with different faiths and beliefs."
+    },
+    {
+      "id": "val-03",
+      "chapter": "values",
+      "type": "single",
+      "question": "As part of the citizenship ceremony, new citizens pledge to do which of the following?",
+      "options": [
+        "Uphold the UK's democratic values",
+        "Buy a home in the UK",
+        "Join a political party",
+        "Learn a second language"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "In the citizenship pledge, new citizens promise to respect the rights and freedoms of the UK, uphold its democratic values, observe its laws faithfully and fulfil their duties and obligations as a British citizen."
+    },
+    {
+      "id": "val-04",
+      "chapter": "values",
+      "type": "truefalse",
+      "question": "If you wish to become a permanent resident or citizen of the UK, you will need to be able to speak and read English.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "Applicants need to speak and read English and have a good understanding of life in the UK, which is why the Life in the UK test exists."
+    },
+    {
+      "id": "val-05",
+      "chapter": "values",
+      "type": "single",
+      "question": "Which of the following is a responsibility that comes with living in the UK?",
+      "options": [
+        "To own a car",
+        "To work for the government",
+        "To look after yourself and your family",
+        "To join the armed forces"
+      ],
+      "answers": [
+        2
+      ],
+      "explanation": "The responsibilities of living in the UK include obeying and respecting the law, being aware of the rights of others, treating others with fairness, looking after yourself and your family, and looking after the area in which you live and the environment."
+    },
+    {
+      "id": "val-06",
+      "chapter": "values",
+      "type": "multi",
+      "question": "Which TWO responsibilities should people living in the UK respect?",
+      "options": [
+        "To obey and respect the law",
+        "To follow a particular religion",
+        "To vote in every election",
+        "To treat others with fairness"
+      ],
+      "answers": [
+        0,
+        3
+      ],
+      "explanation": "Those living in the UK should obey and respect the law, be aware of the rights of others, treat others with fairness, look after themselves and their family, and look after the area in which they live and the environment."
+    },
+    {
+      "id": "val-07",
+      "chapter": "values",
+      "type": "single",
+      "question": "Which of the following freedoms does the UK offer to citizens and permanent residents?",
+      "options": [
+        "A guaranteed job for everyone",
+        "Freedom of speech",
+        "Free housing for everyone",
+        "Freedom to ignore laws you disagree with"
+      ],
+      "answers": [
+        1
+      ],
+      "explanation": "The UK offers freedom of belief and religion, freedom of speech, freedom from unfair discrimination, a right to a fair trial and a right to join in the election of a government."
+    },
+    {
+      "id": "val-08",
+      "chapter": "values",
+      "type": "truefalse",
+      "question": "In the UK, everyone has the right to a fair trial.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "A right to a fair trial is one of the freedoms the UK offers to citizens and permanent residents, alongside freedom of belief, speech and freedom from unfair discrimination."
+    },
+    {
+      "id": "val-09",
+      "chapter": "values",
+      "type": "single",
+      "question": "What do you need to pass to show you have a good understanding of life in the UK when applying for permanent residence or citizenship?",
+      "options": [
+        "A driving theory test",
+        "A university entrance exam",
+        "A medical examination",
+        "The Life in the UK test"
+      ],
+      "answers": [
+        3
+      ],
+      "explanation": "Applicants for permanent residence or citizenship must pass the Life in the UK test, which is based on the official handbook 'Life in the United Kingdom: A Guide for New Residents'."
+    },
+    {
+      "id": "val-10",
+      "chapter": "values",
+      "type": "single",
+      "question": "Which of these statements is correct?",
+      "options": [
+        "The UK offers residents freedom of belief and religion",
+        "Everyone in the UK must follow the same religion"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "Freedom of belief and religion is one of the freedoms the UK offers to those living in the UK. People are free to choose and practise any religion, or none."
+    },
+    {
+      "id": "uk-01",
+      "chapter": "uk",
+      "type": "single",
+      "question": "What is the official name of the country usually called 'the UK' or 'Britain'?",
+      "options": [
+        "The United Kingdom of England and Wales",
+        "The United Kingdom of Great Britain and Northern Ireland",
+        "Great Britain and Ireland",
+        "The British Isles"
+      ],
+      "answers": [
+        1
+      ],
+      "explanation": "The official name of the country is the United Kingdom of Great Britain and Northern Ireland. It is made up of England, Scotland, Wales and Northern Ireland."
+    },
+    {
+      "id": "uk-02",
+      "chapter": "uk",
+      "type": "multi",
+      "question": "Which TWO of the following are part of the UK?",
+      "options": [
+        "The Republic of Ireland",
+        "Wales",
+        "The Channel Islands",
+        "Northern Ireland"
+      ],
+      "answers": [
+        1,
+        3
+      ],
+      "explanation": "The UK is made up of England, Scotland, Wales and Northern Ireland. The Republic of Ireland is a separate country, and the Channel Islands are Crown dependencies, not part of the UK."
+    },
+    {
+      "id": "uk-03",
+      "chapter": "uk",
+      "type": "single",
+      "question": "'Great Britain' refers to which of the following?",
+      "options": [
+        "England only",
+        "England, Scotland, Wales and Northern Ireland",
+        "England, Scotland and Wales",
+        "England and Wales only"
+      ],
+      "answers": [
+        2
+      ],
+      "explanation": "'Great Britain' refers only to England, Scotland and Wales. When Northern Ireland is included, the correct name is the United Kingdom."
+    },
+    {
+      "id": "uk-04",
+      "chapter": "uk",
+      "type": "truefalse",
+      "question": "The Channel Islands and the Isle of Man are part of the United Kingdom.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answers": [
+        1
+      ],
+      "explanation": "The Channel Islands and the Isle of Man are Crown dependencies. They are closely linked with the UK but are not part of it, and they have their own governments."
+    },
+    {
+      "id": "uk-05",
+      "chapter": "uk",
+      "type": "single",
+      "question": "What are Jersey, Guernsey and the Isle of Man known as?",
+      "options": [
+        "Crown dependencies",
+        "British overseas territories",
+        "Counties of the UK",
+        "Devolved administrations"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "The Channel Islands (including Jersey and Guernsey) and the Isle of Man are Crown dependencies: closely linked with the UK, but not part of it."
+    },
+    {
+      "id": "uk-06",
+      "chapter": "uk",
+      "type": "single",
+      "question": "Which of the following is a British overseas territory?",
+      "options": [
+        "The Republic of Ireland",
+        "The Isle of Man",
+        "The Falkland Islands",
+        "Jersey"
+      ],
+      "answers": [
+        2
+      ],
+      "explanation": "There are several British overseas territories, such as the Falkland Islands and St Helena. They are linked to the UK but are not part of it."
+    },
+    {
+      "id": "hist-01",
+      "chapter": "history",
+      "type": "single",
+      "question": "In which country of the UK is the prehistoric monument Stonehenge located?",
+      "options": [
+        "Scotland",
+        "England",
+        "Wales",
+        "Northern Ireland"
+      ],
+      "answers": [
+        1
+      ],
+      "explanation": "Stonehenge is a Stone Age monument that still stands in the English county of Wiltshire. It was probably a special gathering place for seasonal ceremonies."
+    },
+    {
+      "id": "hist-02",
+      "chapter": "history",
+      "type": "single",
+      "question": "Skara Brae, the best-preserved prehistoric village in northern Europe, is located on which islands?",
+      "options": [
+        "Orkney",
+        "Shetland",
+        "Anglesey",
+        "The Hebrides"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "Skara Brae is a Stone Age village on Orkney, off the north coast of Scotland. It has helped archaeologists understand how people lived at that time."
+    },
+    {
+      "id": "hist-03",
+      "chapter": "history",
+      "type": "single",
+      "question": "Around 4,000 years ago people in Britain learned to make bronze. What is this period called?",
+      "options": [
+        "The Iron Age",
+        "The Stone Age",
+        "The Bronze Age",
+        "The Middle Ages"
+      ],
+      "answers": [
+        2
+      ],
+      "explanation": "The Bronze Age began around 4,000 years ago. People lived in roundhouses, buried their dead in tombs called round barrows, and made objects from bronze and gold."
+    },
+    {
+      "id": "hist-04",
+      "chapter": "history",
+      "type": "single",
+      "question": "Who led the first Roman invasion attempt on Britain in 55 BC?",
+      "options": [
+        "Emperor Claudius",
+        "Emperor Hadrian",
+        "Boudicca",
+        "Julius Caesar"
+      ],
+      "answers": [
+        3
+      ],
+      "explanation": "Julius Caesar led a Roman invasion of Britain in 55 BC, but it was unsuccessful. Britain was not conquered until almost a century later, in AD 43."
+    },
+    {
+      "id": "hist-05",
+      "chapter": "history",
+      "type": "truefalse",
+      "question": "The Romans conquered Britain under Emperor Claudius in AD 43.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "In AD 43 the Emperor Claudius led the Roman army in a new invasion, and this time Britain was conquered. The Romans remained for about 400 years."
+    },
+    {
+      "id": "hist-06",
+      "chapter": "history",
+      "type": "single",
+      "question": "Who was Boudicca?",
+      "options": [
+        "A queen of the Iceni tribe who fought against the Romans",
+        "The first queen of Scotland",
+        "A Norman princess",
+        "An Anglo-Saxon poet"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "Boudicca was the queen of the Iceni, a tribe in what is now eastern England, and one of the tribal leaders who fought against the Romans. There is a statue of her on Westminster Bridge in London."
+    },
+    {
+      "id": "hist-07",
+      "chapter": "history",
+      "type": "single",
+      "question": "Why was Hadrian's Wall built?",
+      "options": [
+        "To keep out the Vikings",
+        "To keep out the Picts, ancestors of the Scottish people",
+        "To mark the border with Wales",
+        "To defend against the Normans"
+      ],
+      "answers": [
+        1
+      ],
+      "explanation": "Hadrian's Wall was built on the orders of the Roman Emperor Hadrian to keep out the Picts. Its forts include Housesteads and Vindolanda, and it is a UNESCO World Heritage Site."
+    },
+    {
+      "id": "hist-08",
+      "chapter": "history",
+      "type": "single",
+      "question": "In which year did the Roman army leave Britain?",
+      "options": [
+        "AD 43",
+        "AD 410",
+        "AD 789",
+        "1066"
+      ],
+      "answers": [
+        1
+      ],
+      "explanation": "The Roman army left Britain in AD 410 to defend other parts of the Roman Empire, and never returned."
+    },
+    {
+      "id": "hist-09",
+      "chapter": "history",
+      "type": "multi",
+      "question": "Which TWO tribes settled in Britain after the Romans left?",
+      "options": [
+        "The Angles",
+        "The Normans",
+        "The Saxons",
+        "The Huguenots"
+      ],
+      "answers": [
+        0,
+        2
+      ],
+      "explanation": "After the Romans left, tribes from northern Europe — the Jutes, the Angles and the Saxons — settled in Britain. The languages they spoke are the basis of modern-day English."
+    },
+    {
+      "id": "hist-10",
+      "chapter": "history",
+      "type": "single",
+      "question": "Sutton Hoo in Suffolk is famous as which of the following?",
+      "options": [
+        "A Roman fort",
+        "A Viking settlement",
+        "The burial place of an Anglo-Saxon king",
+        "A Norman castle"
+      ],
+      "answers": [
+        2
+      ],
+      "explanation": "King burials at Sutton Hoo show the Anglo-Saxon way of life: one king was buried there with his treasure and armour, all placed in a ship which was then covered by a mound of earth."
+    },
+    {
+      "id": "hist-11",
+      "chapter": "history",
+      "type": "single",
+      "question": "Who became the first Archbishop of Canterbury?",
+      "options": [
+        "St Columba",
+        "St Patrick",
+        "St David",
+        "St Augustine"
+      ],
+      "answers": [
+        3
+      ],
+      "explanation": "Missionaries from Rome, led by St Augustine, spread Christianity in the south of England, and St Augustine became the first Archbishop of Canterbury."
+    },
+    {
+      "id": "hist-12",
+      "chapter": "history",
+      "type": "multi",
+      "question": "The Vikings came from which TWO countries?",
+      "options": [
+        "Denmark",
+        "France",
+        "Norway",
+        "Spain"
+      ],
+      "answers": [
+        0,
+        2
+      ],
+      "explanation": "The Vikings came from Denmark and Norway. They first visited Britain in AD 789 to raid coastal towns, and later some settled in the east and north of England."
+    },
+    {
+      "id": "hist-13",
+      "chapter": "history",
+      "type": "single",
+      "question": "Which Anglo-Saxon king defeated the Vikings (the Danes)?",
+      "options": [
+        "King Harold",
+        "Alfred the Great",
+        "Kenneth MacAlpin",
+        "William the Conqueror"
+      ],
+      "answers": [
+        1
+      ],
+      "explanation": "The Anglo-Saxon kingdoms in England united under King Alfred the Great, who defeated the Vikings."
+    },
+    {
+      "id": "hist-14",
+      "chapter": "history",
+      "type": "single",
+      "question": "What was the 'Danelaw'?",
+      "options": [
+        "An area of England ruled under Viking (Danish) laws",
+        "A tax paid to the king",
+        "A book of Anglo-Saxon laws",
+        "A wall built to keep out the Danes"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "The area of the east and north of England ruled by the Danes was known as the Danelaw. Many place names there, such as Grimsby and Scunthorpe, come from the Viking languages."
+    },
+    {
+      "id": "hist-15",
+      "chapter": "history",
+      "type": "single",
+      "question": "The kingdoms in what is now Scotland were first united under which king?",
+      "options": [
+        "Robert the Bruce",
+        "James VI",
+        "Kenneth MacAlpin",
+        "Alfred the Great"
+      ],
+      "answers": [
+        2
+      ],
+      "explanation": "In the north, the threat of attack by Vikings encouraged the peoples there to unite under King Kenneth MacAlpin. The term Scotland began to be used to describe that country."
+    },
+    {
+      "id": "hist-16",
+      "chapter": "history",
+      "type": "single",
+      "question": "What happened at the Battle of Hastings in 1066?",
+      "options": [
+        "The Romans invaded Britain",
+        "William, Duke of Normandy, defeated King Harold of England",
+        "The English defeated the Spanish Armada",
+        "Robert the Bruce defeated the English"
+      ],
+      "answers": [
+        1
+      ],
+      "explanation": "In 1066 William, the Duke of Normandy, defeated Harold, the Saxon king of England, at the Battle of Hastings. Harold was killed, and William became known as William the Conqueror. It was the last successful foreign invasion of England."
+    },
+    {
+      "id": "hist-17",
+      "chapter": "history",
+      "type": "single",
+      "question": "Which famous embroidered work commemorates the Battle of Hastings?",
+      "options": [
+        "The Domesday Book",
+        "Magna Carta",
+        "The Bayeux Tapestry",
+        "The Crown Jewels"
+      ],
+      "answers": [
+        2
+      ],
+      "explanation": "The Battle of Hastings is commemorated in a great piece of embroidery known as the Bayeux Tapestry, which can still be seen in France today."
+    },
+    {
+      "id": "hist-18",
+      "chapter": "history",
+      "type": "single",
+      "question": "Why did William the Conqueror have the Domesday Book compiled?",
+      "options": [
+        "To list all the laws of England",
+        "To record who owned the land and animals in England",
+        "To record church services",
+        "To plan the invasion of Scotland"
+      ],
+      "answers": [
+        1
+      ],
+      "explanation": "William sent people all over England to draw up lists of all the towns and villages — the people who lived there, who owned the land and what animals they owned. This was called the Domesday Book and still exists today."
+    },
+    {
+      "id": "hist-19",
+      "chapter": "history",
+      "type": "single",
+      "question": "By which statute did King Edward I of England annex Wales to the Crown of England?",
+      "options": [
+        "Magna Carta",
+        "The Act of Union",
+        "The Bill of Rights",
+        "The Statute of Rhuddlan"
+      ],
+      "answers": [
+        3
+      ],
+      "explanation": "In 1284 King Edward I of England introduced the Statute of Rhuddlan, which annexed Wales to the Crown of England. Huge castles, including Conwy and Caernarvon, were built to maintain English power."
+    },
+    {
+      "id": "hist-20",
+      "chapter": "history",
+      "type": "single",
+      "question": "Who defeated the English at the Battle of Bannockburn in 1314?",
+      "options": [
+        "Robert the Bruce",
+        "Kenneth MacAlpin",
+        "Bonnie Prince Charlie",
+        "William Wallace"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "In 1314 the Scottish, led by Robert the Bruce, defeated the English at the Battle of Bannockburn, and Scotland remained unconquered by the English."
+    },
+    {
+      "id": "hist-21",
+      "chapter": "history",
+      "type": "single",
+      "question": "What was the Black Death, which came to Britain in 1348?",
+      "options": [
+        "A famine",
+        "A civil war",
+        "A plague that killed about one third of the population",
+        "A great fire"
+      ],
+      "answers": [
+        2
+      ],
+      "explanation": "In 1348 a disease known as the Black Death came to Britain and killed about one third of the population of England, with similar losses in Scotland and Wales."
+    },
+    {
+      "id": "hist-22",
+      "chapter": "history",
+      "type": "single",
+      "question": "What important principle did Magna Carta, agreed by King John in 1215, establish?",
+      "options": [
+        "That England should become a republic",
+        "That the king was subject to the law",
+        "That everyone had the right to vote",
+        "That Wales was part of England"
+      ],
+      "answers": [
+        1
+      ],
+      "explanation": "Magna Carta established the idea that even the king was subject to the law. It protected the rights of the nobility and restricted the king's power to collect taxes or to make or change laws."
+    },
+    {
+      "id": "hist-23",
+      "chapter": "history",
+      "type": "single",
+      "question": "Which English king won the Battle of Agincourt in 1415?",
+      "options": [
+        "Henry VIII",
+        "Richard III",
+        "Charles I",
+        "Henry V"
+      ],
+      "answers": [
+        3
+      ],
+      "explanation": "During the Hundred Years War, at the Battle of Agincourt in 1415, King Henry V's vastly outnumbered English army defeated the French."
+    },
+    {
+      "id": "hist-24",
+      "chapter": "history",
+      "type": "single",
+      "question": "The Wars of the Roses were fought between which two houses?",
+      "options": [
+        "The House of Tudor and the House of Stuart",
+        "The House of Lancaster and the House of York",
+        "The House of Windsor and the House of Hanover",
+        "The House of Normandy and the House of Wessex"
+      ],
+      "answers": [
+        1
+      ],
+      "explanation": "In 1455 a civil war began between the House of Lancaster (symbol: a red rose) and the House of York (symbol: a white rose) to decide who should be king of England. It was called the Wars of the Roses."
+    },
+    {
+      "id": "hist-25",
+      "chapter": "history",
+      "type": "single",
+      "question": "Who became king after defeating Richard III at the Battle of Bosworth Field in 1485?",
+      "options": [
+        "Henry VII (Henry Tudor)",
+        "Henry V",
+        "Edward I",
+        "James I"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "The Wars of the Roses ended at the Battle of Bosworth Field in 1485, when King Richard III of the House of York was killed and Henry Tudor became King Henry VII. He married Elizabeth of York, and the red-and-white Tudor rose symbolised the union of the two houses."
+    },
+    {
+      "id": "hist-26",
+      "chapter": "history",
+      "type": "single",
+      "question": "Why did Henry VIII break away from the Church of Rome?",
+      "options": [
+        "He wanted to become Pope himself",
+        "He disagreed with Rome about taxes",
+        "The Pope refused to allow him to divorce his wife",
+        "He wanted church services to be held in Latin"
+      ],
+      "answers": [
+        2
+      ],
+      "explanation": "Henry VIII broke away from the Church of Rome when the Pope refused to allow his divorce from Catherine of Aragon. He established the Church of England, with the king, not the Pope, as its head."
+    },
+    {
+      "id": "hist-27",
+      "chapter": "history",
+      "type": "single",
+      "question": "How many wives did King Henry VIII have?",
+      "options": [
+        "Two",
+        "Four",
+        "Six",
+        "Eight"
+      ],
+      "answers": [
+        2
+      ],
+      "explanation": "Henry VIII married six times: Catherine of Aragon, Anne Boleyn, Jane Seymour, Anne of Cleves, Catherine Howard and Catherine Parr."
+    },
+    {
+      "id": "hist-28",
+      "chapter": "history",
+      "type": "single",
+      "question": "What happened to Anne Boleyn, the second wife of Henry VIII?",
+      "options": [
+        "She was executed at the Tower of London",
+        "She divorced Henry and moved to France",
+        "She became Queen of Scotland",
+        "She outlived Henry and remarried"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "Anne Boleyn was accused of taking lovers and was executed at the Tower of London. She was the mother of Queen Elizabeth I."
+    },
+    {
+      "id": "hist-29",
+      "chapter": "history",
+      "type": "single",
+      "question": "Which queen was on the throne when England defeated the Spanish Armada in 1588?",
+      "options": [
+        "Queen Victoria",
+        "Elizabeth I",
+        "Mary, Queen of Scots",
+        "Queen Anne"
+      ],
+      "answers": [
+        1
+      ],
+      "explanation": "In 1588 the English defeated the Spanish Armada, which had been sent by Spain to conquer England and restore Catholicism, during the reign of Elizabeth I — the daughter of Henry VIII and Anne Boleyn."
+    },
+    {
+      "id": "hist-30",
+      "chapter": "history",
+      "type": "single",
+      "question": "Where was William Shakespeare born?",
+      "options": [
+        "London",
+        "Stratford-upon-Avon",
+        "Oxford",
+        "Canterbury"
+      ],
+      "answers": [
+        1
+      ],
+      "explanation": "William Shakespeare (1564–1616) was born in Stratford-upon-Avon. He was a playwright, actor and poet whose lines include 'To be or not to be' from Hamlet."
+    },
+    {
+      "id": "hist-31",
+      "chapter": "history",
+      "type": "single",
+      "question": "What happened when Queen Elizabeth I died in 1603 without children?",
+      "options": [
+        "England became a republic",
+        "Parliament invited a French prince to rule",
+        "Her cousin James VI of Scotland became King James I of England",
+        "Wales became an independent kingdom"
+      ],
+      "answers": [
+        2
+      ],
+      "explanation": "Elizabeth I never married and had no children. Her heir was James VI of Scotland, who became King James I of England, Wales and Ireland — uniting the crowns of the two countries."
+    },
+    {
+      "id": "hist-32",
+      "chapter": "history",
+      "type": "single",
+      "question": "What was the Gunpowder Plot of 5 November 1605?",
+      "options": [
+        "A plot by a group of Catholics to kill the Protestant king by blowing up Parliament",
+        "A plan to burn down the Tower of London",
+        "A naval mutiny against the king",
+        "A Viking raid on London"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "A group of Catholics led by Robert Catesby plotted to kill the Protestant king, James I, with a bomb in the Houses of Parliament. Guy Fawkes was found guarding the explosives. Bonfire Night on 5 November remembers the plot's failure."
+    },
+    {
+      "id": "hist-33",
+      "chapter": "history",
+      "type": "multi",
+      "question": "During the English Civil War, which TWO names were given to the opposing sides?",
+      "options": [
+        "Cavaliers",
+        "Suffragettes",
+        "Roundheads",
+        "Luddites"
+      ],
+      "answers": [
+        0,
+        2
+      ],
+      "explanation": "In the Civil War that began in 1642, the king's supporters were known as Cavaliers and Parliament's supporters were known as Roundheads."
+    },
+    {
+      "id": "hist-34",
+      "chapter": "history",
+      "type": "single",
+      "question": "What happened to King Charles I in 1649?",
+      "options": [
+        "He escaped to America",
+        "He won the Civil War",
+        "He abdicated and retired to Scotland",
+        "He was executed"
+      ],
+      "answers": [
+        3
+      ],
+      "explanation": "Charles I was defeated in the Civil War and executed in 1649. England declared itself a republic, called the Commonwealth, and no longer had a king."
+    },
+    {
+      "id": "hist-35",
+      "chapter": "history",
+      "type": "single",
+      "question": "Who was given the title of Lord Protector after the Civil War?",
+      "options": [
+        "Oliver Cromwell",
+        "Charles II",
+        "William of Orange",
+        "Sir Robert Walpole"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "After the death of Charles I, Oliver Cromwell became leader of the new republic and was given the title of Lord Protector, ruling until his death in 1658."
+    },
+    {
+      "id": "hist-36",
+      "chapter": "history",
+      "type": "single",
+      "question": "In which year was the monarchy restored, with Charles II becoming king?",
+      "options": [
+        "1649",
+        "1660",
+        "1688",
+        "1707"
+      ],
+      "answers": [
+        1
+      ],
+      "explanation": "In May 1660 Parliament invited Charles II to come back from exile in the Netherlands, and he was crowned king. This is known as the Restoration."
+    },
+    {
+      "id": "hist-37",
+      "chapter": "history",
+      "type": "single",
+      "question": "Which disaster destroyed much of the city of London in 1666?",
+      "options": [
+        "The Great Fire of London",
+        "The Black Death",
+        "The Blitz",
+        "A great flood"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "In 1666 the Great Fire of London destroyed much of the city, including many churches and St Paul's Cathedral. The new St Paul's, designed by Sir Christopher Wren, was built after the fire."
+    },
+    {
+      "id": "hist-38",
+      "chapter": "history",
+      "type": "single",
+      "question": "Sir Isaac Newton is most famous for which achievement?",
+      "options": [
+        "Discovering penicillin",
+        "Inventing the television",
+        "Showing how gravity applied to the whole universe",
+        "Writing famous plays"
+      ],
+      "answers": [
+        2
+      ],
+      "explanation": "Isaac Newton's most famous work, Philosophiae Naturalis Principia Mathematica, showed how gravity applied to the whole universe. He also discovered that white light is made up of the colours of the rainbow."
+    },
+    {
+      "id": "hist-39",
+      "chapter": "history",
+      "type": "single",
+      "question": "Why were the events of 1688, when William of Orange took the throne, called the 'Glorious Revolution'?",
+      "options": [
+        "Because there was no fighting in England",
+        "Because it made England very wealthy",
+        "Because a glorious new palace was built",
+        "Because it ended the Hundred Years War"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "William of Orange was invited to take the throne from James II. It was called the Glorious Revolution because there was no fighting in England, and it guaranteed the power of Parliament, ending the threat of a monarch ruling alone."
+    },
+    {
+      "id": "hist-40",
+      "chapter": "history",
+      "type": "truefalse",
+      "question": "The Bill of Rights of 1689 confirmed the rights of Parliament and the limits of the king's power.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "The Bill of Rights, 1689, confirmed the rights of Parliament and the limits of the king's power. Parliament had to be elected regularly, and the monarch needed its agreement to raise taxes or keep an army."
+    },
+    {
+      "id": "hist-41",
+      "chapter": "history",
+      "type": "single",
+      "question": "The Act of Union of 1707 created which new state?",
+      "options": [
+        "The Kingdom of Great Britain",
+        "The United Kingdom of Great Britain and Ireland",
+        "The Commonwealth of England",
+        "The Kingdom of England and Ireland"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "In 1707 the Act of Union (known as the Treaty of Union in Scotland) united the Kingdom of England (which included Wales) and the Kingdom of Scotland, creating the Kingdom of Great Britain. Scotland kept its own legal and education systems and Presbyterian Church."
+    },
+    {
+      "id": "hist-42",
+      "chapter": "history",
+      "type": "single",
+      "question": "Who is generally considered to have been the first Prime Minister of Britain?",
+      "options": [
+        "Winston Churchill",
+        "The Duke of Wellington",
+        "Sir Robert Walpole",
+        "William Wilberforce"
+      ],
+      "answers": [
+        2
+      ],
+      "explanation": "When George I became king, he relied on his ministers because he did not speak good English. The most important minister became known as the Prime Minister — the first was Sir Robert Walpole, from 1721 to 1742."
+    },
+    {
+      "id": "hist-43",
+      "chapter": "history",
+      "type": "single",
+      "question": "Bonnie Prince Charlie was defeated at which battle in 1746?",
+      "options": [
+        "The Battle of Culloden",
+        "The Battle of the Boyne",
+        "The Battle of Hastings",
+        "The Battle of Trafalgar"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "Charles Edward Stuart ('Bonnie Prince Charlie'), grandson of James II, raised an army in Scotland but was defeated by George II's army at the Battle of Culloden in 1746, ending his attempt to take the throne."
+    },
+    {
+      "id": "hist-44",
+      "chapter": "history",
+      "type": "single",
+      "question": "Which Scottish poet, known as 'The Bard', wrote Auld Lang Syne?",
+      "options": [
+        "Dylan Thomas",
+        "Robert Burns",
+        "William Wordsworth",
+        "Sir Walter Scott"
+      ],
+      "answers": [
+        1
+      ],
+      "explanation": "Robert Burns (1759–1796), known in Scotland as 'The Bard', wrote Auld Lang Syne, which is sung at New Year (Hogmanay) in the UK and other countries."
+    },
+    {
+      "id": "hist-45",
+      "chapter": "history",
+      "type": "single",
+      "question": "James Watt played an important role in the Industrial Revolution through his work on what?",
+      "options": [
+        "The steam engine",
+        "The television",
+        "The jet engine",
+        "The telephone"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "The Industrial Revolution was the rapid development of industry in Britain in the 18th and 19th centuries — Britain was the first country to industrialise on a large scale. James Watt's improvements to the steam engine helped power the new factories."
+    },
+    {
+      "id": "hist-46",
+      "chapter": "history",
+      "type": "single",
+      "question": "What did Sake Dean Mahomet open in London in 1810?",
+      "options": [
+        "The first curry house in Britain",
+        "The first bank in Britain",
+        "The first theatre in Britain",
+        "The first railway station in Britain"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "Sake Dean Mahomet opened the Hindoostane Coffee House in George Street, London — the first curry house in Britain. He and his wife also introduced 'shampooing', the Indian art of head massage, to Britain."
+    },
+    {
+      "id": "hist-47",
+      "chapter": "history",
+      "type": "single",
+      "question": "Which British admiral died at the Battle of Trafalgar in 1805?",
+      "options": [
+        "Admiral Nelson",
+        "The Duke of Wellington",
+        "Sir Francis Drake",
+        "Captain Cook"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "In 1805 Admiral Nelson led the British fleet to victory over the combined French and Spanish fleets at the Battle of Trafalgar, where he was killed. Nelson's Column in Trafalgar Square, London, commemorates him, and his ship HMS Victory can be visited in Portsmouth."
+    },
+    {
+      "id": "hist-48",
+      "chapter": "history",
+      "type": "single",
+      "question": "Who defeated Napoleon at the Battle of Waterloo in 1815?",
+      "options": [
+        "The Duke of Wellington",
+        "Admiral Nelson",
+        "Oliver Cromwell",
+        "Henry V"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "The French emperor Napoleon was defeated at the Battle of Waterloo in 1815 by the Duke of Wellington, known as the Iron Duke, who later became Prime Minister."
+    },
+    {
+      "id": "hist-49",
+      "chapter": "history",
+      "type": "single",
+      "question": "William Wilberforce is remembered for his role in which campaign?",
+      "options": [
+        "The campaign for votes for women",
+        "The abolition of the slave trade",
+        "The campaign for free education",
+        "The repeal of income tax"
+      ],
+      "answers": [
+        1
+      ],
+      "explanation": "William Wilberforce was a leading abolitionist. The slave trade was abolished on British ships in 1807, and the Emancipation Act of 1833 abolished slavery throughout the British Empire. The Quakers set up the first formal anti-slavery groups."
+    },
+    {
+      "id": "hist-50",
+      "chapter": "history",
+      "type": "multi",
+      "question": "The Union Flag combines the crosses associated with which TWO of these saints?",
+      "options": [
+        "St George",
+        "St David",
+        "St Andrew",
+        "St Christopher"
+      ],
+      "answers": [
+        0,
+        2
+      ],
+      "explanation": "The Union Flag combines the crosses of St George (England), St Andrew (Scotland) and St Patrick (Ireland). Wales is not represented, because when the first Union Flag was created Wales was already united with England. The official Welsh flag shows a red dragon."
+    },
+    {
+      "id": "hist-51",
+      "chapter": "history",
+      "type": "single",
+      "question": "How old was Queen Victoria when she became queen in 1837?",
+      "options": [
+        "18",
+        "21",
+        "25",
+        "30"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "Victoria became queen in 1837 at the age of 18 and reigned until 1901 — almost 64 years. During the Victorian Age the British Empire became the largest empire the world has ever seen."
+    },
+    {
+      "id": "hist-52",
+      "chapter": "history",
+      "type": "single",
+      "question": "Florence Nightingale is famous for her work in which field?",
+      "options": [
+        "Nursing",
+        "Politics",
+        "Literature",
+        "Astronomy"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "Florence Nightingale treated soldiers during the Crimean War and is often regarded as the founder of modern nursing. In 1860 she established the Nightingale Training School for nurses at St Thomas' Hospital in London."
+    },
+    {
+      "id": "hist-53",
+      "chapter": "history",
+      "type": "single",
+      "question": "Emmeline Pankhurst is famous for leading the campaign for what?",
+      "options": [
+        "Women's right to vote",
+        "The abolition of slavery",
+        "Free school meals",
+        "Scottish independence"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "Emmeline Pankhurst helped found the women's suffrage movement — her group became known as the suffragettes. In 1918 women over 30 won the right to vote, and in 1928 women gained the vote at 21, the same age as men."
+    },
+    {
+      "id": "hist-54",
+      "chapter": "history",
+      "type": "single",
+      "question": "At what time and date did the First World War end?",
+      "options": [
+        "11.00 am on 11 November 1918",
+        "Midnight on 31 December 1918",
+        "9.00 am on 1 September 1919",
+        "3.00 pm on 8 May 1945"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "The First World War ended at 11.00 am on 11 November 1918 with victory for Britain and its allies. This is why Remembrance Day is marked on 11 November each year."
+    },
+    {
+      "id": "hist-55",
+      "chapter": "history",
+      "type": "single",
+      "question": "Who was the British Prime Minister for most of the Second World War?",
+      "options": [
+        "Winston Churchill",
+        "Clement Attlee",
+        "Neville Chamberlain",
+        "Margaret Thatcher"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "Winston Churchill became Prime Minister in 1940 and led Britain through most of the Second World War. His famous speeches include 'we shall fight on the beaches' and his tribute to the Battle of Britain pilots: 'never in the field of human conflict was so much owed by so many to so few'."
+    },
+    {
+      "id": "hist-56",
+      "chapter": "history",
+      "type": "multi",
+      "question": "Which TWO British aircraft were crucial in winning the Battle of Britain in 1940?",
+      "options": [
+        "The Spitfire",
+        "The Concorde",
+        "The Hurricane",
+        "The Lancaster"
+      ],
+      "answers": [
+        0,
+        2
+      ],
+      "explanation": "In the summer of 1940 the Royal Air Force won the crucial aerial Battle of Britain against Germany's air force, flying British-made fighter planes — the Spitfire and the Hurricane."
+    },
+    {
+      "id": "hist-57",
+      "chapter": "history",
+      "type": "single",
+      "question": "What did Sir Alexander Fleming discover in 1928?",
+      "options": [
+        "Penicillin",
+        "The structure of DNA",
+        "The electron",
+        "Insulin"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "Alexander Fleming, born in Scotland, discovered penicillin — the first antibiotic — in 1928. He won the Nobel Prize in Medicine in 1945."
+    },
+    {
+      "id": "hist-58",
+      "chapter": "history",
+      "type": "single",
+      "question": "In which year was the National Health Service (NHS) established?",
+      "options": [
+        "1928",
+        "1948",
+        "1958",
+        "1968"
+      ],
+      "answers": [
+        1
+      ],
+      "explanation": "The NHS was established in 1948 under the Labour government of Clement Attlee, giving everyone free healthcare. The Minister for Health who led its creation was Aneurin (Nye) Bevan."
+    },
+    {
+      "id": "hist-59",
+      "chapter": "history",
+      "type": "single",
+      "question": "Who was the first woman to become Prime Minister of the UK?",
+      "options": [
+        "Margaret Thatcher",
+        "Theresa May",
+        "Emmeline Pankhurst",
+        "Queen Victoria"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "Margaret Thatcher became the UK's first woman Prime Minister in 1979 and remained in office until 1990 — the longest-serving Prime Minister of the 20th century."
+    },
+    {
+      "id": "hist-60",
+      "chapter": "history",
+      "type": "truefalse",
+      "question": "In a referendum held in 2016, the UK voted to leave the European Union.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "In a referendum on 23 June 2016 the UK voted to leave the European Union, and it formally left the EU on 31 January 2020. The UK had joined the European Economic Community (EEC) in 1973."
+    },
+    {
+      "id": "soc-01",
+      "chapter": "society",
+      "type": "single",
+      "question": "What is the capital city of Scotland?",
+      "options": [
+        "Glasgow",
+        "Edinburgh",
+        "Aberdeen",
+        "Dundee"
+      ],
+      "answers": [
+        1
+      ],
+      "explanation": "Edinburgh is the capital city of Scotland. London is the capital of the UK and of England, Cardiff of Wales, and Belfast of Northern Ireland."
+    },
+    {
+      "id": "soc-02",
+      "chapter": "society",
+      "type": "single",
+      "question": "What is the capital city of Wales?",
+      "options": [
+        "Swansea",
+        "Newport",
+        "Cardiff",
+        "Bangor"
+      ],
+      "answers": [
+        2
+      ],
+      "explanation": "Cardiff is the capital city of Wales. It is home to the Senedd, the Welsh Parliament."
+    },
+    {
+      "id": "soc-03",
+      "chapter": "society",
+      "type": "single",
+      "question": "What is the capital city of Northern Ireland?",
+      "options": [
+        "Belfast",
+        "Derry/Londonderry",
+        "Dublin",
+        "Armagh"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "Belfast is the capital city of Northern Ireland. Dublin is the capital of the Republic of Ireland, which is a separate country."
+    },
+    {
+      "id": "soc-04",
+      "chapter": "society",
+      "type": "single",
+      "question": "Who is the patron saint of Scotland?",
+      "options": [
+        "St George",
+        "St David",
+        "St Patrick",
+        "St Andrew"
+      ],
+      "answers": [
+        3
+      ],
+      "explanation": "St Andrew is the patron saint of Scotland, and St Andrew's Day is celebrated on 30 November."
+    },
+    {
+      "id": "soc-05",
+      "chapter": "society",
+      "type": "single",
+      "question": "St David is the patron saint of which country of the UK?",
+      "options": [
+        "Wales",
+        "England",
+        "Scotland",
+        "Northern Ireland"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "St David is the patron saint of Wales, celebrated on 1 March. St George (23 April) is England's patron saint and St Patrick (17 March) is Northern Ireland's."
+    },
+    {
+      "id": "soc-06",
+      "chapter": "society",
+      "type": "truefalse",
+      "question": "Only Scotland and Northern Ireland have their patron saint's day as an official holiday.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "Although each country of the UK has a saint's day, only in Scotland (St Andrew's Day) and Northern Ireland (St Patrick's Day) is the day an official holiday."
+    },
+    {
+      "id": "soc-07",
+      "chapter": "society",
+      "type": "single",
+      "question": "Which flower is traditionally associated with England?",
+      "options": [
+        "The thistle",
+        "The rose",
+        "The daffodil",
+        "The shamrock"
+      ],
+      "answers": [
+        1
+      ],
+      "explanation": "The rose is traditionally associated with England, the thistle with Scotland, the daffodil with Wales and the shamrock with Northern Ireland."
+    },
+    {
+      "id": "soc-08",
+      "chapter": "society",
+      "type": "single",
+      "question": "In Wales, which language is spoken by many people alongside English?",
+      "options": [
+        "Gaelic",
+        "Cornish",
+        "Welsh",
+        "Ulster Scots"
+      ],
+      "answers": [
+        2
+      ],
+      "explanation": "Wales is officially bilingual: many people speak Welsh, and it is taught in schools and used on road signs. Gaelic is spoken in parts of Scotland, and Ulster Scots in Northern Ireland."
+    },
+    {
+      "id": "soc-09",
+      "chapter": "society",
+      "type": "single",
+      "question": "What is the currency of the UK?",
+      "options": [
+        "The euro",
+        "The pound sterling",
+        "The dollar",
+        "The krona"
+      ],
+      "answers": [
+        1
+      ],
+      "explanation": "The currency in the UK is the pound sterling (£). Banknotes come in denominations of £5, £10, £20 and £50."
+    },
+    {
+      "id": "soc-10",
+      "chapter": "society",
+      "type": "truefalse",
+      "question": "Banks in Scotland and Northern Ireland issue their own banknotes, which are valid everywhere in the UK.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "Northern Ireland and Scotland have their own banknotes, which are valid everywhere in the UK — although shops and businesses do not have to accept them."
+    },
+    {
+      "id": "soc-11",
+      "chapter": "society",
+      "type": "single",
+      "question": "What is the Church of England called in other countries?",
+      "options": [
+        "The Anglican Church (in the US, the Episcopal Church)",
+        "The Presbyterian Church",
+        "The Methodist Church",
+        "The Catholic Church"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "The Church of England is called the Anglican Church in other countries and the Episcopal Church in Scotland and the United States. The monarch is its head, and the Archbishop of Canterbury is its spiritual leader."
+    },
+    {
+      "id": "soc-12",
+      "chapter": "society",
+      "type": "single",
+      "question": "What do many people traditionally eat on Shrove Tuesday, the day before Lent starts?",
+      "options": [
+        "Pancakes",
+        "Roast turkey",
+        "Mince pies",
+        "Hot cross buns"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "The 40 days before Easter are known as Lent. The day before Lent starts is called Shrove Tuesday, or Pancake Day, and people traditionally eat pancakes."
+    },
+    {
+      "id": "soc-13",
+      "chapter": "society",
+      "type": "multi",
+      "question": "Diwali, the festival of lights, is celebrated by which TWO religious groups?",
+      "options": [
+        "Hindus",
+        "Buddhists",
+        "Sikhs",
+        "Jews"
+      ],
+      "answers": [
+        0,
+        2
+      ],
+      "explanation": "Diwali is celebrated by Hindus and Sikhs, normally in October or November. It celebrates the victory of good over evil and the gaining of knowledge."
+    },
+    {
+      "id": "soc-14",
+      "chapter": "society",
+      "type": "single",
+      "question": "The Muslim festival Eid al-Fitr celebrates the end of what?",
+      "options": [
+        "Ramadan",
+        "Hanukkah",
+        "Lent",
+        "Vaisakhi"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "Eid al-Fitr celebrates the end of Ramadan, when Muslims have fasted for a month. They thank Allah for giving them the strength to complete the fast."
+    },
+    {
+      "id": "soc-15",
+      "chapter": "society",
+      "type": "single",
+      "question": "Vaisakhi (also spelled Baisakhi) is a festival celebrated by which community?",
+      "options": [
+        "Sikhs",
+        "Muslims",
+        "Jews",
+        "Buddhists"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "Vaisakhi is a Sikh festival celebrated on 14 April each year, marking the founding of the Khalsa. It is celebrated with parades, dancing and singing."
+    },
+    {
+      "id": "soc-16",
+      "chapter": "society",
+      "type": "single",
+      "question": "Hogmanay is the Scottish name for which celebration?",
+      "options": [
+        "New Year's Eve, 31 December",
+        "Christmas Day",
+        "St Andrew's Day",
+        "The first day of spring"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "In Scotland, 31 December — New Year's Eve — is called Hogmanay. In Scotland it is a bigger holiday for some people than Christmas, and 2 January is also a public holiday."
+    },
+    {
+      "id": "soc-17",
+      "chapter": "society",
+      "type": "single",
+      "question": "On which date is Remembrance Day, which commemorates those who died fighting in wars?",
+      "options": [
+        "11 November",
+        "5 November",
+        "1 April",
+        "23 April"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "Remembrance Day, 11 November, commemorates those who died fighting for the UK, originally those killed in the First World War, which ended on 11 November 1918. People wear poppies, and a two-minute silence is held at 11.00 am."
+    },
+    {
+      "id": "soc-18",
+      "chapter": "society",
+      "type": "single",
+      "question": "What do people traditionally do on Bonfire Night, 5 November?",
+      "options": [
+        "Set off fireworks at home or attend firework displays",
+        "Exchange gifts and cards",
+        "Eat pancakes",
+        "Decorate a tree"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "On Bonfire Night, 5 November, people set off fireworks at home or in special displays. The origin is the night in 1605 when Guy Fawkes and a group of Catholics failed in their plan to kill the Protestant king with a bomb in the Houses of Parliament."
+    },
+    {
+      "id": "soc-19",
+      "chapter": "society",
+      "type": "single",
+      "question": "What is the most popular sport in the UK?",
+      "options": [
+        "Football",
+        "Cricket",
+        "Rugby",
+        "Tennis"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "Football is the UK's most popular sport. It has a long history in the UK, and the UK's four countries each have their own national team."
+    },
+    {
+      "id": "soc-20",
+      "chapter": "society",
+      "type": "single",
+      "question": "Wimbledon is a famous British tournament in which sport?",
+      "options": [
+        "Golf",
+        "Tennis",
+        "Cricket",
+        "Rowing"
+      ],
+      "answers": [
+        1
+      ],
+      "explanation": "The Wimbledon Championships is the oldest tennis tournament in the world and the only 'Grand Slam' event played on grass."
+    },
+    {
+      "id": "soc-21",
+      "chapter": "society",
+      "type": "single",
+      "question": "'The Ashes' is a famous cricket series played between England and which country?",
+      "options": [
+        "Australia",
+        "India",
+        "South Africa",
+        "New Zealand"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "The most famous cricket competition is the Ashes, a series of Test matches played between England and Australia."
+    },
+    {
+      "id": "soc-22",
+      "chapter": "society",
+      "type": "single",
+      "question": "St Andrews in Scotland is known as the home of which sport?",
+      "options": [
+        "Golf",
+        "Football",
+        "Tennis",
+        "Skiing"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "Golf can be traced back to 15th-century Scotland, and St Andrews in Scotland is known as the home of golf. The Open Championship is the only major golf tournament held outside the United States."
+    },
+    {
+      "id": "soc-23",
+      "chapter": "society",
+      "type": "single",
+      "question": "In which year did London most recently host the Olympic Games?",
+      "options": [
+        "2000",
+        "2008",
+        "2012",
+        "2016"
+      ],
+      "answers": [
+        2
+      ],
+      "explanation": "London hosted the Olympic Games in 2012, with the main site at Stratford in East London. It was the third time Britain had hosted the Games, after 1908 and 1948."
+    },
+    {
+      "id": "soc-24",
+      "chapter": "society",
+      "type": "single",
+      "question": "Who was the first person to run a mile in under four minutes, in 1954?",
+      "options": [
+        "Sir Roger Bannister",
+        "Sir Mo Farah",
+        "Sir Sebastian Coe",
+        "Sir Steve Redgrave"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "Sir Roger Bannister was the first man in the world to run a mile in under four minutes, in 1954."
+    },
+    {
+      "id": "soc-25",
+      "chapter": "society",
+      "type": "single",
+      "question": "What are 'the Proms'?",
+      "options": [
+        "An eight-week summer season of orchestral classical music",
+        "A series of horse races",
+        "A festival of street food",
+        "A flower show held in London"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "The Proms is an eight-week summer season of orchestral classical music held in various venues, including the Royal Albert Hall. It has been organised by the BBC since 1927, and the Last Night is the most famous concert."
+    },
+    {
+      "id": "soc-26",
+      "chapter": "society",
+      "type": "single",
+      "question": "Which Scottish author created the detective Sherlock Holmes?",
+      "options": [
+        "Sir Arthur Conan Doyle",
+        "Robert Burns",
+        "J.K. Rowling",
+        "Charles Dickens"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "Sir Arthur Conan Doyle, born in Edinburgh, created the detective Sherlock Holmes. Charles Dickens wrote novels such as Oliver Twist and Great Expectations."
+    },
+    {
+      "id": "soc-27",
+      "chapter": "society",
+      "type": "single",
+      "question": "The Booker Prize (formerly the Man Booker Prize) is awarded annually for what?",
+      "options": [
+        "The best fiction novel",
+        "The best film",
+        "The best song",
+        "The best painting"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "The Booker Prize is one of the UK's most important literary awards, given each year for the best fiction novel."
+    },
+    {
+      "id": "soc-28",
+      "chapter": "society",
+      "type": "single",
+      "question": "The Turner Prize is a famous UK prize for which of the arts?",
+      "options": [
+        "Contemporary art",
+        "Poetry",
+        "Classical music",
+        "Architecture"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "The Turner Prize, established in 1984 and named after the painter J.M.W. Turner, celebrates contemporary art and is one of the most prestigious visual art awards in Europe."
+    },
+    {
+      "id": "soc-29",
+      "chapter": "society",
+      "type": "single",
+      "question": "What is 'Big Ben'?",
+      "options": [
+        "The nickname of the great bell of the clock at the Houses of Parliament",
+        "A royal palace in London",
+        "A famous bridge over the Thames",
+        "The Speaker's chair in the House of Commons"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "Big Ben is the nickname for the great bell of the clock at the Houses of Parliament. The clock tower was renamed the Elizabeth Tower in 2012 in honour of Queen Elizabeth II's Diamond Jubilee."
+    },
+    {
+      "id": "soc-30",
+      "chapter": "society",
+      "type": "single",
+      "question": "The Giant's Causeway is a famous landmark in which part of the UK?",
+      "options": [
+        "Northern Ireland",
+        "Scotland",
+        "Wales",
+        "England"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "The Giant's Causeway, on the north-east coast of Northern Ireland, is a land formation of columns made from volcanic lava, and there are many legends about it."
+    },
+    {
+      "id": "soc-31",
+      "chapter": "society",
+      "type": "single",
+      "question": "The Eden Project, with its giant greenhouse biomes, is located in which county?",
+      "options": [
+        "Cornwall",
+        "Yorkshire",
+        "Kent",
+        "Cumbria"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "The Eden Project is located in Cornwall, in south-west England. Its biomes are like giant greenhouses housing plants from all over the world."
+    },
+    {
+      "id": "soc-32",
+      "chapter": "society",
+      "type": "single",
+      "question": "Snowdonia is a national park in which country of the UK?",
+      "options": [
+        "Wales",
+        "Scotland",
+        "England",
+        "Northern Ireland"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "Snowdonia is a national park in North Wales covering an area of about 838 square miles. Its most well-known landmark is Snowdon, the highest mountain in Wales."
+    },
+    {
+      "id": "soc-33",
+      "chapter": "society",
+      "type": "single",
+      "question": "Loch Lomond, the largest expanse of fresh water in mainland Britain, is in which country?",
+      "options": [
+        "Scotland",
+        "England",
+        "Wales",
+        "Northern Ireland"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "Loch Lomond is in the Loch Lomond and the Trossachs National Park in the west of Scotland, and is the largest expanse of fresh water in mainland Britain."
+    },
+    {
+      "id": "soc-34",
+      "chapter": "society",
+      "type": "single",
+      "question": "What can visitors see at the Tower of London?",
+      "options": [
+        "The Crown Jewels",
+        "The Prime Minister's office",
+        "The Scottish Parliament",
+        "The Eden Project"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "The Tower of London was first built by William the Conqueror. Tours are given by the Yeoman Warders ('Beefeaters'), and people can see the Crown Jewels there."
+    },
+    {
+      "id": "soc-35",
+      "chapter": "society",
+      "type": "truefalse",
+      "question": "You need a television licence to watch or record TV programmes as they are being shown.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "Anyone who watches or records TV programmes as they are being shown must have a TV licence — one licence covers all the equipment at one address. The licence fee funds the BBC."
+    },
+    {
+      "id": "soc-36",
+      "chapter": "society",
+      "type": "single",
+      "question": "Haggis is a traditional food of which country?",
+      "options": [
+        "Scotland",
+        "Wales",
+        "England",
+        "Northern Ireland"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "Haggis — a sheep's stomach stuffed with offal, suet, onions and oatmeal — is a traditional Scottish dish. England is known for roast beef and Yorkshire puddings, Wales for Welsh cakes, and Northern Ireland for the Ulster fry."
+    },
+    {
+      "id": "soc-37",
+      "chapter": "society",
+      "type": "single",
+      "question": "Which is England's largest national park?",
+      "options": [
+        "The Lake District",
+        "Snowdonia",
+        "Dartmoor",
+        "The New Forest"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "The Lake District is England's largest national park, famous for its lakes and mountains. Its largest lake is Windermere."
+    },
+    {
+      "id": "gov-01",
+      "chapter": "government",
+      "type": "single",
+      "question": "Who is the head of state of the UK?",
+      "options": [
+        "The Prime Minister",
+        "The monarch (currently King Charles III)",
+        "The Speaker of the House of Commons",
+        "The Archbishop of Canterbury"
+      ],
+      "answers": [
+        1
+      ],
+      "explanation": "The UK is a constitutional monarchy: the monarch is the head of state, but does not rule the country. The King invites the leader of the party with a majority to become Prime Minister, and he advises, warns and encourages the government."
+    },
+    {
+      "id": "gov-02",
+      "chapter": "government",
+      "type": "truefalse",
+      "question": "The UK has an unwritten constitution — it is not contained in a single document.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "The British constitution is not written down in any single document, so it is called an unwritten (uncodified) constitution. It has developed over time through laws and conventions."
+    },
+    {
+      "id": "gov-03",
+      "chapter": "government",
+      "type": "single",
+      "question": "What is the national anthem of the UK?",
+      "options": [
+        "God Save the King",
+        "Rule, Britannia!",
+        "Jerusalem",
+        "Land of Hope and Glory"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "The national anthem of the UK is 'God Save the King'. It is played at important national occasions and at events attended by the King or the royal family."
+    },
+    {
+      "id": "gov-04",
+      "chapter": "government",
+      "type": "single",
+      "question": "The elected members of the House of Commons are called what?",
+      "options": [
+        "Members of Parliament (MPs)",
+        "Peers",
+        "Councillors",
+        "Senators"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "The House of Commons is made up of elected Members of Parliament (MPs). Each MP represents an area of the country called a constituency."
+    },
+    {
+      "id": "gov-05",
+      "chapter": "government",
+      "type": "single",
+      "question": "Which of these statements about the House of Lords is correct?",
+      "options": [
+        "Its members are not elected by the people",
+        "Its members are elected every five years"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "Members of the House of Lords are not elected. They include life peers appointed by the monarch on the advice of the Prime Minister, some hereditary peers, and senior Church of England bishops."
+    },
+    {
+      "id": "gov-06",
+      "chapter": "government",
+      "type": "single",
+      "question": "What is the role of the Speaker of the House of Commons?",
+      "options": [
+        "To chair debates and keep order, while remaining politically neutral",
+        "To lead the government",
+        "To appoint judges",
+        "To run the civil service"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "The Speaker chairs debates in the House of Commons and makes sure the rules are followed. The Speaker is an MP chosen by other MPs in a secret ballot and is neutral, not representing a political party in that role."
+    },
+    {
+      "id": "gov-07",
+      "chapter": "government",
+      "type": "single",
+      "question": "UK general elections must be held at least every how many years?",
+      "options": [
+        "Three years",
+        "Five years",
+        "Seven years",
+        "Ten years"
+      ],
+      "answers": [
+        1
+      ],
+      "explanation": "MPs are elected at a general election, which is held at least every five years."
+    },
+    {
+      "id": "gov-08",
+      "chapter": "government",
+      "type": "single",
+      "question": "What electoral system is used to elect MPs at a UK general election?",
+      "options": [
+        "First past the post",
+        "Proportional representation",
+        "The alternative vote",
+        "An electoral college"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "MPs are elected through a system called 'first past the post': in each constituency, the candidate who gets the most votes is elected."
+    },
+    {
+      "id": "gov-09",
+      "chapter": "government",
+      "type": "single",
+      "question": "Who normally becomes Prime Minister?",
+      "options": [
+        "The leader of the political party that wins a general election",
+        "The oldest Member of Parliament",
+        "Whoever the monarch personally prefers",
+        "The Speaker of the House of Commons"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "The Prime Minister is the leader of the political party in power — normally the party that wins a majority of constituencies at a general election."
+    },
+    {
+      "id": "gov-10",
+      "chapter": "government",
+      "type": "single",
+      "question": "What is the official residence of the Prime Minister in London?",
+      "options": [
+        "10 Downing Street",
+        "Buckingham Palace",
+        "Westminster Abbey",
+        "The Tower of London"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "The Prime Minister's official home and office in London is 10 Downing Street. The PM also has a country house outside London called Chequers."
+    },
+    {
+      "id": "gov-11",
+      "chapter": "government",
+      "type": "single",
+      "question": "Which government minister is responsible for the economy?",
+      "options": [
+        "The Chancellor of the Exchequer",
+        "The Home Secretary",
+        "The Foreign Secretary",
+        "The Lord Chancellor"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "The Chancellor of the Exchequer is the cabinet minister responsible for the economy. The Home Secretary is responsible for crime, policing and immigration, and the Foreign Secretary for relationships with foreign countries."
+    },
+    {
+      "id": "gov-12",
+      "chapter": "government",
+      "type": "single",
+      "question": "Which minister is responsible for crime, policing and immigration?",
+      "options": [
+        "The Home Secretary",
+        "The Chancellor of the Exchequer",
+        "The Defence Secretary",
+        "The Health Secretary"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "The Home Secretary is the cabinet minister responsible for crime, policing and immigration."
+    },
+    {
+      "id": "gov-13",
+      "chapter": "government",
+      "type": "single",
+      "question": "What is the second-largest party in the House of Commons called?",
+      "options": [
+        "The opposition",
+        "The coalition",
+        "The shadow party",
+        "The minority"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "The second-largest party in the House of Commons is called the opposition. Its leader appoints senior opposition MPs to a 'shadow cabinet' and challenges the Prime Minister weekly at Prime Minister's Questions."
+    },
+    {
+      "id": "gov-14",
+      "chapter": "government",
+      "type": "truefalse",
+      "question": "Civil servants must be politically neutral.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "Civil servants support the government in developing and delivering its policies. They are chosen on merit and are politically neutral — they are not political appointees."
+    },
+    {
+      "id": "gov-15",
+      "chapter": "government",
+      "type": "single",
+      "question": "Where does the Scottish Parliament meet?",
+      "options": [
+        "Holyrood, in Edinburgh",
+        "Stormont, in Belfast",
+        "The Senedd, in Cardiff",
+        "Westminster, in London"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "The Scottish Parliament was formed in 1999 and meets at Holyrood in Edinburgh. The Welsh Parliament (Senedd) meets in Cardiff Bay, and the Northern Ireland Assembly meets at Stormont in Belfast."
+    },
+    {
+      "id": "gov-16",
+      "chapter": "government",
+      "type": "single",
+      "question": "Where does the Northern Ireland Assembly meet?",
+      "options": [
+        "Stormont, near Belfast",
+        "Holyrood",
+        "The Senedd",
+        "Downing Street"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "The Northern Ireland Assembly meets at Stormont, in Belfast. It was established after the Belfast Agreement (Good Friday Agreement) of 1998."
+    },
+    {
+      "id": "gov-17",
+      "chapter": "government",
+      "type": "single",
+      "question": "Members of the Scottish Parliament are known by which name?",
+      "options": [
+        "MSPs (Members of the Scottish Parliament)",
+        "MLAs",
+        "MEPs",
+        "Aldermen"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "Members of the Scottish Parliament are called MSPs. Members of the Northern Ireland Assembly are MLAs, and members of the Welsh Parliament (Senedd) are MSs."
+    },
+    {
+      "id": "gov-18",
+      "chapter": "government",
+      "type": "multi",
+      "question": "Which TWO policy areas remain under the control of the UK government rather than the devolved administrations?",
+      "options": [
+        "Defence",
+        "Education",
+        "Foreign affairs",
+        "Health"
+      ],
+      "answers": [
+        0,
+        2
+      ],
+      "explanation": "Policy on defence, foreign affairs, immigration, taxation and social security remains under central UK government control. Areas such as education and health are largely under the control of the devolved administrations."
+    },
+    {
+      "id": "gov-19",
+      "chapter": "government",
+      "type": "truefalse",
+      "question": "Judges in the UK are independent of the government.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "The judiciary is independent of the government. Judges interpret the law and make sure trials are fair, and the government cannot interfere. If judges find that a public body is not respecting the law, they can order it to change its practices."
+    },
+    {
+      "id": "gov-20",
+      "chapter": "government",
+      "type": "multi",
+      "question": "Which TWO of the following are duties of the police?",
+      "options": [
+        "To protect life and property",
+        "To make new laws",
+        "To prevent and detect crime",
+        "To collect taxes"
+      ],
+      "answers": [
+        0,
+        2
+      ],
+      "explanation": "The job of the police is to protect life and property, prevent disturbances (keep the peace), and prevent and detect crime. Making laws is the job of Parliament."
+    },
+    {
+      "id": "gov-21",
+      "chapter": "government",
+      "type": "single",
+      "question": "At what age can you vote in a UK general election?",
+      "options": [
+        "16",
+        "18",
+        "21",
+        "25"
+      ],
+      "answers": [
+        1
+      ],
+      "explanation": "The present voting age of 18 was set in 1969. To vote you must also be on the electoral register."
+    },
+    {
+      "id": "gov-22",
+      "chapter": "government",
+      "type": "single",
+      "question": "To be able to vote in elections, you must have your name on which list?",
+      "options": [
+        "The electoral register",
+        "The census",
+        "The honours list",
+        "The land registry"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "You must have your name on the electoral register to vote in a parliamentary, local or European election. You can register through your local council's electoral registration office or online."
+    },
+    {
+      "id": "gov-23",
+      "chapter": "government",
+      "type": "truefalse",
+      "question": "You must tell other people how you voted if they ask you.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answers": [
+        1
+      ],
+      "explanation": "Voting is by secret ballot. Nobody — including police officers, election officials or party representatives — has the right to make you say how you voted."
+    },
+    {
+      "id": "gov-24",
+      "chapter": "government",
+      "type": "single",
+      "question": "The UK is a permanent member of which international body's Security Council?",
+      "options": [
+        "The United Nations",
+        "NATO",
+        "The European Union",
+        "The Commonwealth"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "The UK is one of the five permanent members of the United Nations Security Council, the body of the UN that recommends action when there are international problems."
+    },
+    {
+      "id": "gov-25",
+      "chapter": "government",
+      "type": "truefalse",
+      "question": "The UK is a member of NATO.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "The UK is a member of NATO (the North Atlantic Treaty Organization), a group of countries that have agreed to help each other if they come under attack."
+    },
+    {
+      "id": "gov-26",
+      "chapter": "government",
+      "type": "single",
+      "question": "Who is the head of the Commonwealth?",
+      "options": [
+        "The King",
+        "The UK Prime Minister",
+        "The Secretary-General of the UN",
+        "The President of the United States"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "The Commonwealth is a voluntary association of countries, most with historic ties to the UK. The King is the head of the Commonwealth, although the organisation is based on the members' shared values, not power over them."
+    },
+    {
+      "id": "gov-27",
+      "chapter": "government",
+      "type": "single",
+      "question": "Which of the following is an example of a civil law issue rather than a criminal one?",
+      "options": [
+        "A dispute with your landlord over housing",
+        "Carrying a weapon",
+        "Selling tobacco to someone under 18",
+        "Being drunk and disorderly in public"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "Civil law settles disputes between individuals or groups — for example housing, debt, employment and consumer disputes. Criminal law deals with crimes such as carrying a weapon or selling tobacco to under-18s."
+    },
+    {
+      "id": "gov-28",
+      "chapter": "government",
+      "type": "single",
+      "question": "In England, Wales and Northern Ireland, minor criminal cases are dealt with in which court?",
+      "options": [
+        "A Magistrates' Court",
+        "The Crown Court",
+        "A County Court",
+        "The Supreme Court"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "Most minor criminal cases are dealt with in a Magistrates' Court. Magistrates are usually unpaid members of the local community and do not need legal qualifications. Serious offences go to the Crown Court before a judge and jury."
+    },
+    {
+      "id": "gov-29",
+      "chapter": "government",
+      "type": "single",
+      "question": "In England, Wales and Northern Ireland, how many members sit on a jury?",
+      "options": [
+        "12",
+        "10",
+        "15",
+        "20"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "A jury has 12 members in England, Wales and Northern Ireland, and 15 in Scotland. Juries decide the verdict after listening to the evidence at the trial."
+    },
+    {
+      "id": "gov-30",
+      "chapter": "government",
+      "type": "single",
+      "question": "What is the minimum age for driving a car in the UK?",
+      "options": [
+        "17",
+        "16",
+        "18",
+        "21"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "You must be at least 17 years old to drive a car or motorcycle in the UK, and you must have a driving licence — which requires passing a driving test."
+    },
+    {
+      "id": "gov-31",
+      "chapter": "government",
+      "type": "truefalse",
+      "question": "If your vehicle is more than three years old, it must take an MOT test every year.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "If your vehicle is over three years old, you must take it for a Ministry of Transport (MOT) test every year. You must also have valid motor insurance — driving without it is a criminal offence."
+    },
+    {
+      "id": "gov-32",
+      "chapter": "government",
+      "type": "single",
+      "question": "Which government department collects Income Tax in the UK?",
+      "options": [
+        "HM Revenue & Customs (HMRC)",
+        "The Home Office",
+        "The Bank of England",
+        "The Department for Education"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "Income Tax is collected by HM Revenue & Customs (HMRC). For most employed people it is taken automatically through PAYE; self-employed people complete a self-assessment tax return."
+    },
+    {
+      "id": "gov-33",
+      "chapter": "government",
+      "type": "single",
+      "question": "What do National Insurance contributions help to pay for?",
+      "options": [
+        "State benefits and services, such as the state retirement pension and the NHS",
+        "Only motorways and roads",
+        "Private pensions",
+        "Television programmes"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "Almost everybody who works in the UK pays National Insurance contributions, which help fund state benefits and services such as the state retirement pension and the National Health Service."
+    },
+    {
+      "id": "gov-34",
+      "chapter": "government",
+      "type": "single",
+      "question": "If you need non-emergency medical care in the UK, who should you normally see first?",
+      "options": [
+        "Your GP (family doctor)",
+        "A hospital emergency department",
+        "A private specialist",
+        "The local council"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "Healthcare in the UK is organised through the National Health Service. You should register with a GP (General Practitioner) near your home — your GP is normally the first person you see about non-emergency health problems."
+    },
+    {
+      "id": "gov-35",
+      "chapter": "government",
+      "type": "single",
+      "question": "People on the electoral register can be asked to carry out which civic duty?",
+      "options": [
+        "Jury service",
+        "Military service",
+        "Border patrol",
+        "Tax collection"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "Anyone on the electoral register aged 18 to 70 can be asked to serve on a jury (as stated in the official handbook). Jury service is an important way citizens take part in the justice system."
+    },
+    {
+      "id": "gov-36",
+      "chapter": "government",
+      "type": "multi",
+      "question": "Which TWO of the following are ways to take an active part in your community?",
+      "options": [
+        "Giving blood",
+        "Becoming a school governor",
+        "Paying for private healthcare",
+        "Watching more television"
+      ],
+      "answers": [
+        0,
+        1
+      ],
+      "explanation": "Volunteering — such as giving blood, becoming a school governor, helping at a local charity or looking after the environment — is an important way to take part in your community, and it can also help you meet people and gain skills."
+    },
+    {
+      "id": "gov-37",
+      "chapter": "government",
+      "type": "truefalse",
+      "question": "Forcing another person to marry is a criminal offence in the UK.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answers": [
+        0
+      ],
+      "explanation": "A marriage must be entered into with the full and free consent of both people. Forced marriage is illegal, and courts can issue forced marriage protection orders. Domestic violence is also a serious crime."
+    }
+  ]
+}
