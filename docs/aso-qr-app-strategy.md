@@ -161,7 +161,76 @@ Two consequences you should exploit:
 
 *(Covers "pemindai qr" (QR scanner), "buat kode qr" (create QR), "pembaca" (reader), "kartu nama" (business card), "gratis" (free), "aman" (safe) — QRIS has made QR universal in Indonesia.)*
 
-### 3.3 App name / brand
+### 3.3 Expansion localizations — 7 more blocks (competitor-verified, length-checked)
+
+These cover the bonus markets from Section 4.1. Terminology comes from the actual titles of top-ranking QR apps on each storefront (verified via live App Store listings, linked per block), not from translation. Every field re-checked against Apple's 30/30/100 limits.
+
+#### Portuguese (Brazil) — Brazil primary; also indexes in the US
+| Field | Content | Count |
+|---|---|---|
+| Title | `Leitor de QR Code e Barras` | 26/30 |
+| Subtitle | `Escanear e Criar Código, WiFi` | 29/30 |
+| Keywords | `gerador,scanner,gratis,foto,imagem,preço,seguro,cartão,menu,ingresso,etiqueta,criador,ler,boleto` | 96/100 |
+
+*Evidence: top BR competitors title as [„Leitor de Código QR & Barras"](https://apps.apple.com/br/app/leitor-de-c%C3%B3digo-qr-barras/id1159068566), [„Leitor de QR Code & Barcode"](https://apps.apple.com/br/app/leitor-de-qr-code-barcode/id1048473097) — "leitor" (reader) is the head term, "código de barras" the barcode term. "boleto" targets Brazil's barcode payment slips, a local-only query with zero global competition.*
+
+#### Arabic — additional in Saudi Arabia, UAE, Egypt; also indexes in the US
+| Field | Content | Count |
+|---|---|---|
+| Title | `قارئ الباركود وماسح رمز QR` | 26/30 |
+| Subtitle | `امسح وأنشئ رموز واي فاي` | 23/30 |
+| Keywords | `مجاني,صور,رابط,امن,مولد,كود,سكانر,بطاقة,قائمة,تذكرة,سعر,منتج,سريع,قراءة,انشاء,ويفي,ملصق` | 87/100 |
+
+*Evidence: Gulf-ranking competitors title as [„قارئ الباركود - ماسح الرمز"](https://apps.apple.com/us/app/%D9%82%D8%A7%D8%B1%D8%A6-%D8%A7%D9%84%D8%A8%D8%A7%D8%B1%D9%83%D9%88%D8%AF-%D9%85%D8%A7%D8%B3%D8%AD-%D8%A7%D9%84%D8%B1%D9%85%D8%B2-%D8%A7%D9%84%D8%B4/id1468426442?l=ar) and [„ماسح QR والباركود: قارئ رمز"](https://apps.apple.com/ma/app/%D9%85%D8%A7%D8%B3%D8%AD-qr-%D9%88%D8%A7%D9%84%D8%A8%D8%A7%D8%B1%D9%83%D9%88%D8%AF-%D9%82%D8%A7%D8%B1%D8%A6-%D8%B1%D9%85%D8%B2/id1080558159?l=ar) — "قارئ الباركود" (barcode reader) and "ماسح" (scanner) are the proven head terms.*
+
+#### English (Australia) — primary for Australia AND New Zealand
+| Field | Content | Count |
+|---|---|---|
+| Title | `QR Code Scanner & Generator` | 27/30 |
+| Subtitle | `Scan, Create WiFi & Barcodes` | 28/30 |
+| Keywords | `creator,picture,image,vcard,coupon,loyalty,receipt,parcel,event,url,contact,card,secure,inventory` | 97/100 |
+
+*Deliberately a different keyword set from en-GB — both localizations index in AU/NZ, so duplicating would waste 100 characters.*
+
+#### Turkish — additional in Turkey (en-GB remains primary there)
+| Field | Content | Count |
+|---|---|---|
+| Title | `QR Kod Okuyucu: Karekod Tara` | 28/30 |
+| Subtitle | `Barkod Tarayıcı & QR Oluştur` | 28/30 |
+| Keywords | `ücretsiz,fotoğraf,fiyat,güvenli,bağlantı,menü,bilet,kartvizit,etiket,wifi,oluşturucu,okuma,hızlı` | 96/100 |
+
+*Evidence: Turkish market leaders title as [„QR Kod Okuyucu - Karekod app"](https://apps.apple.com/tr/app/qr-kod-okuyucu-karekod-app/id1080558159?l=tr) and [„QR Kod Okuyucu & QR Tarayıcı"](https://apps.apple.com/tr/app/qr-kod-okuyucu-qr-taray%C4%B1c%C4%B1/id1512700186?l=tr) — critical local insight: Turks search **"karekod"** (the official Turkish word for QR code), a term pure-translation metadata always misses.*
+
+#### Hindi — additional in India (en-GB remains primary there)
+| Field | Content | Count |
+|---|---|---|
+| Title | `QR कोड स्कैनर और जेनरेटर` | 24/30 |
+| Subtitle | `बारकोड स्कैन करें और बनाएं` | 26/30 |
+| Keywords | `मुफ्त,फोटो,कीमत,सुरक्षित,लिंक,मेनू,टिकट,रीडर,वाईफाई,निर्माता,पाठक,कैमरा,क्यूआर,बनाना,संपर्क` | 91/100 |
+
+*Most Indian iOS users search in English (your en-GB covers that); this block adds the Devanagari long-tail — including "क्यूआर" (QR spelled phonetically in Hindi), which English metadata can never catch.*
+
+#### Korean — Korea primary; also indexes in the US
+| Field | Content | Count |
+|---|---|---|
+| Title | `QR코드 스캐너: 큐알코드·바코드 스캔` | 21/30 |
+| Subtitle | `생성기·만들기·와이파이 무료 리더` | 18/30 |
+| Keywords | `사진,이미지,가격,안전,링크,메뉴,티켓,명함,쿠폰,읽기,카메라,wifi,재고,영수증,연락처,상품,주소,문자,할인,행사,생성` | 68/100 |
+
+*Evidence: Korean market leaders title as [„QR코드 스캐너・바코드 스캐너・생성기・큐알스캔"](https://apps.apple.com/kr/app/qr%EC%BD%94%EB%93%9C-%EC%8A%A4%EC%BA%90%EB%84%88-%EB%B0%94%EC%BD%94%EB%93%9C-%EC%8A%A4%EC%BA%90%EB%84%88-%EC%83%9D%EC%84%B1%EA%B8%B0-%ED%81%90%EC%95%8C%EC%8A%A4%EC%BA%94/id6670405091) and [„바코드 스캐너, QR 코드 리더 & QR 코드 발생기"](https://apps.apple.com/kr/app/%EB%B0%94%EC%BD%94%EB%93%9C-%EC%8A%A4%EC%BA%90%EB%84%88-qr-%EC%BD%94%EB%93%9C-%EB%A6%AC%EB%8D%94-qr-%EC%BD%94%EB%93%9C-%EB%B0%9C%EC%83%9D%EA%B8%B0/id1048473097) — Koreans search both "QR코드" and the phonetic "큐알코드"; both are in the title.*
+
+#### Dutch — Netherlands primary
+| Field | Content | Count |
+|---|---|---|
+| Title | `QR-code Scanner, Lezer, Maker` | 29/30 |
+| Subtitle | `Scan & maak streepjescode,wifi` | 30/30 |
+| Keywords | `gratis,foto,prijs,veilig,link,menukaart,ticket,visitekaartje,etiket,generator,kaartje,afbeelding` | 96/100 |
+
+*Evidence: Dutch market leaders title as [„QR-codelezer en QR-scanner"](https://apps.apple.com/nl/app/qr-codelezer-en-qr-scanner/id1322234579) and [„Scan Streepjescode QR-code Lezer"](https://apps.apple.com/nl/app/scan-streepjescode-qr-code-lezer/id947283457) — "lezer" (reader), "maken" (to make), and the very Dutch "streepjescode" (barcode) are the proven local terms.*
+
+**Rollout order for these 7:** en-AU + pt-BR + Arabic in the week-2 submission alongside the core 9 (they're ready and verified); Turkish + Hindi week 4–5; Korean + Dutch week 7–9 (their markets expect deeper localization — pair with localized screenshots).
+
+### 3.4 App name / brand
 
 You asked for brand suggestions. Honest advice first: **at your size, a brandless keyword title (as written above) is the stronger play** — every branded character in the title displaces a ranking keyword, and nobody is searching your brand yet. The app's *display* identity can live in the icon and screenshots.
 
@@ -171,7 +240,7 @@ If you want a brand anyway, requirements: ≤6 characters, pronounceable, no tra
 
 With e.g. "Qrik" the en-US title becomes `Qrik: QR Code Scanner & Maker` (29/30 — verified). Avoid names close to existing apps (Snapcode = Snapchat's, Scanova = existing QR company, QR Tiger, etc.).
 
-### 3.4 Entry rules for App Store Connect (read before pasting)
+### 3.5 Entry rules for App Store Connect (read before pasting)
 
 1. Paste keyword fields **exactly as written** — no spaces after commas, no trailing comma.
 2. Never add words like *app, free, best, top, iphone* to any keyword field — Apple ignores or already implies them; they waste characters.
@@ -254,11 +323,11 @@ Rankings on iOS are driven by: keyword relevance × download velocity × convers
 | Week | Action |
 |---|---|
 | 1 | Baseline audit: export current keyword rankings (AppTweak/Astro/AppFigures free tiers), current CVR from App Store Connect → Analytics. Screenshot redesign brief. |
-| 2 | Submit **all 9 localization blocks from Section 3** + new screenshots + ratings prompt in one app update. |
+| 2 | Submit **all localization blocks from Sections 3.2 + 3.3** (core 9 + en-AU, pt-BR, Arabic) + new screenshots + ratings prompt in one app update. |
 | 3 | Launch ASA discovery campaign US+UK (£5–8/day). Localize screenshot captions for JA + DE. |
-| 4–5 | Localize screenshot captions VN/TH/ID/FR. Launch first PPO icon test (US). |
+| 4–5 | Localize screenshot captions VN/TH/ID/FR. Add Turkish + Hindi blocks. Launch first PPO icon test (US). |
 | 6 | First data checkpoint: any keyword not moving into top 50 after 3 weeks gets swapped. Harvest ASA search-term report into metadata candidates. |
-| 7–9 | First In-App Event. CPPs for generator + wifi + safety intents. Add pt-BR + ko localizations as extra US keyword space. |
+| 7–9 | First In-App Event. CPPs for generator + wifi + safety intents. Add Korean + Dutch blocks with localized screenshots. |
 | 10 | **Metadata v2** from real ranking data (swap under-performers per storefront). Second PPO test (screenshots). |
 | 11–12 | Double ASA spend only on terms showing organic halo. Review milestone vs. 300–600 target; decide next push (head terms vs. more storefronts). |
 
