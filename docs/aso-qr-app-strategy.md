@@ -62,15 +62,13 @@ Realistic trajectory (assuming current baseline and a functional, 4.0+-ratable a
 
 Replace `Brandname` with your actual brand (keep it short — every brand character steals a keyword character).
 
-**Title (≤30):**
+**Title (≤30):** — pick by brand length. Use only whole words: Apple indexes complete tokens, so abbreviations ("Gen") earn nothing.
 ```
-Brandname: QR Code Scanner ·Gen
+QR Code Scanner & Generator        (27 — no brand; brand still ranks via app metadata)
+Brand: QR Code Scanner & Maker     (short brand; "maker" is a real query at half the length of "generator")
+Brandname – QR Code Scanner        (long brand; "generator" moves to subtitle/keywords — cross-field combinations still index "qr code generator")
 ```
-or if the brand is long, drop to:
-```
-QR Code Scanner & Generator ·B
-```
-Core tokens to own in the title: `qr`, `code`, `scanner`, `generator` (or `maker`).
+Core tokens to own in the title: `qr`, `code`, `scanner`, plus `generator` or `maker` if it fits.
 
 **Subtitle (≤30):**
 ```
@@ -100,7 +98,7 @@ The UK storefront indexes **English (U.K.)** and also **English (Australia)** �
 **en-GB** — mirror the US structure but localize vocabulary where search behaviour differs and use the second locale for a different long-tail set:
 
 ```
-en-GB title:    Brandname: QR Code Scanner ·Gen
+en-GB title:    (same pattern as US — whole words only)
 en-GB subtitle: Scan & Create WiFi, Barcode
 en-GB keywords: maker,reader,photo,screenshot,price,checker,safe,link,voucher,boarding,pass,ticket,menu
 ```
