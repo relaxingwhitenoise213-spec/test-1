@@ -59,6 +59,8 @@ Realistic trajectory (assuming current baseline and a functional, 4.0+-ratable a
 
 ## 3. Final metadata package — all 8 markets (verified, copy-paste ready)
 
+> **📄 Complete edition:** [`aso-metadata-all-languages.md`](./aso-metadata-all-languages.md) contains the full submission package for **18 localizations** (everything below **plus Chinese Simplified & Traditional**), each with title, subtitle, keywords, **promotional text (≤170)** and **full description (≤4000)** — every field programmatically validated against Apple's limits. Use that file for the actual App Store Connect entry; this section remains the strategic reference.
+
 > **How indexing works:** Apple indexes **Title (30 chars, heaviest weight) → Subtitle (30 chars) → Keyword field (100 chars, hidden)**. Never repeat a word across the three fields of one localization. Word *combinations* form across fields automatically ("wifi" in subtitle + "generator" in keywords ⇒ indexed for "wifi qr generator"). Use only whole words — abbreviations don't index.
 >
 > **Every string below was programmatically length-checked against Apple's limits (30/30/100).** The count is shown next to each field. Keyword fields use commas with **no spaces after commas** — that is intentional, it saves characters.
