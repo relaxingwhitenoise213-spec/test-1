@@ -193,6 +193,30 @@ All 8 markets get metadata from day one (it's one submission). Where to focus *e
 
 Expected contribution to the 300–600/day target: roughly 40–45% US+UK, 20–25% JP+DE+FR, 30–35% VN+TH+ID.
 
+### 4.1 Bonus storefronts — where you'll rank fastest (verified against [Apple's official table](https://developer.apple.com/help/app-store-connect/reference/app-information/app-store-localizations/))
+
+**Free with the Section 3 package — no extra work, live from day one:**
+
+| Group | Storefronts | Why they rank fast |
+|---|---|---|
+| Small English markets (en-GB is their primary) | Ireland, New Zealand*, South Africa, Nigeria, Philippines, Singapore, Malaysia | Same queries as US/UK but a fraction of the competitor depth — realistic top-10 within weeks; ratings + velocity earned here feed global ranking signals |
+| English-primary emerging markets | Poland, Turkey, Saudi Arabia, UAE, Egypt, India | en-GB is the **primary** localization on all of these storefronts — your English metadata ranks there against thin local competition |
+| Spanish LatAm (es-MX is their primary) | Mexico, Argentina, Colombia, Chile | Your es-MX block is their primary metadata; QR payments growing across the region; Spanish long-tail is thin |
+| German-primary | Austria, Switzerland | de-DE block ranks directly |
+| Australia* / Canada | en-GB indexes as additional in AU/NZ; Canada falls back to English | Covered, though en-AU (see below) sharpens AU/NZ |
+
+**Highest-ROI localizations to add next (one 30/30/100 block each):**
+
+1. **Arabic** — double duty: additional localization in Saudi Arabia, UAE, and Egypt (high-ARPU Gulf markets) *and* Arabic is one of the 9 locales indexed in the **US**, so it's free extra US keyword space even before Gulf rankings.
+2. **Portuguese (Brazil)** — Brazil's primary; Pix made QR a daily habit for ~150M people; also indexes in the US. Already in the roadmap (week 7–9) — worth pulling forward to wave 1.
+3. **English (Australia)** — primary for Australia *and* New Zealand; near-zero effort (copy en-GB, vary a few keywords for extra coverage).
+4. **Turkish** — additional in Turkey; cheap velocity market.
+5. **Hindi** — additional in India (alongside 10 other Indic languages); small iOS share but enormous absolute volume from UPI culture.
+6. **Korean** — Korea's primary + indexes in the US; higher effort (Korean users expect real localization), do it last.
+7. **Dutch** — the Netherlands' primary language is Dutch (not English), so NL needs this block to compete properly; solid monetization market.
+
+*Ranking-speed logic: a top-5 position in Ireland or Malaysia is worth far more than position #150 in the US — small-storefront downloads and ratings compound into the velocity signals that eventually move your US/UK ranks.*
+
 ---
 
 ## 5. Conversion assets (impressions are useless if the page doesn't convert)
