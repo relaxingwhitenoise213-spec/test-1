@@ -68,12 +68,23 @@ applicants use it).
 ## 3. Apple App Store (UK) metadata
 
 ### Title (30 chars max)
+
+Apple requires app names to be unique, and "Life in the UK Test 2026" is taken.
+Keep the full exact-match phrase "Life in the UK Test" and differentiate with a
+brand word or qualifier. Ranked options:
+
 ```
-Life in the UK Test 2026
+PassUK: Life in the UK Test      (27 — recommended: unique brand + full exact match)
+Life in the UK Test: 2026 Prep   (30 — keyword + year + "prep" cluster)
+Life in the UK Test Prep 2026    (29)
+Life in the UK Test: Pass 1st    (29 — conversion-angled)
+Britizen: Life in the UK Test    (29 — alternative brand)
 ```
-(24 chars. Exact-match head term + freshness year. Update the year every January —
-this alone lifts conversion measurably in this niche because users fear outdated
-question banks.)
+
+The brand-prefix pattern (recommended) is the strongest long-term play: the name can
+never collide again, "PassUK" becomes a searchable brand term of its own, and Apple's
+algorithm still gets the full exact-match phrase. Update any year in the title every
+January — users in this niche fear outdated question banks.
 
 ### Subtitle (30 chars max)
 ```
