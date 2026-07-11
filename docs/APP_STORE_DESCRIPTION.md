@@ -94,6 +94,28 @@ Disclaimer: This app is an independent study aid and is not affiliated with, end
 
 ---
 
+## Apple App Store — Promotional text (170 chars max, updatable without review)
+
+Not keyword-indexed — pure conversion copy shown above the description. Rotate it
+whenever you update the question bank or run a seasonal push.
+
+**Option A — default / evergreen (168 chars):**
+```
+Updated for the 2026 handbook. 1,300+ practice questions, unlimited mock tests and a smart study plan — be pass-ready in as little as 14 days. Start your free mock now.
+```
+
+**Option B — urgency, for users with a test date booked (160 chars):**
+```
+Test booked? Get exam-ready fast: real 24-question, 45-minute mock tests with instant results and clear explanations. Pass first time and skip the £50 retake.
+```
+
+**Option C — seasonal, January push (168 chars):**
+```
+New year, new passport 🇬🇧 Start the 2026 study plan today — most users are pass-ready in 2 weeks. Unlimited mock tests, every handbook chapter covered, works offline.
+```
+
+---
+
 ## Where else to put the Terms & Conditions URL
 
 | Location | Field |
