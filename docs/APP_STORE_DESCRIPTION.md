@@ -1,4 +1,6 @@
-# Life in the UK Test 2026 — Store Descriptions
+# Life in the UK Test: 2026 Prep — Store Descriptions
+
+Final app title (both stores): **Life in the UK Test: 2026 Prep**
 
 Ready-to-paste listing copy for Google Play and the Apple App Store (UK storefront).
 Terms & Conditions: https://uzmanqamar.github.io/uk_life_test/terms-and-conditions.html

@@ -67,39 +67,30 @@ applicants use it).
 
 ## 3. Apple App Store (UK) metadata
 
-### Title (30 chars max)
-
-Apple requires app names to be unique, and "Life in the UK Test 2026" is taken.
-Keep the full exact-match phrase "Life in the UK Test" and differentiate with a
-brand word or qualifier. Ranked options:
-
+### Title (30 chars max) — FINAL
 ```
-PassUK: Life in the UK Test      (27 — recommended: unique brand + full exact match)
-Life in the UK Test: 2026 Prep   (30 — keyword + year + "prep" cluster)
-Life in the UK Test Prep 2026    (29)
-Life in the UK Test: Pass 1st    (29 — conversion-angled)
-Britizen: Life in the UK Test    (29 — alternative brand)
+Life in the UK Test: 2026 Prep
 ```
-
-The brand-prefix pattern (recommended) is the strongest long-term play: the name can
-never collide again, "PassUK" becomes a searchable brand term of its own, and Apple's
-algorithm still gets the full exact-match phrase. Update any year in the title every
-January — users in this niche fear outdated question banks.
+(30 chars. Full exact-match phrase + freshness year + "prep" cluster. Update the year
+every January — users in this niche fear outdated question banks. Chosen because
+"Life in the UK Test 2026" was already taken; Apple requires unique app names.)
 
 ### Subtitle (30 chars max)
 ```
-Citizenship & ILR Exam Prep
+British Citizenship & ILR Exam
 ```
-(27 chars. Captures the "british citizenship test" and "ilr" clusters without
-repeating title words.)
+(30 chars. Captures the "british citizenship test", "ilr" and "exam" clusters.
+"Prep" was removed from the subtitle because it now lives in the title — Apple
+indexes title + subtitle together, so a duplicated word is wasted space.)
 
 ### Keyword field (100 chars, comma-separated, no spaces, no repeats of title/subtitle words)
 ```
-british,settlement,indefinite,leave,remain,questions,practice,mock,quiz,visa,home,office,revision
+settlement,indefinite,leave,remain,questions,practice,mock,quiz,visa,home,office,revision,study
 ```
-(97 chars. Apple combines words across the field, title and subtitle, so this also
-builds phrases like "british citizenship test", "practice questions", "mock test",
-"home office", "settlement visa".)
+(95 chars. "british" moved to the subtitle, so it was removed here and "study" added.
+Apple combines words across the field, title and subtitle, so this also builds
+phrases like "british citizenship test", "practice questions", "mock test",
+"home office", "settlement visa", "study prep".)
 
 ### Promotional text (170 chars, updatable without review — use for freshness)
 > Updated for the 2026 handbook. 1,300+ practice questions, unlimited mock tests, and
@@ -121,8 +112,10 @@ Run recurring events ("2026 Question Bank Update", "New Year, New Passport chall
 
 ### Title (30 chars)
 ```
-Life in the UK Test 2026
+Life in the UK Test: 2026 Prep
 ```
+(Same as iOS for brand consistency — Play doesn't enforce name uniqueness, but one
+name across both stores is better for word-of-mouth and search.)
 
 ### Short description (80 chars — heavily weighted for ranking AND conversion)
 ```
