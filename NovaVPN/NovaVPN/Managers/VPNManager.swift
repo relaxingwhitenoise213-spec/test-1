@@ -147,6 +147,15 @@ final class VPNManager {
         await startTunnel(to: server)
     }
 
+    /// Clears the last error after the UI has presented it, returning a
+    /// `.failed` state machine back to idle.
+    func acknowledgeError() {
+        lastError = nil
+        if case .failed = state {
+            state = .disconnected
+        }
+    }
+
     /// Disconnects at the user's request.
     func disconnect() async {
         guard state.isConnected || state.isTransitioning else { return }
