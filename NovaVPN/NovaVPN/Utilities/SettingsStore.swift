@@ -44,6 +44,7 @@ final class SettingsStore {
 
     private enum Key {
         static let hasCompletedOnboarding = "settings.hasCompletedOnboarding"
+        static let hasRequestedVPNPermission = "settings.hasRequestedVPNPermission"
         static let appearance = "settings.appearance"
         static let autoConnect = "settings.autoConnect"
         static let autoReconnect = "settings.autoReconnect"
@@ -54,6 +55,7 @@ final class SettingsStore {
     init(defaults: UserDefaults = .standard) {
         self.defaults = defaults
         hasCompletedOnboarding = defaults.bool(forKey: Key.hasCompletedOnboarding)
+        hasRequestedVPNPermission = defaults.bool(forKey: Key.hasRequestedVPNPermission)
         appearance = AppearancePreference(rawValue: defaults.string(forKey: Key.appearance) ?? "") ?? .dark
         autoConnect = defaults.bool(forKey: Key.autoConnect)
         autoReconnect = defaults.object(forKey: Key.autoReconnect) as? Bool ?? true
@@ -64,6 +66,11 @@ final class SettingsStore {
     /// Set once the user finishes or skips onboarding.
     var hasCompletedOnboarding: Bool {
         didSet { defaults.set(hasCompletedOnboarding, forKey: Key.hasCompletedOnboarding) }
+    }
+
+    /// Set once the VPN permission step has been shown.
+    var hasRequestedVPNPermission: Bool {
+        didSet { defaults.set(hasRequestedVPNPermission, forKey: Key.hasRequestedVPNPermission) }
     }
 
     /// Dark mode preference.
