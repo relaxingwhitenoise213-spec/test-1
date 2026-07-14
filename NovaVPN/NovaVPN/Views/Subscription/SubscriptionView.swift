@@ -177,3 +177,8 @@ struct SubscriptionView: View {
         .background(.ultraThinMaterial)
     }
 }
+
+#Preview {
+    SubscriptionView()
+        .previewEnvironment()
+}

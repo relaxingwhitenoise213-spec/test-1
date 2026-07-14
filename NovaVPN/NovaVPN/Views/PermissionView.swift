@@ -79,3 +79,8 @@ struct PermissionView: View {
         settings.hasRequestedVPNPermission = true
     }
 }
+
+#Preview {
+    PermissionView()
+        .previewEnvironment()
+}

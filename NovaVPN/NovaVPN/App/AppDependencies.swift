@@ -8,6 +8,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 @MainActor
 final class AppDependencies {
@@ -75,5 +76,30 @@ final class AppDependencies {
         self.settingsViewModel = SettingsViewModel(settings: settings, subscription: subscription, toastCenter: toastCenter)
         self.subscriptionViewModel = SubscriptionViewModel(subscription: subscription, toastCenter: toastCenter)
         self.onboardingViewModel = OnboardingViewModel(settings: settings)
+    }
+}
+
+// MARK: - Previews
+
+extension View {
+    /// Injects a complete dependency graph (with the simulated tunnel) so
+    /// full screens can render in the preview canvas.
+    @MainActor
+    func previewEnvironment() -> some View {
+        let dependencies = AppDependencies()
+        return self
+            .environment(dependencies.settings)
+            .environment(dependencies.toastCenter)
+            .environment(dependencies.usage)
+            .environment(dependencies.monitor)
+            .environment(dependencies.subscription)
+            .environment(dependencies.serverStore)
+            .environment(dependencies.vpnManager)
+            .environment(dependencies.homeViewModel)
+            .environment(dependencies.serverListViewModel)
+            .environment(dependencies.settingsViewModel)
+            .environment(dependencies.subscriptionViewModel)
+            .environment(dependencies.onboardingViewModel)
+            .task { await dependencies.serverStore.load() }
     }
 }

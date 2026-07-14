@@ -118,14 +118,21 @@ final class TunnelProvider: TunnelProviding {
             session.status == .connected || session.status == .reasserting
         else { return nil }
 
-        return await withCheckedContinuation { continuation in
+        // The response handler is only invoked if the provider replies, so a
+        // 2-second timeout guarantees the continuation always resumes and the
+        // sampling loop can never wedge on an unresponsive extension.
+        return await withCheckedContinuation { (continuation: CheckedContinuation<TunnelRuntimeStats?, Never>) in
+            let once = SingleResume<TunnelRuntimeStats?>()
+            DispatchQueue.global(qos: .utility).asyncAfter(deadline: .now() + 2) {
+                once.resume(continuation, returning: nil)
+            }
             do {
                 try session.sendProviderMessage(TunnelMessage.getRuntimeStats.data) { response in
                     let stats = response.flatMap { try? TunnelRuntimeStats.decoded(from: $0) }
-                    continuation.resume(returning: stats)
+                    once.resume(continuation, returning: stats)
                 }
             } catch {
-                continuation.resume(returning: nil)
+                once.resume(continuation, returning: nil)
             }
         }
     }
@@ -195,6 +202,21 @@ final class TunnelProvider: TunnelProviding {
             }
         }
         return .unknown(error.localizedDescription)
+    }
+}
+
+/// Guards a continuation that may be raced by multiple callbacks
+/// (response vs. timeout), guaranteeing exactly one resume.
+private final class SingleResume<Value: Sendable>: @unchecked Sendable {
+    private let lock = NSLock()
+    private var resumed = false
+
+    func resume(_ continuation: CheckedContinuation<Value, Never>, returning value: Value) {
+        lock.lock()
+        defer { lock.unlock() }
+        guard !resumed else { return }
+        resumed = true
+        continuation.resume(returning: value)
     }
 }
 

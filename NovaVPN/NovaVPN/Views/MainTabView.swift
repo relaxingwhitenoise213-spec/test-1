@@ -52,3 +52,8 @@ private struct LocationsTab: View {
         .environment(serverListViewModel)
     }
 }
+
+#Preview {
+    MainTabView()
+        .previewEnvironment()
+}

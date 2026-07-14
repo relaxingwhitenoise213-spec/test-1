@@ -174,3 +174,8 @@ private struct SettingsLabelStyle: LabelStyle {
         }
     }
 }
+
+#Preview {
+    SettingsView()
+        .previewEnvironment()
+}

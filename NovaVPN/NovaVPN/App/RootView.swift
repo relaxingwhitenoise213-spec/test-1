@@ -50,3 +50,8 @@ struct RootView: View {
         }
     }
 }
+
+#Preview {
+    RootView()
+        .previewEnvironment()
+}

@@ -126,3 +126,8 @@ struct OnboardingPageView: View {
         }
     }
 }
+
+#Preview {
+    OnboardingView()
+        .previewEnvironment()
+}

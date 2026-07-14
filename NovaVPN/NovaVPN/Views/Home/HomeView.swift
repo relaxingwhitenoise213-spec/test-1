@@ -156,3 +156,8 @@ struct HomeView: View {
         .accessibilityHint("Opens upgrade options")
     }
 }
+
+#Preview {
+    HomeView()
+        .previewEnvironment()
+}

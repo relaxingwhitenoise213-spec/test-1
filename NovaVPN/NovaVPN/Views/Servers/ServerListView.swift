@@ -24,7 +24,11 @@ struct ServerListView: View {
                 Color.novaBackground.ignoresSafeArea()
 
                 if viewModel.filteredServers.isEmpty {
-                    ContentUnavailableView.search(text: viewModel.searchText)
+                    if viewModel.searchText.isEmpty {
+                        LoadingView(message: "Loading locations…")
+                    } else {
+                        ContentUnavailableView.search(text: viewModel.searchText)
+                    }
                 } else {
                     ScrollView {
                         LazyVStack(spacing: 10) {
@@ -36,7 +40,6 @@ struct ServerListView: View {
                                 ) {
                                     onSelect(server)
                                 }
-                                .sensoryFeedback(.selection, trigger: viewModel.selectedServerID)
                             }
                         }
                         .padding(.horizontal, 16)
@@ -46,6 +49,7 @@ struct ServerListView: View {
                     .refreshable {
                         await viewModel.refresh()
                     }
+                    .sensoryFeedback(.selection, trigger: viewModel.selectedServerID)
                 }
             }
             .navigationTitle("Locations")
@@ -80,4 +84,9 @@ struct ServerListView: View {
         .presentationDragIndicator(.visible)
         .preferredColorScheme(.dark)
     }
+}
+
+#Preview {
+    ServerListView { _ in }
+        .previewEnvironment()
 }
