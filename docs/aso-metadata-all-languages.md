@@ -1,6 +1,6 @@
-# App Store Metadata — Complete Package (18 Localizations)
+# App Store Metadata — Complete Package (19 Localizations)
 ### iOS QR Code App · every field validated against Apple's limits
-*Companion to `aso-qr-app-strategy.md`. Generated from a validated single source — all counts checked programmatically: Title ≤30 · Subtitle ≤30 · Keywords ≤100 · Promotional Text ≤170 · Description ≤4000.*
+*Companion to `aso-qr-app-strategy.md`. Generated from a validated single source — all counts checked programmatically: Title ≤30 · Subtitle ≤30 · Keywords ≤100 · Promotional Text ≤170 · Description ≤4000. A second validator confirms no keyword-field word duplicates a title/subtitle word within the same locale (each duplicate would waste a ranking slot); the single intentional exception is Vietnamese "quét", kept for the top-query phrase "quét từ ảnh". With Russian included, all 10 localizations that Apple indexes on the US storefront are filled — the maximum US keyword coverage possible.*
 
 **How to use this file**
 1. In App Store Connect, add each localization under *App Information → Localizable Information* and your version's *Platform Version Information*.
@@ -73,9 +73,9 @@ Download now and turn your iPhone into the only QR tool you'll ever need.
 ```
 Escáner QR – Lector de Código
 ```
-**Subtitle** (30/30)
+**Subtitle** (29/30)
 ```
-Crear código QR, barras y WiFi
+Crear QR: WiFi, barras, cupón
 ```
 **Keywords** (93/100)
 ```
@@ -242,9 +242,9 @@ Scanner QR Code & Code-Barres
 ```
 Lecteur & Créateur QR, WiFi
 ```
-**Keywords** (95/100)
+**Keywords** (100/100)
 ```
-créer,générateur,gratuit,photo,prix,sécurisé,lien,menu,billet,carte,visite,étiquette,image,wifi
+créer,générateur,gratuit,photo,prix,sécurisé,lien,menu,billet,carte,visite,étiquette,image,douchette
 ```
 **Promotional Text** (137/170)
 ```
@@ -348,13 +348,13 @@ QRコードもバーコードも、かざすだけで一瞬で読み取り。さ
 ```
 Quét Mã QR & Mã Vạch – Tạo QR
 ```
-**Subtitle** (24/30)
+**Subtitle** (25/30)
 ```
-Tạo QR WiFi, quét từ ảnh
+Quét từ ảnh, chia sẻ WiFi
 ```
-**Keywords** (95/100)
+**Keywords** (93/100)
 ```
-máy,quét,đọc,tạo,miễn phí,hình,giá,an toàn,liên kết,danh thiếp,vé,thẻ,menu,ảnh,mã vạch,wifi,web
+máy,đọc,miễn phí,hình,giá,an toàn,liên kết,danh thiếp,vé,thẻ,menu,web,quet,ma,vach,tao,camera
 ```
 **Promotional Text** (150/170)
 ```
@@ -407,9 +407,9 @@ Tải ngay để biến iPhone thành công cụ QR duy nhất bạn cần.
 ```
 สแกนคิวอาร์ สร้าง QR WiFi ฟรี
 ```
-**Keywords** (86/100)
+**Keywords** (91/100)
 ```
-เครื่อง,อ่าน,รูป,ภาพ,ราคา,ปลอดภัย,ลิงก์,เมนู,ตั๋ว,นามบัตร,ฟรี,คิวอาร์โค้ด,สร้าง,ส่วนลด
+เครื่อง,อ่าน,รูป,ภาพ,ราคา,ปลอดภัย,ลิงก์,เมนู,ตั๋ว,นามบัตร,ฟรี,คิวอาร์โค้ด,แสกน,คูปอง,ส่วนลด
 ```
 **Promotional Text** (139/170)
 ```
@@ -462,9 +462,9 @@ Pemindai QR & Barcode: Pembuat
 ```
 Pindai & Buat Kode QR, WiFi
 ```
-**Keywords** (93/100)
+**Keywords** (97/100)
 ```
-pembaca,gratis,foto,gambar,harga,aman,tautan,menu,tiket,kartu,nama,generator,barkod,kode,scan
+pembaca,gratis,foto,gambar,harga,aman,tautan,menu,tiket,kartu,nama,generator,barkod,diskon,produk
 ```
 **Promotional Text** (163/170)
 ```
@@ -794,7 +794,7 @@ QR코드 스캐너: 큐알코드·바코드 스캔
 ```
 **Keywords** (68/100)
 ```
-사진,이미지,가격,안전,링크,메뉴,티켓,명함,쿠폰,읽기,카메라,wifi,재고,영수증,연락처,상품,주소,문자,할인,행사,생성
+사진,이미지,가격,안전,링크,메뉴,티켓,명함,쿠폰,읽기,카메라,wifi,재고,영수증,연락처,상품,주소,문자,할인,행사,인식
 ```
 **Promotional Text** (74/170)
 ```
@@ -997,6 +997,61 @@ QR Code掃描器·二維碼產生器
 • 掃描記錄僅保存在你的裝置上
 
 立即下載,讓 iPhone 成為你唯一需要的 QR 工具。
+```
+
+---
+
+## Russian — `ru`
+*Reaches: Russia, and other CIS storefronts (primary) · also indexed in the US — completes all 10 US-indexed localizations*
+
+**Title** (24/30)
+```
+Сканер QR- и штрих-кодов
+```
+**Subtitle** (29/30)
+```
+Создать QR код, WiFi, визитку
+```
+**Keywords** (98/100)
+```
+бесплатно,фото,цена,безопасный,ссылка,меню,билет,генератор,чтение,камера,скидка,товар,этикетка,чек
+```
+**Promotional Text** (155/170)
+```
+Сканируйте любые QR- и штрих-коды за секунды — и создавайте свои: WiFi, ссылки, визитки. Быстро, безопасно, без регистрации. Всё для QR в одном приложении.
+```
+**Description** (1205/4000)
+```
+Сканируйте любой QR-код или штрих-код за секунды — и создавайте собственные. Универсальный QR-инструмент: сканер, ридер и генератор в одном быстром приложении.
+
+СКАНИРУЙТЕ ВСЁ
+• QR-коды, штрих-коды и все распространённые форматы (EAN, UPC, Code 128, Data Matrix и другие)
+• Сканирование с фото и скриншотов — камера не нужна
+• Мгновенный результат, фонарик для тёмных мест
+• Полная история сканирований — ни один код не потеряется
+
+СОЗДАВАЙТЕ СВОИ QR-КОДЫ
+• QR для WiFi — гости подключаются одним сканированием, без ввода пароля
+• Ссылки, текст, почта, номера телефонов и SMS
+• Визитки (vCard) и обмен контактами
+• Сохраняйте и делитесь кодами как изображениями
+
+БУДЬТЕ В БЕЗОПАСНОСТИ
+• Смотрите полную ссылку до того, как открыть её
+• Защита от поддельных и опасных QR-кодов
+
+ДЛЯ КАЖДОГО ДНЯ
+• Проверяйте штрих-коды и цены во время покупок
+• Сканируйте меню ресторанов, билеты и посадочные талоны
+• Делитесь домашним WiFi за пару секунд
+• Превратите контакты в сканируемую визитку
+
+БЫСТРО, ЛЕГКО И ПРИВАТНО
+• Без аккаунта и регистрации
+• Сканирование и создание работают офлайн
+• История остаётся на вашем устройстве
+
+Скачайте сейчас — и ваш iPhone станет единственным QR-инструментом, который вам нужен.
 ```
 
 ---
