@@ -67,30 +67,53 @@ applicants use it).
 
 ## 3. Apple App Store (UK) metadata
 
-### Title (30 chars max) — FINAL
+### Title (30 chars max) — FINAL (post-rejection revision)
+
+Apple rejected "Life in the UK Test: 2026 Prep" — either name uniqueness or
+Guideline 5.2.1/4.1 (using the official government test name as the app's identity
+can imply Home Office affiliation). Fix: brand-led name; the official term moves to
+the subtitle, where descriptive use is permitted and equally keyword-indexed.
+
 ```
-Life in the UK Test: 2026 Prep
+BritPrep: UK Citizenship Test
 ```
-(30 chars. Full exact-match phrase + freshness year + "prep" cluster. Update the year
-every January — users in this niche fear outdated question banks. Chosen because
-"Life in the UK Test 2026" was already taken; Apple requires unique app names.)
+(29 chars. "BritPrep" is the brand — swap for any short brand you prefer; Apple
+treats a coined compound as one token, so it never collides and never trips IP
+review. "UK Citizenship Test" targets the second-biggest keyword cluster directly
+in the name.)
 
 ### Subtitle (30 chars max)
 ```
-British Citizenship & ILR Exam
+Life in the UK Test Prep 2026
 ```
-(30 chars. Captures the "british citizenship test", "ilr" and "exam" clusters.
-"Prep" was removed from the subtitle because it now lives in the title — Apple
-indexes title + subtitle together, so a duplicated word is wasted space.)
+(29 chars. The full exact-match phrase lives here now — Apple indexes subtitle
+words nearly as strongly as title words, and IP/name-uniqueness rules apply only
+to the app *name*, not the subtitle. Year freshness preserved.)
 
 ### Keyword field (100 chars, comma-separated, no spaces, no repeats of title/subtitle words)
 ```
-settlement,indefinite,leave,remain,questions,practice,mock,quiz,visa,home,office,revision,study
+british,settlement,indefinite,leave,remain,ilr,questions,practice,mock,quiz,exam,visa,revision,study
 ```
-(95 chars. "british" moved to the subtitle, so it was removed here and "study" added.
-Apple combines words across the field, title and subtitle, so this also builds
-phrases like "british citizenship test", "practice questions", "mock test",
-"home office", "settlement visa", "study prep".)
+(100/100 chars — full utilisation. Combines with title/subtitle to build "british
+citizenship test", "ilr test", "practice questions", "mock exam", "settlement visa",
+"uk test revision" and more.)
+
+### Inside the app (required to match the store identity)
+- iOS `CFBundleDisplayName` / Android `android:label`: **BritPrep** (short names
+  don't truncate under the home-screen icon).
+- Splash screen / header branding: BritPrep logo + "Life in the UK Test Prep" as a
+  descriptive strapline (descriptive use in UI is fine).
+- About/Settings screen: link the Terms & Conditions
+  (https://uzmanqamar.github.io/uk_life_test/terms-and-conditions.html) and show the
+  non-affiliation disclaimer: "Independent study aid. Not affiliated with the UK
+  Home Office or the official test provider."
+- Remove anything that copies official assets: Home Office logos, crown imagery,
+  the official handbook cover, or screenshots of GOV.UK pages. These are the #1
+  cause of 5.2.1 rejections in this niche.
+- Resubmission: the app name can only be changed when submitting a new version;
+  update the name field in App Store Connect, attach the new build, and (if the
+  rejection cited 5.2.1) reply in Resolution Center noting the app is now clearly
+  branded as an independent study aid with a disclaimer.
 
 ### Promotional text (170 chars, updatable without review — use for freshness)
 > Updated for the 2026 handbook. 1,300+ practice questions, unlimited mock tests, and
@@ -112,10 +135,12 @@ Run recurring events ("2026 Question Bank Update", "New Year, New Passport chall
 
 ### Title (30 chars)
 ```
-Life in the UK Test: 2026 Prep
+BritPrep: Life in the UK Test
 ```
-(Same as iOS for brand consistency — Play doesn't enforce name uniqueness, but one
-name across both stores is better for word-of-mouth and search.)
+(29 chars. Play doesn't enforce name uniqueness and allows descriptive use of the
+test name, so keep the full exact-match phrase in the title here — it's the single
+biggest Play ranking factor. The shared "BritPrep" brand keeps both stores
+consistent for word-of-mouth.)
 
 ### Short description (80 chars — heavily weighted for ranking AND conversion)
 ```

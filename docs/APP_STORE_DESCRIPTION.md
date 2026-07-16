@@ -1,6 +1,8 @@
-# Life in the UK Test: 2026 Prep — Store Descriptions
+# BritPrep — Store Descriptions
 
-Final app title (both stores): **Life in the UK Test: 2026 Prep**
+Final app titles after App Store name rejection:
+- Apple App Store: **BritPrep: UK Citizenship Test** (exact-match phrase moved to subtitle: "Life in the UK Test Prep 2026")
+- Google Play: **BritPrep: Life in the UK Test**
 
 Ready-to-paste listing copy for Google Play and the Apple App Store (UK storefront).
 Terms & Conditions: https://uzmanqamar.github.io/uk_life_test/terms-and-conditions.html
