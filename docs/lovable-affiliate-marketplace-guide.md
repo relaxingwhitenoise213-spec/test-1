@@ -60,6 +60,49 @@ database from day one.
 > "Flippa," etc. This guide uses the placeholder **DealScout** — replace it everywhere
 > with your own name.
 
+### How your affiliate link physically gets into the site (read this!)
+
+You do **not** paste your affiliate link into every listing or button. The site stores
+**one tracked link per marketplace** and routes every click through it:
+
+```
+"View deal →" button  →  /go/listing-slug (your site)
+                          1. logs a click row (your analytics)
+                          2. looks up the listing's marketplace
+                          3. redirects through YOUR tracked link for that marketplace
+                       →  visitor lands on Flippa/EF, attribution cookie is set
+                       →  visitor transacts within the window → you get paid
+```
+
+Step by step:
+
+1. **Get the link.** After approval, each program's dashboard shows your unique
+   tracked URL (Flippa: in your PartnerStack dashboard; Empire Flippers: in your
+   partner account). The exact format varies — copy it exactly as given.
+2. **Paste it once.** In your finished app: **Admin → Sources tab → `affiliate_base_url`
+   field** for that marketplace (the field is created in Step 2, the admin UI in
+   Step 7). Until the admin panel exists, you can set it directly in Lovable's
+   Cloud → Database panel on the `sources` rows.
+3. **Every button earns automatically.** All "View deal" CTAs point to `/go/:slug`
+   (built in Step 4), which redirects through the stored link. Change the link once in
+   admin → every button on the site updates.
+4. **Cookies do the earning.** The marketplace sets an attribution cookie when the
+   visitor arrives through your link. Flippa credits 20% of its revenue on that user's
+   first eligible transaction within 12 months; EF credits 20% of its commission for
+   2 years. Because it's cookie-based, you're paid even if the visitor ends up buying a
+   **different** business than the one they clicked.
+
+**Deep links vs. homepage links — the one wrinkle:**
+
+- *Best case:* your program supports **deep linking** (PartnerStack often has a link
+  builder / custom links that can target any page on flippa.com). Then `/go/` can send
+  the visitor to the exact listing page, fully tracked. Step 4b below adds an
+  `affiliate_link_template` with a `{url}` placeholder for exactly this.
+- *Fallback:* if only a fixed universal link is available, `/go/` sends visitors
+  through it and they land on the marketplace's homepage/search. Slightly worse UX,
+  but the cookie — the thing that pays you — is still set. Attribution beats landing
+  precision.
+
 ---
 
 ## 3. Prerequisites checklist
@@ -307,12 +350,34 @@ friendly message + "Clear filters" button.
 
 **Check:** click a deal card → you land on the marketplace; Cloud → Database → clicks has a new row.
 
-> **Affiliate link mechanics:** Flippa's PartnerStack link is a single tracked URL. If
-> your PartnerStack dashboard offers link customization/deep links, set
-> `affiliate_base_url` per source to your tracked link and keep the specific listing's
-> page in `source_listing_url`. Where deep-linking isn't supported, your `/go/` route
-> sends visitors through the tracked link (attribution cookie gets set) — that's how the
-> credit is earned even if they land on the marketplace's search page.
+### Step 4b — Wire in your real affiliate links (deep-link support)
+
+Once you have your tracked links from PartnerStack / Empire Flippers (see
+"How your affiliate link physically gets into the site" in section 2), run:
+
+```text
+Improve the /go/:slug affiliate redirect.
+
+1. Add a nullable affiliate_link_template column to sources. It holds a URL containing
+   the literal placeholder {url}, e.g. https://my-tracked-link.example/?dest={url}
+   (I'll paste my real template from my affiliate dashboard).
+2. Update /go/:slug resolution, in priority order:
+   a. If the listing's source has affiliate_link_template → replace {url} with the
+      URL-encoded source_listing_url and redirect there (tracked AND lands on the
+      exact listing).
+   b. Else if the source has affiliate_base_url → redirect there (tracked, lands on
+      the marketplace's homepage/search — the attribution cookie still gets set).
+   c. Else → redirect to source_listing_url directly (untracked fallback).
+3. Click logging stays exactly as-is and must never block the redirect.
+4. In the Sources admin tab (or the DB panel until Step 7), expose both fields with
+   help text explaining the {url} placeholder, plus a "Test link" action that shows
+   which of the three cases a sample listing resolves to and opens the resolved URL.
+```
+
+**Where to find your real values:** in PartnerStack look for "Links" / "Create link" —
+if it lets you set a destination URL on flippa.com, that's your template (put `{url}`
+where the destination goes). If it only gives you one fixed URL, paste that into
+`affiliate_base_url` and leave the template empty. Same logic for any other program.
 
 ### Step 5 — Auth, roles, watchlist
 
